@@ -1,0 +1,7 @@
+libdiskann_s.a filter=lfs diff=lfs merge=lfs -text
+libdiskann_s.a filter=lfs diff=lfs merge=lfs -text
+libdiskann.a filter=lfs diff=lfs merge=lfs -text
+libdiskann_s.a filter=lfs diff=lfs merge=lfs -text libdiskann_s.a filter=lfs diff=lfs merge=lfs -text
+libdiskann.a filter=lfs diff=lfs merge=lfs -text
+libdiskann_s.a filter=lfs diff=lfs merge=lfs -text
+libdiskann.a filter=lfs diff=lfs merge=lfs -text
