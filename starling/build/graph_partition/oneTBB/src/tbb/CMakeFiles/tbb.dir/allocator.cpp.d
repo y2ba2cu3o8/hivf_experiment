@@ -1,0 +1,19 @@
+CMakeFiles/tbb.dir/allocator.cpp.o: \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/allocator.cpp \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/version.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/detail/_config.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/detail/_export.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/detail/_namespace_injection.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/detail/_exception.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/detail/_config.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/detail/_assert.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/detail/_utils.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/detail/_assert.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/detail/_machine.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/tbb_allocator.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/cache_aligned_allocator.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/detail/_utils.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/dynamic_link.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/detail/_config.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/misc.h \
+ /mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include/oneapi/tbb/info.h

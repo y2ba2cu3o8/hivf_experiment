@@ -1,0 +1,522 @@
+[
+{
+  "directory": "/mnt/data/starling/build/graph_partition",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include   -fopenmp -O2 -g -DNDEBUG   -std=gnu++17 -o CMakeFiles/partitioner.dir/src/partitioner.cpp.o -c /mnt/data/starling/graph_partition/src/partitioner.cpp",
+  "file": "/mnt/data/starling/graph_partition/src/partitioner.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/address_waiter.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/address_waiter.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/address_waiter.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/allocator.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/allocator.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/allocator.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/arena.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/arena.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/arena.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/arena_slot.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/arena_slot.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/arena_slot.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/concurrent_bounded_queue.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/concurrent_bounded_queue.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/concurrent_bounded_queue.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/dynamic_link.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/dynamic_link.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/dynamic_link.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/exception.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/exception.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/exception.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/governor.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/governor.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/governor.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/global_control.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/global_control.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/global_control.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/itt_notify.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/itt_notify.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/itt_notify.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/main.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/main.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/main.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/market.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/market.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/market.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/misc.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/misc.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/misc.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/misc_ex.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/misc_ex.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/misc_ex.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/observer_proxy.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/observer_proxy.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/observer_proxy.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/parallel_pipeline.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/parallel_pipeline.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/parallel_pipeline.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/private_server.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/private_server.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/private_server.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/profiling.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/profiling.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/profiling.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/rml_tbb.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/rml_tbb.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/rml_tbb.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/rtm_mutex.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/rtm_mutex.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/rtm_mutex.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/rtm_rw_mutex.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/rtm_rw_mutex.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/rtm_rw_mutex.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/semaphore.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/semaphore.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/semaphore.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/small_object_pool.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/small_object_pool.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/small_object_pool.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/task.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/task.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/task.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/task_dispatcher.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/task_dispatcher.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/task_dispatcher.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/task_group_context.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/task_group_context.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/task_group_context.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/version.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/version.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/version.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbb",
+  "command": "/usr/bin/c++  -D__TBB_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbb/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -pthread -std=c++17 -o CMakeFiles/tbb.dir/queuing_rw_mutex.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/queuing_rw_mutex.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/queuing_rw_mutex.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbbmalloc",
+  "command": "/usr/bin/c++  -D__TBBMALLOC_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -fno-rtti -fno-exceptions -mrtm -pthread -std=c++17 -o CMakeFiles/tbbmalloc.dir/backend.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/backend.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/backend.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbbmalloc",
+  "command": "/usr/bin/c++  -D__TBBMALLOC_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -fno-rtti -fno-exceptions -mrtm -pthread -std=c++17 -o CMakeFiles/tbbmalloc.dir/backref.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/backref.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/backref.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbbmalloc",
+  "command": "/usr/bin/c++  -D__TBBMALLOC_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -fno-rtti -fno-exceptions -mrtm -pthread -std=c++17 -o CMakeFiles/tbbmalloc.dir/frontend.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/frontend.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/frontend.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbbmalloc",
+  "command": "/usr/bin/c++  -D__TBBMALLOC_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -fno-rtti -fno-exceptions -mrtm -pthread -std=c++17 -o CMakeFiles/tbbmalloc.dir/large_objects.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/large_objects.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/large_objects.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbbmalloc",
+  "command": "/usr/bin/c++  -D__TBBMALLOC_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -fno-rtti -fno-exceptions -mrtm -pthread -std=c++17 -o CMakeFiles/tbbmalloc.dir/tbbmalloc.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/tbbmalloc.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/tbbmalloc.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbbmalloc",
+  "command": "/usr/bin/c++  -D__TBBMALLOC_BUILD -D__TBB_USE_ITT_NOTIFY -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -fno-rtti -fno-exceptions -mrtm -pthread -std=c++17 -o CMakeFiles/tbbmalloc.dir/__/tbb/itt_notify.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbb/itt_notify.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbb/itt_notify.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbbmalloc_proxy",
+  "command": "/usr/bin/c++  -D__TBBMALLOCPROXY_BUILD -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc_proxy/../../include -I/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/../../include  -O2 -g -DNDEBUG -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -Wno-sized-deallocation -mrtm -pthread -std=c++17 -o CMakeFiles/tbbmalloc_proxy.dir/function_replacement.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc_proxy/function_replacement.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc_proxy/function_replacement.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbbmalloc_proxy",
+  "command": "/usr/bin/c++  -D__TBBMALLOCPROXY_BUILD -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc_proxy/../../include -I/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc/../../include  -O2 -g -DNDEBUG -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -Wno-sized-deallocation -mrtm -pthread -std=c++17 -o CMakeFiles/tbbmalloc_proxy.dir/proxy.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc_proxy/proxy.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbbmalloc_proxy/proxy.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/graph_partition/oneTBB/src/tbbbind",
+  "command": "/usr/bin/c++  -D__TBBBIND_BUILD -I/mnt/data/starling/graph_partition/include -I/mnt/data/starling/graph_partition/oneTBB/src/tbbbind/../../include  -O2 -g -DNDEBUG -flto -fno-fat-lto-objects -fPIC   -MMD -flifetime-dse=1 -Wall -Wextra -Werror -Wfatal-errors -mrtm -std=c++17 -o CMakeFiles/tbbbind_2_0.dir/tbb_bind.cpp.o -c /mnt/data/starling/graph_partition/oneTBB/src/tbbbind/tbb_bind.cpp",
+  "file": "/mnt/data/starling/graph_partition/oneTBB/src/tbbbind/tbb_bind.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/ann_exception.cpp.o -c /mnt/data/starling/src/ann_exception.cpp",
+  "file": "/mnt/data/starling/src/ann_exception.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/aux_utils.cpp.o -c /mnt/data/starling/src/aux_utils.cpp",
+  "file": "/mnt/data/starling/src/aux_utils.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/distance.cpp.o -c /mnt/data/starling/src/distance.cpp",
+  "file": "/mnt/data/starling/src/distance.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/index.cpp.o -c /mnt/data/starling/src/index.cpp",
+  "file": "/mnt/data/starling/src/index.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/linux_aligned_file_reader.cpp.o -c /mnt/data/starling/src/linux_aligned_file_reader.cpp",
+  "file": "/mnt/data/starling/src/linux_aligned_file_reader.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/math_utils.cpp.o -c /mnt/data/starling/src/math_utils.cpp",
+  "file": "/mnt/data/starling/src/math_utils.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/natural_number_map.cpp.o -c /mnt/data/starling/src/natural_number_map.cpp",
+  "file": "/mnt/data/starling/src/natural_number_map.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/natural_number_set.cpp.o -c /mnt/data/starling/src/natural_number_set.cpp",
+  "file": "/mnt/data/starling/src/natural_number_set.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/memory_mapper.cpp.o -c /mnt/data/starling/src/memory_mapper.cpp",
+  "file": "/mnt/data/starling/src/memory_mapper.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/partition_and_pq.cpp.o -c /mnt/data/starling/src/partition_and_pq.cpp",
+  "file": "/mnt/data/starling/src/partition_and_pq.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/pq_flash_index.cpp.o -c /mnt/data/starling/src/pq_flash_index.cpp",
+  "file": "/mnt/data/starling/src/pq_flash_index.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/logger.cpp.o -c /mnt/data/starling/src/logger.cpp",
+  "file": "/mnt/data/starling/src/logger.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/utils.cpp.o -c /mnt/data/starling/src/utils.cpp",
+  "file": "/mnt/data/starling/src/utils.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/page_search.cpp.o -c /mnt/data/starling/src/page_search.cpp",
+  "file": "/mnt/data/starling/src/page_search.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/visit_freq.cpp.o -c /mnt/data/starling/src/visit_freq.cpp",
+  "file": "/mnt/data/starling/src/visit_freq.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann_s.dir/range_search.cpp.o -c /mnt/data/starling/src/range_search.cpp",
+  "file": "/mnt/data/starling/src/range_search.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/ann_exception.cpp.o -c /mnt/data/starling/src/ann_exception.cpp",
+  "file": "/mnt/data/starling/src/ann_exception.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/aux_utils.cpp.o -c /mnt/data/starling/src/aux_utils.cpp",
+  "file": "/mnt/data/starling/src/aux_utils.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/distance.cpp.o -c /mnt/data/starling/src/distance.cpp",
+  "file": "/mnt/data/starling/src/distance.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/index.cpp.o -c /mnt/data/starling/src/index.cpp",
+  "file": "/mnt/data/starling/src/index.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/linux_aligned_file_reader.cpp.o -c /mnt/data/starling/src/linux_aligned_file_reader.cpp",
+  "file": "/mnt/data/starling/src/linux_aligned_file_reader.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/math_utils.cpp.o -c /mnt/data/starling/src/math_utils.cpp",
+  "file": "/mnt/data/starling/src/math_utils.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/natural_number_map.cpp.o -c /mnt/data/starling/src/natural_number_map.cpp",
+  "file": "/mnt/data/starling/src/natural_number_map.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/natural_number_set.cpp.o -c /mnt/data/starling/src/natural_number_set.cpp",
+  "file": "/mnt/data/starling/src/natural_number_set.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/memory_mapper.cpp.o -c /mnt/data/starling/src/memory_mapper.cpp",
+  "file": "/mnt/data/starling/src/memory_mapper.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/partition_and_pq.cpp.o -c /mnt/data/starling/src/partition_and_pq.cpp",
+  "file": "/mnt/data/starling/src/partition_and_pq.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/pq_flash_index.cpp.o -c /mnt/data/starling/src/pq_flash_index.cpp",
+  "file": "/mnt/data/starling/src/pq_flash_index.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/logger.cpp.o -c /mnt/data/starling/src/logger.cpp",
+  "file": "/mnt/data/starling/src/logger.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/utils.cpp.o -c /mnt/data/starling/src/utils.cpp",
+  "file": "/mnt/data/starling/src/utils.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/page_search.cpp.o -c /mnt/data/starling/src/page_search.cpp",
+  "file": "/mnt/data/starling/src/page_search.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/visit_freq.cpp.o -c /mnt/data/starling/src/visit_freq.cpp",
+  "file": "/mnt/data/starling/src/visit_freq.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/src",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++17 -o CMakeFiles/diskann.dir/range_search.cpp.o -c /mnt/data/starling/src/range_search.cpp",
+  "file": "/mnt/data/starling/src/range_search.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/gen_random_slice.dir/gen_random_slice.cpp.o -c /mnt/data/starling/tests/utils/gen_random_slice.cpp",
+  "file": "/mnt/data/starling/tests/utils/gen_random_slice.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/vector_analysis.dir/vector_analysis.cpp.o -c /mnt/data/starling/tests/utils/vector_analysis.cpp",
+  "file": "/mnt/data/starling/tests/utils/vector_analysis.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/uint8_to_float.dir/uint8_to_float.cpp.o -c /mnt/data/starling/tests/utils/uint8_to_float.cpp",
+  "file": "/mnt/data/starling/tests/utils/uint8_to_float.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/int8_to_float.dir/int8_to_float.cpp.o -c /mnt/data/starling/tests/utils/int8_to_float.cpp",
+  "file": "/mnt/data/starling/tests/utils/int8_to_float.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/bin_to_tsv.dir/bin_to_tsv.cpp.o -c /mnt/data/starling/tests/utils/bin_to_tsv.cpp",
+  "file": "/mnt/data/starling/tests/utils/bin_to_tsv.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/int8_to_float_scale.dir/int8_to_float_scale.cpp.o -c /mnt/data/starling/tests/utils/int8_to_float_scale.cpp",
+  "file": "/mnt/data/starling/tests/utils/int8_to_float_scale.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/float_bin_to_int8.dir/float_bin_to_int8.cpp.o -c /mnt/data/starling/tests/utils/float_bin_to_int8.cpp",
+  "file": "/mnt/data/starling/tests/utils/float_bin_to_int8.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/uint32_to_uint8.dir/uint32_to_uint8.cpp.o -c /mnt/data/starling/tests/utils/uint32_to_uint8.cpp",
+  "file": "/mnt/data/starling/tests/utils/uint32_to_uint8.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/ivecs_to_bin.dir/ivecs_to_bin.cpp.o -c /mnt/data/starling/tests/utils/ivecs_to_bin.cpp",
+  "file": "/mnt/data/starling/tests/utils/ivecs_to_bin.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/fvecs_to_bvecs.dir/fvecs_to_bvecs.cpp.o -c /mnt/data/starling/tests/utils/fvecs_to_bvecs.cpp",
+  "file": "/mnt/data/starling/tests/utils/fvecs_to_bvecs.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/partition_data.dir/partition_data.cpp.o -c /mnt/data/starling/tests/utils/partition_data.cpp",
+  "file": "/mnt/data/starling/tests/utils/partition_data.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/parse_freq_file.dir/parse_freq_file.cpp.o -c /mnt/data/starling/tests/utils/parse_freq_file.cpp",
+  "file": "/mnt/data/starling/tests/utils/parse_freq_file.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/rand_data_gen.dir/rand_data_gen.cpp.o -c /mnt/data/starling/tests/utils/rand_data_gen.cpp",
+  "file": "/mnt/data/starling/tests/utils/rand_data_gen.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/fvecs_to_bin.dir/fvecs_to_bin.cpp.o -c /mnt/data/starling/tests/utils/fvecs_to_bin.cpp",
+  "file": "/mnt/data/starling/tests/utils/fvecs_to_bin.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/gen_range.dir/gen_range.cpp.o -c /mnt/data/starling/tests/utils/gen_range.cpp",
+  "file": "/mnt/data/starling/tests/utils/gen_range.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/simulate_aggregate_recall.dir/simulate_aggregate_recall.cpp.o -c /mnt/data/starling/tests/utils/simulate_aggregate_recall.cpp",
+  "file": "/mnt/data/starling/tests/utils/simulate_aggregate_recall.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/calculate_recall.dir/calculate_recall.cpp.o -c /mnt/data/starling/tests/utils/calculate_recall.cpp",
+  "file": "/mnt/data/starling/tests/utils/calculate_recall.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/sq.dir/sq.cpp.o -c /mnt/data/starling/tests/utils/sq.cpp",
+  "file": "/mnt/data/starling/tests/utils/sq.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/compute_groundtruth.dir/compute_groundtruth.cpp.o -c /mnt/data/starling/tests/utils/compute_groundtruth.cpp",
+  "file": "/mnt/data/starling/tests/utils/compute_groundtruth.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/generate_pq.dir/generate_pq.cpp.o -c /mnt/data/starling/tests/utils/generate_pq.cpp",
+  "file": "/mnt/data/starling/tests/utils/generate_pq.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/partition_with_ram_budget.dir/partition_with_ram_budget.cpp.o -c /mnt/data/starling/tests/utils/partition_with_ram_budget.cpp",
+  "file": "/mnt/data/starling/tests/utils/partition_with_ram_budget.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/merge_shards.dir/merge_shards.cpp.o -c /mnt/data/starling/tests/utils/merge_shards.cpp",
+  "file": "/mnt/data/starling/tests/utils/merge_shards.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/index_relayout.dir/index_relayout.cpp.o -c /mnt/data/starling/tests/utils/index_relayout.cpp",
+  "file": "/mnt/data/starling/tests/utils/index_relayout.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/create_disk_layout.dir/create_disk_layout.cpp.o -c /mnt/data/starling/tests/utils/create_disk_layout.cpp",
+  "file": "/mnt/data/starling/tests/utils/create_disk_layout.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests/utils",
+  "command": "g++  -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/tsv_to_bin.dir/tsv_to_bin.cpp.o -c /mnt/data/starling/tests/utils/tsv_to_bin.cpp",
+  "file": "/mnt/data/starling/tests/utils/tsv_to_bin.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/build_memory_index.dir/build_memory_index.cpp.o -c /mnt/data/starling/tests/build_memory_index.cpp",
+  "file": "/mnt/data/starling/tests/build_memory_index.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/search_memory_index.dir/search_memory_index.cpp.o -c /mnt/data/starling/tests/search_memory_index.cpp",
+  "file": "/mnt/data/starling/tests/search_memory_index.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/build_disk_index.dir/build_disk_index.cpp.o -c /mnt/data/starling/tests/build_disk_index.cpp",
+  "file": "/mnt/data/starling/tests/build_disk_index.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/search_disk_index.dir/search_disk_index.cpp.o -c /mnt/data/starling/tests/search_disk_index.cpp",
+  "file": "/mnt/data/starling/tests/search_disk_index.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/test_streaming_scenario.dir/test_streaming_scenario.cpp.o -c /mnt/data/starling/tests/test_streaming_scenario.cpp",
+  "file": "/mnt/data/starling/tests/test_streaming_scenario.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/range_search_disk_index.dir/range_search_disk_index.cpp.o -c /mnt/data/starling/tests/range_search_disk_index.cpp",
+  "file": "/mnt/data/starling/tests/range_search_disk_index.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/search_memory_index_dynamic.dir/search_memory_index_dynamic.cpp.o -c /mnt/data/starling/tests/search_memory_index_dynamic.cpp",
+  "file": "/mnt/data/starling/tests/search_memory_index_dynamic.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/test_insert_deletes_consolidate.dir/test_insert_deletes_consolidate.cpp.o -c /mnt/data/starling/tests/test_insert_deletes_consolidate.cpp",
+  "file": "/mnt/data/starling/tests/test_insert_deletes_consolidate.cpp"
+},
+{
+  "directory": "/mnt/data/starling/build/tests",
+  "command": "g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DMKL_ILP64 -I/mnt/data/starling/include -I/opt/intel/oneapi/mkl/latest/include -I/usr/include/mkl   -fopenmp -O2 -g -DNDEBUG   -m64 -Wl,--no-as-needed -march=native -Wall -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -fopenmp -fopenmp-simd -funroll-loops -Wfatal-errors -DUSE_AVX2 -std=gnu++14 -o CMakeFiles/search_disk_index_save_freq.dir/search_disk_index_save_freq.cpp.o -c /mnt/data/starling/tests/search_disk_index_save_freq.cpp",
+  "file": "/mnt/data/starling/tests/search_disk_index_save_freq.cpp"
+}
+]

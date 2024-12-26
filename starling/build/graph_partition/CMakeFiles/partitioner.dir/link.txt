@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -O2 -g -DNDEBUG   CMakeFiles/partitioner.dir/src/partitioner.cpp.o  -o partitioner  -Wl,-rpath,/mnt/data/starling/build/gnu_9.4_cxx17_64_relwithdebinfo ../gnu_9.4_cxx17_64_relwithdebinfo/libtbb.so.12.6 /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0 
