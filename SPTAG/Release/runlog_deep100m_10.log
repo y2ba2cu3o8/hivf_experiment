@@ -1,0 +1,3675 @@
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/1.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 40
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 13.089 seconds, actuallQPS is 76.40, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 14.077 seconds, actuallQPS is 71.04, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.768201 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1323.745	1289.000	1828.000	1968.000	2222.000	2587.000	2587.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 0.859	0.861	0.995	1.049	1.135	2.303	2.303
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 13.217	10.261	19.054	19.467	26.027	28.992	28.992
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 14.076	11.128	19.962	20.379	26.989	30.079	30.079
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1261.956	1228	1737	1867	2105	2447	2447
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 39.365	  40	  40	  40	  40	  40	  40
+[1] 
+[1] Recall@10: 0.768201 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/2.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 50
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 16.450 seconds, actuallQPS is 60.79, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 17.444 seconds, actuallQPS is 57.33, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.793100 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1640.149	1597.000	2249.000	2422.000	2708.000	3123.000	3123.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 0.873	0.875	1.014	1.068	1.142	2.301	2.301
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 16.570	18.400	20.831	28.040	29.090	32.322	32.322
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 17.444	19.257	21.861	29.091	30.065	33.462	33.462
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1563.847	1523	2134	2294	2563	2955	2955
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 49.204	  50	  50	  50	  50	  50	  50
+[1] 
+[1] Recall@10: 0.793100 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/3.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 60
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 19.756 seconds, actuallQPS is 50.62, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 20.749 seconds, actuallQPS is 48.20, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.815101 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1950.499	1916.000	2637.000	2821.000	3100.000	3523.000	3523.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 0.885	0.888	1.029	1.082	1.178	2.371	2.371
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 19.863	19.258	28.667	29.195	37.555	39.187	39.187
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 20.748	20.141	29.624	30.209	38.571	40.283	40.283
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1860.006	1828	2504	2681	2936	3336	3336
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 59.029	  60	  60	  60	  60	  60	  60
+[1] 
+[1] Recall@10: 0.815101 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/4.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 70
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 23.039 seconds, actuallQPS is 43.40, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 24.034 seconds, actuallQPS is 41.61, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.828501 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2258.442	2245.000	3033.000	3225.000	3576.000	4082.000	4082.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 0.893	0.897	1.034	1.091	1.185	2.326	2.326
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 23.140	20.140	29.731	32.089	38.654	48.264	48.264
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 24.032	21.040	30.717	33.049	39.733	49.366	49.366
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2153.958	2141	2880	3060	3387	3862	3862
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 68.865	  69	  70	  70	  70	  70	  70
+[1] 
+[1] Recall@10: 0.828501 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/5.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 80
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 26.337 seconds, actuallQPS is 37.97, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 27.336 seconds, actuallQPS is 36.58, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.842301 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2568.122	2527.000	3424.000	3629.000	4019.000	4433.000	4433.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 0.899	0.902	1.047	1.099	1.181	2.343	2.343
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 26.436	28.296	38.037	38.882	41.035	49.816	49.816
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 27.335	29.199	39.056	39.972	41.937	50.871	50.871
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2449.505	2410	3254	3446	3807	4197	4197
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 78.683	  79	  80	  80	  80	  80	  80
+[1] 
+[1] Recall@10: 0.842301 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/6.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 90
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 29.603 seconds, actuallQPS is 33.78, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 30.594 seconds, actuallQPS is 32.69, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.855201 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2874.960	2835.000	3820.000	4063.000	4438.000	4886.000	4886.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 0.912	0.911	1.066	1.116	1.232	2.389	2.389
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 29.680	29.145	39.274	40.644	48.518	50.573	50.573
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 30.593	30.039	40.306	41.876	49.686	51.761	51.761
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2742.365	2702	3628	3852	4204	4627	4627
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 88.502	  89	  90	  90	  90	  90	  90
+[1] 
+[1] Recall@10: 0.855201 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/7.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 100
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 32.808 seconds, actuallQPS is 30.48, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 33.801 seconds, actuallQPS is 29.58, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.866301 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 3174.195	3122.000	4194.000	4436.000	4875.000	5394.000	5394.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 0.941	0.932	1.127	1.177	1.325	2.413	2.413
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 32.859	30.073	47.060	48.332	50.189	58.525	58.525
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 33.800	31.032	48.054	49.505	51.405	59.896	59.896
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 3028.127	2976	3983	4212	4625	5109	5109
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 98.334	  99	 100	 100	 100	 100	 100
+[1] 
+[1] Recall@10: 0.866301 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/8.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 125
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 40.692 seconds, actuallQPS is 24.57, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 41.676 seconds, actuallQPS is 23.99, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.886201 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 3913.648	3867.000	5155.000	5395.000	5879.000	6373.000	6373.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.035	1.030	1.298	1.357	1.489	2.396	2.396
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 40.639	39.235	56.566	58.148	60.004	68.892	68.892
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 41.674	40.295	57.819	59.507	61.429	70.322	70.322
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 3734.426	3696	4892	5123	5576	6037	6037
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 122.864	 124	 125	 125	 125	 125	 125
+[1] 
+[1] Recall@10: 0.886201 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/9.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 150
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 48.378 seconds, actuallQPS is 20.67, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 49.360 seconds, actuallQPS is 20.26, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.905801 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 4634.222	4616.000	6040.000	6341.000	6782.000	7738.000	7738.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.163	1.173	1.480	1.538	1.646	2.506	2.506
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 48.194	48.628	60.408	68.042	69.557	87.514	87.514
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 49.358	49.792	61.874	69.503	71.185	89.154	89.154
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 4422.941	4406	5741	6024	6440	7329	7329
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 147.401	 148	 150	 150	 150	 150	 150
+[1] 
+[1] Recall@10: 0.905801 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/10.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 175
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 55.968 seconds, actuallQPS is 17.87, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 56.957 seconds, actuallQPS is 17.56, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.915801 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 5345.912	5326.000	6884.000	7289.000	7894.000	8849.000	8849.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.292	1.313	1.642	1.694	1.825	2.530	2.530
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 55.662	57.811	69.441	77.635	81.647	89.280	89.280
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 56.954	59.132	71.086	79.275	83.566	91.090	91.090
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 5103.131	5086	6546	6926	7490	8382	8382
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 171.941	 173	 175	 175	 175	 175	 175
+[1] 
+[1] Recall@10: 0.915801 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/11.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 200
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 63.560 seconds, actuallQPS is 15.73, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 64.542 seconds, actuallQPS is 15.49, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.925901 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 6057.496	6066.000	7759.000	8178.000	8815.000	9860.000	9860.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.420	1.450	1.801	1.868	2.009	2.583	2.583
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 63.119	60.523	78.970	87.549	89.159	109.348	109.348
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 64.539	61.968	80.717	89.413	90.970	111.385	111.385
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 5783.174	5793	7378	7772	8368	9343	9343
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 196.500	 198	 200	 200	 200	 200	 200
+[1] 
+[1] Recall@10: 0.925901 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/12.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 250
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 78.493 seconds, actuallQPS is 12.74, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 79.492 seconds, actuallQPS is 12.58, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.942502 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 7458.097	7487.000	9550.000	9961.000	10668.000	11830.000	11830.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.670	1.724	2.115	2.188	2.360	2.828	2.828
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 77.818	78.234	98.364	106.932	109.281	126.760	126.760
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 79.488	79.899	100.467	109.033	111.447	129.123	129.123
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 7122.227	7151	9079	9466	10133	11228	11228
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 245.605	 247	 249	 250	 250	 250	 250
+[1] 
+[1] Recall@10: 0.942502 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/13.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 300
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 93.078 seconds, actuallQPS is 10.74, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 94.046 seconds, actuallQPS is 10.63, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.953901 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 8822.565	8872.000	11285.000	11780.000	12581.000	13484.000	13484.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.921	1.986	2.416	2.499	2.670	3.066	3.066
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 92.119	90.662	117.742	120.066	128.391	146.130	146.130
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 94.040	92.619	120.076	122.409	130.923	148.830	148.830
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 8427.327	8481	10736	11196	11957	12805	12805
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 294.728	 297	 299	 299	 300	 300	 300
+[1] 
+[1] Recall@10: 0.953901 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/14.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 350
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 107.443 seconds, actuallQPS is 9.31, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 108.424 seconds, actuallQPS is 9.22, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.962001 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 10168.459	10210.000	12973.000	13499.000	14325.000	15426.000	15426.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2.167	2.223	2.715	2.796	2.997	3.421	3.421
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 106.251	107.600	136.686	138.081	147.285	158.051	158.051
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 108.418	109.847	139.210	140.847	149.975	160.822	160.822
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 9714.879	9762	12342	12835	13614	14652	14652
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 343.806	 346	 349	 349	 350	 350	 350
+[1] 
+[1] Recall@10: 0.962001 MRR@10: 1.000000
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/buildconfig_deep100m/15.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 960
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value gist1m
+[1] Setting QueryPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/DiskANN-main/build/data/gist/gist_groundtruth.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/DiskANN-main/build/data/gist/gist_base.fvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/DiskANN-main/build/data/gist/gist_query.fvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 400
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.100000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 2
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (159824,960) Finish!
+[1] Load BKT (1,159826) Finish!
+[1] Load RNG (159824,32) Finish!
+[1] Load DeleteID (159824,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:111
+[1] Finish reading header info, list count 159824, total doc count 1000000, dimension 960, list page offset 469.
+[1] Big page (>4K): list count 143345, total element count 2388628.
+[1] Total Element Count: 2396511
+[1] Page Count Dist: 0 8596
+[1] Page Count Dist: 1 7883
+[1] Page Count Dist: 2 7390
+[1] Page Count Dist: 3 7131
+[1] Page Count Dist: 4 6974
+[1] Page Count Dist: 5 6906
+[1] Page Count Dist: 6 6599
+[1] Page Count Dist: 7 6558
+[1] Page Count Dist: 8 6320
+[1] Page Count Dist: 9 6256
+[1] Page Count Dist: 10 5880
+[1] Page Count Dist: 11 5621
+[1] Page Count Dist: 12 5318
+[1] Page Count Dist: 13 5109
+[1] Page Count Dist: 14 4746
+[1] Page Count Dist: 15 4496
+[1] Page Count Dist: 16 8162
+[1] Page Count Dist: 17 3730
+[1] Page Count Dist: 18 3364
+[1] Page Count Dist: 19 3243
+[1] Page Count Dist: 20 3014
+[1] Page Count Dist: 21 2693
+[1] Page Count Dist: 22 2524
+[1] Page Count Dist: 23 2353
+[1] Page Count Dist: 24 2195
+[1] Page Count Dist: 25 1986
+[1] Page Count Dist: 26 1729
+[1] Page Count Dist: 27 1631
+[1] Page Count Dist: 28 1506
+[1] Page Count Dist: 29 1445
+[1] Page Count Dist: 30 1328
+[1] Page Count Dist: 31 2226
+[1] Page Count Dist: 32 1004
+[1] Page Count Dist: 33 983
+[1] Page Count Dist: 34 870
+[1] Page Count Dist: 35 813
+[1] Page Count Dist: 36 746
+[1] Page Count Dist: 37 722
+[1] Page Count Dist: 38 631
+[1] Page Count Dist: 39 602
+[1] Page Count Dist: 40 551
+[1] Page Count Dist: 41 493
+[1] Page Count Dist: 42 494
+[1] Page Count Dist: 43 437
+[1] Page Count Dist: 44 413
+[1] Page Count Dist: 45 393
+[1] Page Count Dist: 46 646
+[1] Page Count Dist: 47 298
+[1] Page Count Dist: 48 239
+[1] Page Count Dist: 49 265
+[1] Page Count Dist: 50 225
+[1] Page Count Dist: 51 232
+[1] Page Count Dist: 52 201
+[1] Page Count Dist: 53 219
+[1] Page Count Dist: 54 184
+[1] Page Count Dist: 55 180
+[1] Page Count Dist: 56 162
+[1] Page Count Dist: 57 145
+[1] Page Count Dist: 58 131
+[1] Page Count Dist: 59 141
+[1] Page Count Dist: 60 119
+[1] Page Count Dist: 61 101
+[1] Page Count Dist: 62 215
+[1] Page Count Dist: 63 80
+[1] Page Count Dist: 64 71
+[1] Page Count Dist: 65 94
+[1] Page Count Dist: 66 89
+[1] Page Count Dist: 67 74
+[1] Page Count Dist: 68 59
+[1] Page Count Dist: 69 59
+[1] Page Count Dist: 70 66
+[1] Page Count Dist: 71 62
+[1] Page Count Dist: 72 61
+[1] Page Count Dist: 73 50
+[1] Page Count Dist: 74 43
+[1] Page Count Dist: 75 49
+[1] Page Count Dist: 76 38
+[1] Page Count Dist: 77 89
+[1] Page Count Dist: 78 31
+[1] Page Count Dist: 79 36
+[1] Page Count Dist: 80 46
+[1] Page Count Dist: 81 29
+[1] Page Count Dist: 82 37
+[1] Page Count Dist: 83 31
+[1] Page Count Dist: 84 34
+[1] Page Count Dist: 85 25
+[1] Page Count Dist: 86 24
+[1] Page Count Dist: 87 25
+[1] Page Count Dist: 88 39
+[1] Page Count Dist: 89 19
+[1] Page Count Dist: 90 28
+[1] Page Count Dist: 91 20
+[1] Page Count Dist: 92 39
+[1] Page Count Dist: 93 22
+[1] Page Count Dist: 94 25
+[1] Page Count Dist: 95 20
+[1] Page Count Dist: 96 9
+[1] Page Count Dist: 97 18
+[1] Page Count Dist: 98 18
+[1] Page Count Dist: 99 12
+[1] Page Count Dist: 100 11
+[1] Page Count Dist: 101 8
+[1] Page Count Dist: 102 22
+[1] Page Count Dist: 103 17
+[1] Page Count Dist: 104 15
+[1] Page Count Dist: 105 18
+[1] Page Count Dist: 106 13
+[1] Page Count Dist: 107 27
+[1] Page Count Dist: 108 6
+[1] Page Count Dist: 109 11
+[1] Page Count Dist: 110 12
+[1] Page Count Dist: 111 326
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 0.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 121.759 seconds, actuallQPS is 8.21, query count 1000.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 1000.
+[1] Sent 0.00%...
+[1] Delete workspace happens!
+[1] Finish sending in 122.728 seconds, actuallQPS is 8.15, query count 1000.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(1000000,960).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.968001 MRR@10: 1.000000
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 11509.445	11621.000	14581.000	15210.000	16188.000	17460.000	17460.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2.412	2.493	3.000	3.085	3.280	3.483	3.483
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 120.309	118.635	149.378	157.477	167.306	178.125	178.125
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 122.721	121.223	152.322	160.495	170.457	181.515	181.515
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 10997.760	11111	13883	14472	15390	16583	16583
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 392.892	 395	 398	 399	 400	 400	 400
+[1] 
+[1] Recall@10: 0.968001 MRR@10: 1.000000
+[1] 

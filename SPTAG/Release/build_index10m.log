@@ -1,0 +1,45 @@
+nohup: ignoring input
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 512
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value index10m
+[1] Setting QueryPath with value /mnt/data/data/query20k.fbin
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/data/data_query_index_gt100
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value Float
+[1] Setting VectorPath with value /mnt/data/data/index10m.fbin
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/data/query20k.fbin
+[1] Setting WarmupType with value XVEC
+[1] Setting isExecute with value true
+[1] Setting SearchInternalResultNum with value 32
+[1] Setting BuildSsdIndex with value true
+[1] Setting HashTableExponent with value 4
+[1] Setting InternalResultNum with value 64
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting PostingPageLimit with value 12
+[1] Setting ReplicaCount with value 4
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Setting TmpDir with value /tmp/
+[1] Setting BKTKmeansK with value 32 #
+[1] Setting BKTLambdaFactor with value -1
+[1] Setting BKTLeafSize with value 8
+[1] Setting isExecute with value true
+[1] Setting NumberOfThreads with value 32
+[1] Setting Ratio with value 0.16
+[1] Setting SamplesNumber with value 1000
+[1] Setting SaveBKT with value false
+[1] Setting SelectThreshold with value 50
+[1] Setting SplitFactor with value 6
+[1] Setting SplitThreshold with value 100
+[1] Setting TreeNumber with value 1
+[4] Xvec file /mnt/data/data/index10m.fbin has No.0 vector whose dims are not as many as expected. Expected: 512, Fact: 10000000
+[4] Failed to read vector file.
+[4] Failed to build index.

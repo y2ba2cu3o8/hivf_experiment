@@ -1,0 +1,30 @@
+Performing C SOURCE FILE Test C_FLAG_QUNUSED_ARGUMENTS failed with the following output:
+Change Dir: /mnt/data/SPTAG/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_503e4/fast && /usr/bin/make -f CMakeFiles/cmTC_503e4.dir/build.make CMakeFiles/cmTC_503e4.dir/build
+make[1]: Entering directory '/mnt/data/SPTAG/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_503e4.dir/src.c.o
+/usr/bin/cc   -lnuma -fopenmp -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DC_FLAG_QUNUSED_ARGUMENTS   -Qunused-arguments -o CMakeFiles/cmTC_503e4.dir/src.c.o   -c /mnt/data/SPTAG/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Qunused-arguments'
+make[1]: *** [CMakeFiles/cmTC_503e4.dir/build.make:66: CMakeFiles/cmTC_503e4.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/data/SPTAG/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_503e4/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_QUNUSED_ARGUMENTS failed with the following output:
+Change Dir: /mnt/data/SPTAG/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_894c2/fast && /usr/bin/make -f CMakeFiles/cmTC_894c2.dir/build.make CMakeFiles/cmTC_894c2.dir/build
+make[1]: Entering directory '/mnt/data/SPTAG/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_894c2.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wunreachable-code -Wno-reorder -Wno-delete-non-virtual-dtor -Wno-sign-compare -Wno-unknown-pragmas -Wcast-align -lm -lrt -std=c++14 -fopenmp -lnuma -fopenmp -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -DCXX_FLAG_QUNUSED_ARGUMENTS   -Qunused-arguments -o CMakeFiles/cmTC_894c2.dir/src.cxx.o -c /mnt/data/SPTAG/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+make[1]: *** [CMakeFiles/cmTC_894c2.dir/build.make:66: CMakeFiles/cmTC_894c2.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/mnt/data/SPTAG/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_894c2/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

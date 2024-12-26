@@ -1,0 +1,2214 @@
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/1.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 350
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 202.464 seconds, actuallQPS is 144.80, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 203.307 seconds, actuallQPS is 144.20, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.802424 MRR@10: 0.990966
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 11410.294	11057.000	14001.000	15345.000	19326.000	23400.000	28274.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.044	1.063	1.172	1.201	1.278	1.486	2.628
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 5.891	6.331	8.362	9.718	11.346	12.685	21.000
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 6.935	7.379	9.386	10.776	12.381	13.691	22.116
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 466.403	 458	 530	 565	 666	 772	 889
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 347.006	 349	 350	 350	 350	 350	 350
+[1] 
+[1] Recall@10: 0.802424 MRR@10: 0.990966
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/2.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 400
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 231.539 seconds, actuallQPS is 126.61, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 232.361 seconds, actuallQPS is 126.17, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.812577 MRR@10: 0.992365
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 12961.740	12572.000	15825.000	17352.000	21802.000	26558.000	32149.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.165	1.189	1.307	1.334	1.409	1.615	2.732
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 6.761	7.636	8.795	10.072	11.645	13.266	18.922
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 7.926	8.822	9.951	11.243	12.773	14.242	19.925
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 531.376	 522	 602	 642	 754	 872	1017
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 396.596	 398	 400	 400	 400	 400	 400
+[1] 
+[1] Recall@10: 0.812577 MRR@10: 0.992365
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/3.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 450
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 260.606 seconds, actuallQPS is 112.49, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 261.413 seconds, actuallQPS is 112.14, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.821938 MRR@10: 0.993200
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 14502.661	14063.000	17669.000	19368.000	24288.000	29773.000	35682.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.301	1.328	1.459	1.488	1.564	1.762	2.805
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 7.616	8.164	8.966	9.407	10.809	12.680	20.002
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 8.917	9.489	10.241	10.690	12.110	13.994	21.206
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 596.149	 586	 674	 717	 842	 974	1133
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 446.173	 448	 450	 450	 450	 450	 450
+[1] 
+[1] Recall@10: 0.821938 MRR@10: 0.993200
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/4.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 500
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 289.676 seconds, actuallQPS is 101.20, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 290.461 seconds, actuallQPS is 100.93, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.829829 MRR@10: 0.993985
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 16035.195	15555.000	19492.000	21362.000	26677.000	32921.000	38460.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.425	1.455	1.597	1.626	1.691	1.881	2.856
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 8.483	8.543	9.375	9.839	11.137	12.869	22.194
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 9.908	9.979	10.766	11.235	12.515	14.258	23.560
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 660.758	 650	 746	 792	 929	1085	1226
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 495.751	 498	 500	 500	 500	 500	 500
+[1] 
+[1] Recall@10: 0.829829 MRR@10: 0.993985
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/5.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 550
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 318.746 seconds, actuallQPS is 91.97, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 319.505 seconds, actuallQPS is 91.75, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.836775 MRR@10: 0.994770
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 17558.962	17046.000	21319.000	23342.000	29125.000	35662.000	41656.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.553	1.586	1.738	1.769	1.832	2.053	3.120
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 9.346	8.866	11.974	14.927	15.678	18.290	31.872
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 10.898	10.411	13.526	16.503	17.127	19.826	33.410
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 725.171	 713	 817	 868	1014	1181	1327
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 545.325	 548	 550	 550	 550	 550	 550
+[1] 
+[1] Recall@10: 0.836775 MRR@10: 0.994770
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/6.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 600
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 347.817 seconds, actuallQPS is 84.29, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 348.552 seconds, actuallQPS is 84.11, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.842922 MRR@10: 0.995247
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 19075.504	18524.000	23111.000	25314.000	31504.000	38636.000	45301.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.680	1.717	1.881	1.915	1.982	2.180	3.150
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 10.209	9.236	15.155	15.516	16.504	18.726	25.344
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 11.889	10.895	16.856	17.163	18.140	20.342	26.701
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 789.427	 777	 888	 944	1099	1285	1444
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 594.904	 597	 600	 600	 600	 600	 600
+[1] 
+[1] Recall@10: 0.842922 MRR@10: 0.995247
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/7.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 650
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 376.876 seconds, actuallQPS is 77.79, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 377.598 seconds, actuallQPS is 77.64, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.848316 MRR@10: 0.995571
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 20587.438	19993.000	24891.000	27259.000	33882.000	41518.000	48742.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.811	1.852	2.027	2.062	2.125	2.301	3.437
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 11.069	9.596	15.667	15.954	16.929	18.880	20.760
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 12.880	11.366	17.467	17.685	18.693	20.616	22.197
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 853.599	 840	 959	1018	1185	1388	1555
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 644.469	 647	 650	 650	 650	 650	 650
+[1] 
+[1] Recall@10: 0.848316 MRR@10: 0.995571
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/8.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 700
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 405.933 seconds, actuallQPS is 72.22, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 406.637 seconds, actuallQPS is 72.09, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.853635 MRR@10: 0.996117
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 22091.320	21449.000	26691.000	29231.000	36184.000	44412.000	51874.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1.942	1.985	2.174	2.211	2.280	2.470	3.677
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 11.928	10.079	16.061	16.354	17.538	19.231	24.511
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 13.871	11.958	17.952	18.210	19.406	21.186	26.681
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 917.603	 903	1030	1094	1268	1476	1659
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 694.029	 697	 699	 700	 700	 700	 700
+[1] 
+[1] Recall@10: 0.853635 MRR@10: 0.996117
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/9.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 750
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[4] Hash table is full! Set HashTableExponent to larger value (default is 2). NewHashTableExponent=5 NewPoolSize=131071
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 434.991 seconds, actuallQPS is 67.39, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 435.671 seconds, actuallQPS is 67.29, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.858264 MRR@10: 0.996390
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 23589.106	22910.000	28470.000	31104.000	38518.000	47371.000	55645.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2.069	2.116	2.316	2.355	2.422	2.649	3.745
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 12.791	11.535	16.421	16.786	18.489	19.792	25.934
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 14.861	13.577	18.403	18.746	20.586	21.846	27.964
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 981.472	 966	1100	1167	1353	1574	1777
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 743.587	 747	 749	 750	 750	 750	 750
+[1] 
+[1] Recall@10: 0.858264 MRR@10: 0.996390
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/10.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 800
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 464.057 seconds, actuallQPS is 63.17, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 464.699 seconds, actuallQPS is 63.09, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.862610 MRR@10: 0.996765
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 25081.316	24357.000	30246.000	33030.000	40783.000	50054.000	58856.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2.198	2.247	2.460	2.500	2.571	2.746	3.833
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 13.653	15.418	16.814	17.309	18.977	20.966	33.752
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 15.851	17.649	18.913	19.439	21.112	23.322	36.286
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1045.241	1029	1171	1241	1435	1675	1885
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 793.145	 797	 799	 800	 800	 800	 800
+[1] 
+[1] Recall@10: 0.862610 MRR@10: 0.996765
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/11.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 900
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 522.157 seconds, actuallQPS is 56.14, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 522.769 seconds, actuallQPS is 56.08, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.870190 MRR@10: 0.997055
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 28053.302	27248.000	33738.000	36894.000	45322.000	55553.000	65275.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2.453	2.509	2.747	2.793	2.863	3.031	4.216
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 15.379	16.518	17.466	17.977	19.786	21.459	28.020
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 17.832	19.039	19.821	20.339	22.221	23.856	30.557
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1172.522	1155	1311	1388	1600	1867	2100
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 892.246	 896	 899	 900	 900	 900	 900
+[1] 
+[1] Recall@10: 0.870190 MRR@10: 0.997055
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/12.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 1000
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[4] Hash table is full! Set HashTableExponent to larger value (default is 2). NewHashTableExponent=5 NewPoolSize=131071
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 580.260 seconds, actuallQPS is 50.52, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[4] Hash table is full! Set HashTableExponent to larger value (default is 2). NewHashTableExponent=5 NewPoolSize=131071
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 580.823 seconds, actuallQPS is 50.47, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.877040 MRR@10: 0.997601
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 31007.078	30131.000	37222.000	40635.000	49800.000	61568.000	72796.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2.718	2.780	3.042	3.090	3.172	3.346	4.433
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 17.094	17.207	18.084	18.515	19.660	22.389	27.589
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 19.812	19.954	20.693	21.114	22.310	24.707	30.456
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1299.423	1280	1451	1535	1767	2044	2335
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 991.330	 996	 999	 999	1000	1000	1000
+[1] 
+[1] Recall@10: 0.877040 MRR@10: 0.997601
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/13.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 1100
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[4] Hash table is full! Set HashTableExponent to larger value (default is 2). NewHashTableExponent=5 NewPoolSize=131071
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 638.351 seconds, actuallQPS is 45.92, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[4] Hash table is full! Set HashTableExponent to larger value (default is 2). NewHashTableExponent=5 NewPoolSize=131071
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 638.880 seconds, actuallQPS is 45.89, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.883127 MRR@10: 0.997959
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 33947.248	32986.000	40726.000	44398.000	54221.000	66178.000	78235.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 2.972	3.040	3.327	3.382	3.465	3.604	4.689
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 18.821	17.956	23.551	23.914	24.617	25.558	32.384
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 21.793	20.907	26.592	26.827	27.320	28.236	35.397
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1426.064	1405	1590	1680	1931	2230	2519
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1090.408	1095	1099	1099	1100	1100	1100
+[1] 
+[1] Recall@10: 0.883127 MRR@10: 0.997959
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/14.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 1200
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[4] Hash table is full! Set HashTableExponent to larger value (default is 2). NewHashTableExponent=5 NewPoolSize=131071
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 696.429 seconds, actuallQPS is 42.09, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[4] Hash table is full! Set HashTableExponent to larger value (default is 2). NewHashTableExponent=5 NewPoolSize=131071
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 696.916 seconds, actuallQPS is 42.07, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.888153 MRR@10: 0.998147
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 36871.740	35841.000	44146.000	48149.000	58598.000	72033.000	83942.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 3.233	3.306	3.620	3.677	3.771	3.894	5.085
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 20.539	19.048	24.521	24.879	25.681	27.254	40.416
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 23.772	22.138	27.678	27.943	28.605	30.317	43.094
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1552.403	1530	1728	1826	2093	2432	2709
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1189.465	1195	1198	1199	1200	1200	1200
+[1] 
+[1] Recall@10: 0.888153 MRR@10: 0.998147
+[1] 
+
+###############################################################################
+Running /mnt/data/SPTAG/Release/build_spacev100m_10/15.ini
+###############################################################################
+
+[1] Using AVX512 InstructionSet!
+[1] Set QuantizerFile = 
+[1] Setting Dim with value 100
+[1] Setting DistCalcMethod with value L2
+[1] Setting IndexAlgoType with value BKT
+[1] Setting IndexDirectory with value spacev100m
+[1] Setting QueryPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting QueryType with value XVEC
+[1] Setting TruthPath with value /mnt/data/SPACEV1B/spacev_query_learn_gt100.ivecs
+[1] Setting TruthType with value XVEC
+[1] Setting ValueType with value UInt8
+[1] Setting VectorPath with value /mnt/data/SPACEV1B/spacev100m.bvecs
+[1] Setting VectorType with value XVEC
+[1] Setting WarmupPath with value /mnt/data/SPACEV1B/queries.bvecs
+[1] Setting WarmupType with value XVEC
+[1] Setting SearchInternalResultNum with value 1300
+[1] Setting BuildSsdIndex with value false
+[1] Setting HashTableExponent with value 4
+[1] Setting isExecute with value true
+[1] Setting MaxCheck with value 2048
+[1] Setting MaxDistRatio with value 8.0
+[1] Setting NumberOfThreads with value 1
+[1] Setting ResultNum with value 10
+[1] Setting SearchPostingPageLimit with value 12
+[1] Begin Select Head...
+[1] select head time: 0.00s
+[1] Begin Build Head...
+[1] select head time: 0.00s build head time: 0.00s
+[1] Begin Build SSDIndex...
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting EnableBfs with value 0
+[1] Setting BKTNumber with value 1
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting Samples with value 1000
+[1] Setting BKTLambdaFactor with value 0.001000
+[1] Setting TPTNumber with value 32
+[1] Setting TPTLeafSize with value 2000
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting NeighborhoodSize with value 32
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting RefineIterations with value 3
+[1] Setting EnableRebuild with value 0
+[1] Setting CEF with value 1000
+[1] Setting AddCEF with value 500
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting RNGFactor with value 1.000000
+[1] Setting GPUGraphType with value 2
+[1] Setting GPURefineSteps with value 0
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPULeafSize with value 500
+[1] Setting HeadNumGPUs with value 1
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting NumberOfThreads with value 32
+[1] Setting DistCalcMethod with value L2
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting MaxCheck with value 8192
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting HashTableExponent with value 4
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting MetaRecordSize with value 10
+[1] Load Vector (15995652,100) Finish!
+[1] Load BKT (1,15995654) Finish!
+[1] Load RNG (15995652,32) Finish!
+[1] Load DeleteID (15995652,1) Finish!
+[1] Setting NumberOfThreads with value 1
+[1] Setting MaxCheck with value 2048
+[1] Setting HashTableExponent with value 4
+[1] Load index with posting page limit:12
+[1] Finish reading header info, list count 15995652, total doc count 100000000, dimension 100, list page offset 46863.
+[1] Big page (>4K): list count 1914116, total element count 106048145.
+[1] Total Element Count: 325954539
+[1] Page Count Dist: 0 399215
+[1] Page Count Dist: 1 13682321
+[1] Page Count Dist: 2 1745730
+[1] Page Count Dist: 3 149216
+[1] Page Count Dist: 4 16354
+[1] Page Count Dist: 5 2309
+[1] Page Count Dist: 6 400
+[1] Page Count Dist: 7 55
+[1] Page Count Dist: 8 19
+[1] Page Count Dist: 9 6
+[1] Page Count Dist: 11 1
+[1] Page Count Dist: 12 26
+[1] select head time: 0.00s build head time: 0.00s build ssd time: 3.00s
+[1] Start loading warmup query set...
+[1] Start warmup...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[4] Hash table is full! Set HashTableExponent to larger value (default is 2). NewHashTableExponent=5 NewPoolSize=131071
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 754.516 seconds, actuallQPS is 38.85, query count 29316.
+[1] 
+Finish warmup...
+[1] Start loading QuerySet...
+[1] Start ANN Search...
+[1] Searching: numThread: 1, numQueries: 29316.
+[1] Sent 0.00%...
+[4] Hash table is full! Set HashTableExponent to larger value (default is 2). NewHashTableExponent=5 NewPoolSize=131071
+[1] Sent 55.89%...
+[1] Delete workspace happens!
+[1] Finish sending in 754.950 seconds, actuallQPS is 38.83, query count 29316.
+[1] 
+Finish ANN Search...
+[1] 
+Load VectorSet(100000000,100).
+[1] Start loading TruthFile...
+[1] Recall10@10: 0.892737 MRR@10: 0.998198
+[1] 
+Ex Elements Count:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 39780.017	38677.000	47568.000	51816.000	63039.000	77193.000	90198.000
+[1] 
+Head Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 3.488	3.567	3.903	3.966	4.062	4.173	5.464
+[1] 
+Ex Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 22.263	23.945	25.313	25.631	26.395	28.061	32.400
+[1] 
+Total Latency Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 25.752	27.591	28.679	28.909	29.627	31.453	36.047
+[1] 
+Total Disk Page Access Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1678.430	1655	1866	1970	2252	2614	2917
+[1] 
+Total Disk IO Distribution:
+[1] Avg	50tiles	90tiles	95tiles	99tiles	99.9tiles	Max
+[1] 1288.526	1294	1298	1299	1300	1300	1300
+[1] 
+[1] Recall@10: 0.892737 MRR@10: 0.998198
+[1] 
