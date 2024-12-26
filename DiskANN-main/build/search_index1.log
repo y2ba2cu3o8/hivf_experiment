@@ -1,0 +1,937 @@
+unrecognised option '--dist_fn'
+terminate called after throwing an instance of 'boost::wrapexcept<boost::program_options::unknown_option>'
+  what():  unrecognised option '--dist_fn'
+Starting index build: R=64 L=100 Query RAM budget: 5.36871e+07 Indexing ram budget: 64 T: 32
+Compressing 960-dimensional data into 53 bytes per vector.
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Training data with 255492 samples loaded.
+Processing chunk 0 with dimensions [0, 19)
+Processing chunk 1 with dimensions [19, 38)
+Processing chunk 2 with dimensions [38, 57)
+Processing chunk 3 with dimensions [57, 76)
+Processing chunk 4 with dimensions [76, 95)
+Processing chunk 5 with dimensions [95, 114)
+Processing chunk 6 with dimensions [114, 132)
+Processing chunk 7 with dimensions [132, 150)
+Processing chunk 8 with dimensions [150, 168)
+Processing chunk 9 with dimensions [168, 186)
+Processing chunk 10 with dimensions [186, 204)
+Processing chunk 11 with dimensions [204, 222)
+Processing chunk 12 with dimensions [222, 240)
+Processing chunk 13 with dimensions [240, 258)
+Processing chunk 14 with dimensions [258, 276)
+Processing chunk 15 with dimensions [276, 294)
+Processing chunk 16 with dimensions [294, 312)
+Processing chunk 17 with dimensions [312, 330)
+Processing chunk 18 with dimensions [330, 348)
+Processing chunk 19 with dimensions [348, 366)
+Processing chunk 20 with dimensions [366, 384)
+Processing chunk 21 with dimensions [384, 402)
+Processing chunk 22 with dimensions [402, 420)
+Processing chunk 23 with dimensions [420, 438)
+Processing chunk 24 with dimensions [438, 456)
+Processing chunk 25 with dimensions [456, 474)
+Processing chunk 26 with dimensions [474, 492)
+Processing chunk 27 with dimensions [492, 510)
+Processing chunk 28 with dimensions [510, 528)
+Processing chunk 29 with dimensions [528, 546)
+Processing chunk 30 with dimensions [546, 564)
+Processing chunk 31 with dimensions [564, 582)
+Processing chunk 32 with dimensions [582, 600)
+Processing chunk 33 with dimensions [600, 618)
+Processing chunk 34 with dimensions [618, 636)
+Processing chunk 35 with dimensions [636, 654)
+Processing chunk 36 with dimensions [654, 672)
+Processing chunk 37 with dimensions [672, 690)
+Processing chunk 38 with dimensions [690, 708)
+Processing chunk 39 with dimensions [708, 726)
+Processing chunk 40 with dimensions [726, 744)
+Processing chunk 41 with dimensions [744, 762)
+Processing chunk 42 with dimensions [762, 780)
+Processing chunk 43 with dimensions [780, 798)
+Processing chunk 44 with dimensions [798, 816)
+Processing chunk 45 with dimensions [816, 834)
+Processing chunk 46 with dimensions [834, 852)
+Processing chunk 47 with dimensions [852, 870)
+Processing chunk 48 with dimensions [870, 888)
+Processing chunk 49 with dimensions [888, 906)
+Processing chunk 50 with dimensions [906, 924)
+Processing chunk 51 with dimensions [924, 942)
+Processing chunk 52 with dimensions [942, 960)
+Writing bin: save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 256, #dims = 960, size = 983048B
+Finished writing bin.
+Writing bin: save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 960, #dims = 1, size = 3848B
+Finished writing bin.
+Writing bin: save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 54, #dims = 1, size = 224B
+Finished writing bin.
+Writing bin: save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin of size 991216B.
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Reading bin file save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 256, #dims = 960...
+done.
+Reading bin file save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 960, #dims = 1...
+done.
+Reading bin file save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/gist/test1/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 54, #dims = 1...
+done.
+Loaded PQ pivot information
+tcmalloc: large alloc 3840000000 bytes == 0x563bcf5c8000 @  0x7f49290c2680 0x7f49290e2ff4 0x563b43054f2e 0x563b4305b32d 0x563b4305e9ad 0x563b42be6b38 0x563b42ba6637 0x7f4921379083 0x563b42ba715e
+tcmalloc: large alloc 3840000000 bytes == 0x563cb7b38000 @  0x7f49290c2680 0x7f49290e2ff4 0x563b43054f2e 0x563b4305b343 0x563b4305e9ad 0x563b42be6b38 0x563b42ba6637 0x7f4921379083 0x563b42ba715e
+tcmalloc: large alloc 3840000000 bytes == 0x563d9c954000 @  0x7f49290c2680 0x7f49290e2ff4 0x563b43054f2e 0x563b4305b352 0x563b4305e9ad 0x563b42be6b38 0x563b42ba6637 0x7f4921379083 0x563b42ba715e
+Processing points  [0, 1000000)...done.
+Time for generating quantized data: 77.625443 seconds
+Full index fits in RAM budget, should consume at most 4.32402GiBs, so building in one shot
+L2: Using AVX2 distance computation DistanceL2Float
+tcmalloc: large alloc 3840000000 bytes == 0x563bc2b9a000 @  0x7f49290c2680 0x7f49290e3824 0x563b430fbe37 0x563b430d59c1 0x563b42fff9c3 0x563b42be3a77 0x563b42be6cd9 0x563b42ba6637 0x7f4921379083 0x563b42ba715e
+Passed, empty search_params while creating index config
+L2: Using AVX2 distance computation DistanceL2Float
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Training data with 255884 samples loaded.
+Processing chunk 0 with dimensions [0, 30)
+Processing chunk 1 with dimensions [30, 60)
+Processing chunk 2 with dimensions [60, 90)
+Processing chunk 3 with dimensions [90, 120)
+Processing chunk 4 with dimensions [120, 150)
+Processing chunk 5 with dimensions [150, 180)
+Processing chunk 6 with dimensions [180, 210)
+Processing chunk 7 with dimensions [210, 240)
+Processing chunk 8 with dimensions [240, 270)
+Processing chunk 9 with dimensions [270, 300)
+Processing chunk 10 with dimensions [300, 330)
+Processing chunk 11 with dimensions [330, 360)
+Processing chunk 12 with dimensions [360, 390)
+Processing chunk 13 with dimensions [390, 420)
+Processing chunk 14 with dimensions [420, 450)
+Processing chunk 15 with dimensions [450, 480)
+Processing chunk 16 with dimensions [480, 510)
+Processing chunk 17 with dimensions [510, 540)
+Processing chunk 18 with dimensions [540, 570)
+Processing chunk 19 with dimensions [570, 600)
+Processing chunk 20 with dimensions [600, 630)
+Processing chunk 21 with dimensions [630, 660)
+Processing chunk 22 with dimensions [660, 690)
+Processing chunk 23 with dimensions [690, 720)
+Processing chunk 24 with dimensions [720, 750)
+Processing chunk 25 with dimensions [750, 780)
+Processing chunk 26 with dimensions [780, 810)
+Processing chunk 27 with dimensions [810, 840)
+Processing chunk 28 with dimensions [840, 870)
+Processing chunk 29 with dimensions [870, 900)
+Processing chunk 30 with dimensions [900, 930)
+Processing chunk 31 with dimensions [930, 960)
+Writing bin: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin
+bin: #pts = 256, #dims = 960, size = 983048B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin
+bin: #pts = 960, #dims = 1, size = 3848B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin
+bin: #pts = 33, #dims = 1, size = 140B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin of size 991132B.
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin... 
+Metadata: #pts = 256, #dims = 960...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin... 
+Metadata: #pts = 960, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin... 
+Metadata: #pts = 33, #dims = 1...
+done.
+Loaded PQ pivot information
+tcmalloc: large alloc 3840000000 bytes == 0x563cb7b38000 @  0x7f49290c2680 0x7f49290e2ff4 0x563b43054f2e 0x563b4305b32d 0x563b4305e9ad 0x563b430ecd7d 0x563b42dfce61 0x563b42be3aeb 0x563b42be6cd9 0x563b42ba6637 0x7f4921379083 0x563b42ba715e
+tcmalloc: large alloc 3840000000 bytes == 0x563d9c954000 @  0x7f49290c2680 0x7f49290e2ff4 0x563b43054f2e 0x563b4305b343 0x563b4305e9ad 0x563b430ecd7d 0x563b42dfce61 0x563b42be3aeb 0x563b42be6cd9 0x563b42ba6637 0x7f4921379083 0x563b42ba715e
+tcmalloc: large alloc 3840000000 bytes == 0x563e81f70000 @  0x7f49290c2680 0x7f49290e2ff4 0x563b43054f2e 0x563b4305b352 0x563b4305e9ad 0x563b430ecd7d 0x563b42dfce61 0x563b42be3aeb 0x563b42be6cd9 0x563b42ba6637 0x7f4921379083 0x563b42ba715e
+Processing points  [0, 1000000)...done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 987144 990992 991132
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin... 
+Metadata: #pts = 256, #dims = 960...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin... 
+Metadata: #pts = 960, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq32_pivots.bin... 
+Metadata: #pts = 33, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 960, #chunks: 32
+Using only first 1000000 from file.. 
+Starting index build with 1000000 points... 
+0% of index build completed.10% of index build completed.20% of index build completed.30% of index build completed.40% of index build completed.50% of index build completed.60% of index build completed.70% of index build completed.80% of index build completed.90% of index build completed.Starting final cleanup..done. Link time: 72.6667s
+Index built with degree: max:64  avg:64  min:64  count(deg<2):0
+Not saving tags as they are not enabled.
+Time taken for save: 3.0531s.
+Time for building merged vamana index: 127.062538 seconds
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Vamana index file size=260000024
+Opened: save/gist/test1/disk_index_gist_base_R64_L100_A1.2_disk.index, cache_size: 67108864
+medoid: 356422B
+max_node_len: 4100B
+nnodes_per_sector: 0B
+# sectors: 2000000
+Sector #0written
+Sector #100000written
+Sector #200000written
+Sector #300000written
+Sector #400000written
+Sector #500000written
+Sector #600000written
+Sector #700000written
+Sector #800000written
+Sector #900000written
+Sector #1000000written
+Sector #1100000written
+Sector #1200000written
+Sector #1300000written
+Sector #1400000written
+Sector #1500000written
+Sector #1600000written
+Sector #1700000written
+Sector #1800000written
+Sector #1900000written
+Finished writing 8192004096B
+Writing bin: save/gist/test1/disk_index_gist_base_R64_L100_A1.2_disk.index
+bin: #pts = 9, #dims = 1, size = 80B
+Finished writing bin.
+Output disk index file written to save/gist/test1/disk_index_gist_base_R64_L100_A1.2_disk.index
+Finished writing 8192004096B
+Time for generating disk layout: 15.078338 seconds
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Loading base /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin. #points: 1000000. #dim: 960.
+Wrote 100151 points to sample file: save/gist/test1/disk_index_gist_base_R64_L100_A1.2_sample_data.bin
+Indexing time: 220.764
+Starting index build: R=64 L=100 Query RAM budget: 5.36871e+07 Indexing ram budget: 64 T: 32
+Compressing 960-dimensional data into 53 bytes per vector.
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Training data with 255075 samples loaded.
+Processing chunk 0 with dimensions [0, 19)
+Processing chunk 1 with dimensions [19, 38)
+Processing chunk 2 with dimensions [38, 57)
+Processing chunk 3 with dimensions [57, 76)
+Processing chunk 4 with dimensions [76, 95)
+Processing chunk 5 with dimensions [95, 114)
+Processing chunk 6 with dimensions [114, 132)
+Processing chunk 7 with dimensions [132, 150)
+Processing chunk 8 with dimensions [150, 168)
+Processing chunk 9 with dimensions [168, 186)
+Processing chunk 10 with dimensions [186, 204)
+Processing chunk 11 with dimensions [204, 222)
+Processing chunk 12 with dimensions [222, 240)
+Processing chunk 13 with dimensions [240, 258)
+Processing chunk 14 with dimensions [258, 276)
+Processing chunk 15 with dimensions [276, 294)
+Processing chunk 16 with dimensions [294, 312)
+Processing chunk 17 with dimensions [312, 330)
+Processing chunk 18 with dimensions [330, 348)
+Processing chunk 19 with dimensions [348, 366)
+Processing chunk 20 with dimensions [366, 384)
+Processing chunk 21 with dimensions [384, 402)
+Processing chunk 22 with dimensions [402, 420)
+Processing chunk 23 with dimensions [420, 438)
+Processing chunk 24 with dimensions [438, 456)
+Processing chunk 25 with dimensions [456, 474)
+Processing chunk 26 with dimensions [474, 492)
+Processing chunk 27 with dimensions [492, 510)
+Processing chunk 28 with dimensions [510, 528)
+Processing chunk 29 with dimensions [528, 546)
+Processing chunk 30 with dimensions [546, 564)
+Processing chunk 31 with dimensions [564, 582)
+Processing chunk 32 with dimensions [582, 600)
+Processing chunk 33 with dimensions [600, 618)
+Processing chunk 34 with dimensions [618, 636)
+Processing chunk 35 with dimensions [636, 654)
+Processing chunk 36 with dimensions [654, 672)
+Processing chunk 37 with dimensions [672, 690)
+Processing chunk 38 with dimensions [690, 708)
+Processing chunk 39 with dimensions [708, 726)
+Processing chunk 40 with dimensions [726, 744)
+Processing chunk 41 with dimensions [744, 762)
+Processing chunk 42 with dimensions [762, 780)
+Processing chunk 43 with dimensions [780, 798)
+Processing chunk 44 with dimensions [798, 816)
+Processing chunk 45 with dimensions [816, 834)
+Processing chunk 46 with dimensions [834, 852)
+Processing chunk 47 with dimensions [852, 870)
+Processing chunk 48 with dimensions [870, 888)
+Processing chunk 49 with dimensions [888, 906)
+Processing chunk 50 with dimensions [906, 924)
+Processing chunk 51 with dimensions [924, 942)
+Processing chunk 52 with dimensions [942, 960)
+Writing bin: save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 256, #dims = 960, size = 983048B
+Finished writing bin.
+Writing bin: save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 960, #dims = 1, size = 3848B
+Finished writing bin.
+Writing bin: save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 54, #dims = 1, size = 224B
+Finished writing bin.
+Writing bin: save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin of size 991216B.
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Reading bin file save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 256, #dims = 960...
+done.
+Reading bin file save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 960, #dims = 1...
+done.
+Reading bin file save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/gist/test2/disk_index_gist_base_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 54, #dims = 1...
+done.
+Loaded PQ pivot information
+tcmalloc: large alloc 3840000000 bytes == 0x5629de09c000 @  0x7f6079579680 0x7f6079599ff4 0x56294ee7ff2e 0x56294ee8632d 0x56294ee899ad 0x56294ea11b38 0x56294e9d1637 0x7f6071830083 0x56294e9d215e
+tcmalloc: large alloc 3840000000 bytes == 0x562ac36b8000 @  0x7f6079579680 0x7f6079599ff4 0x56294ee7ff2e 0x56294ee86343 0x56294ee899ad 0x56294ea11b38 0x56294e9d1637 0x7f6071830083 0x56294e9d215e
+tcmalloc: large alloc 3840000000 bytes == 0x562ba84d4000 @  0x7f6079579680 0x7f6079599ff4 0x56294ee7ff2e 0x56294ee86352 0x56294ee899ad 0x56294ea11b38 0x56294e9d1637 0x7f6071830083 0x56294e9d215e
+Processing points  [0, 1000000)...done.
+Time for generating quantized data: 80.300842 seconds
+Full index fits in RAM budget, should consume at most 4.32402GiBs, so building in one shot
+L2: Using AVX2 distance computation DistanceL2Float
+tcmalloc: large alloc 3840000000 bytes == 0x5629de09c000 @  0x7f6079579680 0x7f607959a824 0x56294ef26e37 0x56294ef009c1 0x56294ee2a9c3 0x56294ea0ea77 0x56294ea11cd9 0x56294e9d1637 0x7f6071830083 0x56294e9d215e
+Passed, empty search_params while creating index config
+L2: Using AVX2 distance computation DistanceL2Float
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Training data with 256188 samples loaded.
+Processing chunk 0 with dimensions [0, 4)
+Processing chunk 1 with dimensions [4, 8)
+Processing chunk 2 with dimensions [8, 12)
+Processing chunk 3 with dimensions [12, 16)
+Processing chunk 4 with dimensions [16, 20)
+Processing chunk 5 with dimensions [20, 24)
+Processing chunk 6 with dimensions [24, 28)
+Processing chunk 7 with dimensions [28, 32)
+Processing chunk 8 with dimensions [32, 36)
+Processing chunk 9 with dimensions [36, 40)
+Processing chunk 10 with dimensions [40, 44)
+Processing chunk 11 with dimensions [44, 48)
+Processing chunk 12 with dimensions [48, 52)
+Processing chunk 13 with dimensions [52, 56)
+Processing chunk 14 with dimensions [56, 60)
+Processing chunk 15 with dimensions [60, 64)
+Processing chunk 16 with dimensions [64, 68)
+Processing chunk 17 with dimensions [68, 72)
+Processing chunk 18 with dimensions [72, 76)
+Processing chunk 19 with dimensions [76, 80)
+Processing chunk 20 with dimensions [80, 84)
+Processing chunk 21 with dimensions [84, 88)
+Processing chunk 22 with dimensions [88, 92)
+Processing chunk 23 with dimensions [92, 96)
+Processing chunk 24 with dimensions [96, 100)
+Processing chunk 25 with dimensions [100, 104)
+Processing chunk 26 with dimensions [104, 108)
+Processing chunk 27 with dimensions [108, 112)
+Processing chunk 28 with dimensions [112, 116)
+Processing chunk 29 with dimensions [116, 120)
+Processing chunk 30 with dimensions [120, 124)
+Processing chunk 31 with dimensions [124, 128)
+Processing chunk 32 with dimensions [128, 132)
+Processing chunk 33 with dimensions [132, 136)
+Processing chunk 34 with dimensions [136, 140)
+Processing chunk 35 with dimensions [140, 144)
+Processing chunk 36 with dimensions [144, 148)
+Processing chunk 37 with dimensions [148, 152)
+Processing chunk 38 with dimensions [152, 156)
+Processing chunk 39 with dimensions [156, 160)
+Processing chunk 40 with dimensions [160, 164)
+Processing chunk 41 with dimensions [164, 168)
+Processing chunk 42 with dimensions [168, 172)
+Processing chunk 43 with dimensions [172, 176)
+Processing chunk 44 with dimensions [176, 180)
+Processing chunk 45 with dimensions [180, 184)
+Processing chunk 46 with dimensions [184, 188)
+Processing chunk 47 with dimensions [188, 192)
+Processing chunk 48 with dimensions [192, 196)
+Processing chunk 49 with dimensions [196, 200)
+Processing chunk 50 with dimensions [200, 204)
+Processing chunk 51 with dimensions [204, 208)
+Processing chunk 52 with dimensions [208, 212)
+Processing chunk 53 with dimensions [212, 216)
+Processing chunk 54 with dimensions [216, 220)
+Processing chunk 55 with dimensions [220, 224)
+Processing chunk 56 with dimensions [224, 228)
+Processing chunk 57 with dimensions [228, 232)
+Processing chunk 58 with dimensions [232, 236)
+Processing chunk 59 with dimensions [236, 240)
+Processing chunk 60 with dimensions [240, 244)
+Processing chunk 61 with dimensions [244, 248)
+Processing chunk 62 with dimensions [248, 252)
+Processing chunk 63 with dimensions [252, 256)
+Processing chunk 64 with dimensions [256, 260)
+Processing chunk 65 with dimensions [260, 264)
+Processing chunk 66 with dimensions [264, 268)
+Processing chunk 67 with dimensions [268, 272)
+Processing chunk 68 with dimensions [272, 276)
+Processing chunk 69 with dimensions [276, 280)
+Processing chunk 70 with dimensions [280, 284)
+Processing chunk 71 with dimensions [284, 288)
+Processing chunk 72 with dimensions [288, 292)
+Processing chunk 73 with dimensions [292, 296)
+Processing chunk 74 with dimensions [296, 300)
+Processing chunk 75 with dimensions [300, 304)
+Processing chunk 76 with dimensions [304, 308)
+Processing chunk 77 with dimensions [308, 312)
+Processing chunk 78 with dimensions [312, 316)
+Processing chunk 79 with dimensions [316, 320)
+Processing chunk 80 with dimensions [320, 324)
+Processing chunk 81 with dimensions [324, 328)
+Processing chunk 82 with dimensions [328, 332)
+Processing chunk 83 with dimensions [332, 336)
+Processing chunk 84 with dimensions [336, 340)
+Processing chunk 85 with dimensions [340, 344)
+Processing chunk 86 with dimensions [344, 348)
+Processing chunk 87 with dimensions [348, 352)
+Processing chunk 88 with dimensions [352, 356)
+Processing chunk 89 with dimensions [356, 360)
+Processing chunk 90 with dimensions [360, 364)
+Processing chunk 91 with dimensions [364, 368)
+Processing chunk 92 with dimensions [368, 372)
+Processing chunk 93 with dimensions [372, 376)
+Processing chunk 94 with dimensions [376, 380)
+Processing chunk 95 with dimensions [380, 384)
+Processing chunk 96 with dimensions [384, 388)
+Processing chunk 97 with dimensions [388, 392)
+Processing chunk 98 with dimensions [392, 396)
+Processing chunk 99 with dimensions [396, 400)
+Processing chunk 100 with dimensions [400, 404)
+Processing chunk 101 with dimensions [404, 408)
+Processing chunk 102 with dimensions [408, 412)
+Processing chunk 103 with dimensions [412, 416)
+Processing chunk 104 with dimensions [416, 420)
+Processing chunk 105 with dimensions [420, 424)
+Processing chunk 106 with dimensions [424, 428)
+Processing chunk 107 with dimensions [428, 432)
+Processing chunk 108 with dimensions [432, 436)
+Processing chunk 109 with dimensions [436, 440)
+Processing chunk 110 with dimensions [440, 444)
+Processing chunk 111 with dimensions [444, 448)
+Processing chunk 112 with dimensions [448, 452)
+Processing chunk 113 with dimensions [452, 456)
+Processing chunk 114 with dimensions [456, 460)
+Processing chunk 115 with dimensions [460, 464)
+Processing chunk 116 with dimensions [464, 468)
+Processing chunk 117 with dimensions [468, 472)
+Processing chunk 118 with dimensions [472, 476)
+Processing chunk 119 with dimensions [476, 480)
+Processing chunk 120 with dimensions [480, 484)
+Processing chunk 121 with dimensions [484, 488)
+Processing chunk 122 with dimensions [488, 492)
+Processing chunk 123 with dimensions [492, 496)
+Processing chunk 124 with dimensions [496, 500)
+Processing chunk 125 with dimensions [500, 504)
+Processing chunk 126 with dimensions [504, 508)
+Processing chunk 127 with dimensions [508, 512)
+Processing chunk 128 with dimensions [512, 516)
+Processing chunk 129 with dimensions [516, 520)
+Processing chunk 130 with dimensions [520, 524)
+Processing chunk 131 with dimensions [524, 528)
+Processing chunk 132 with dimensions [528, 532)
+Processing chunk 133 with dimensions [532, 536)
+Processing chunk 134 with dimensions [536, 540)
+Processing chunk 135 with dimensions [540, 544)
+Processing chunk 136 with dimensions [544, 548)
+Processing chunk 137 with dimensions [548, 552)
+Processing chunk 138 with dimensions [552, 556)
+Processing chunk 139 with dimensions [556, 560)
+Processing chunk 140 with dimensions [560, 564)
+Processing chunk 141 with dimensions [564, 568)
+Processing chunk 142 with dimensions [568, 572)
+Processing chunk 143 with dimensions [572, 576)
+Processing chunk 144 with dimensions [576, 580)
+Processing chunk 145 with dimensions [580, 584)
+Processing chunk 146 with dimensions [584, 588)
+Processing chunk 147 with dimensions [588, 592)
+Processing chunk 148 with dimensions [592, 596)
+Processing chunk 149 with dimensions [596, 600)
+Processing chunk 150 with dimensions [600, 604)
+Processing chunk 151 with dimensions [604, 608)
+Processing chunk 152 with dimensions [608, 612)
+Processing chunk 153 with dimensions [612, 616)
+Processing chunk 154 with dimensions [616, 620)
+Processing chunk 155 with dimensions [620, 624)
+Processing chunk 156 with dimensions [624, 628)
+Processing chunk 157 with dimensions [628, 632)
+Processing chunk 158 with dimensions [632, 636)
+Processing chunk 159 with dimensions [636, 640)
+Processing chunk 160 with dimensions [640, 644)
+Processing chunk 161 with dimensions [644, 648)
+Processing chunk 162 with dimensions [648, 652)
+Processing chunk 163 with dimensions [652, 656)
+Processing chunk 164 with dimensions [656, 660)
+Processing chunk 165 with dimensions [660, 664)
+Processing chunk 166 with dimensions [664, 668)
+Processing chunk 167 with dimensions [668, 672)
+Processing chunk 168 with dimensions [672, 676)
+Processing chunk 169 with dimensions [676, 680)
+Processing chunk 170 with dimensions [680, 684)
+Processing chunk 171 with dimensions [684, 688)
+Processing chunk 172 with dimensions [688, 692)
+Processing chunk 173 with dimensions [692, 696)
+Processing chunk 174 with dimensions [696, 700)
+Processing chunk 175 with dimensions [700, 704)
+Processing chunk 176 with dimensions [704, 708)
+Processing chunk 177 with dimensions [708, 712)
+Processing chunk 178 with dimensions [712, 716)
+Processing chunk 179 with dimensions [716, 720)
+Processing chunk 180 with dimensions [720, 724)
+Processing chunk 181 with dimensions [724, 728)
+Processing chunk 182 with dimensions [728, 732)
+Processing chunk 183 with dimensions [732, 736)
+Processing chunk 184 with dimensions [736, 740)
+Processing chunk 185 with dimensions [740, 744)
+Processing chunk 186 with dimensions [744, 748)
+Processing chunk 187 with dimensions [748, 752)
+Processing chunk 188 with dimensions [752, 756)
+Processing chunk 189 with dimensions [756, 760)
+Processing chunk 190 with dimensions [760, 764)
+Processing chunk 191 with dimensions [764, 768)
+Processing chunk 192 with dimensions [768, 772)
+Processing chunk 193 with dimensions [772, 776)
+Processing chunk 194 with dimensions [776, 780)
+Processing chunk 195 with dimensions [780, 784)
+Processing chunk 196 with dimensions [784, 788)
+Processing chunk 197 with dimensions [788, 792)
+Processing chunk 198 with dimensions [792, 796)
+Processing chunk 199 with dimensions [796, 800)
+Processing chunk 200 with dimensions [800, 804)
+Processing chunk 201 with dimensions [804, 808)
+Processing chunk 202 with dimensions [808, 812)
+Processing chunk 203 with dimensions [812, 816)
+Processing chunk 204 with dimensions [816, 820)
+Processing chunk 205 with dimensions [820, 824)
+Processing chunk 206 with dimensions [824, 828)
+Processing chunk 207 with dimensions [828, 832)
+Processing chunk 208 with dimensions [832, 836)
+Processing chunk 209 with dimensions [836, 840)
+Processing chunk 210 with dimensions [840, 844)
+Processing chunk 211 with dimensions [844, 848)
+Processing chunk 212 with dimensions [848, 852)
+Processing chunk 213 with dimensions [852, 856)
+Processing chunk 214 with dimensions [856, 860)
+Processing chunk 215 with dimensions [860, 864)
+Processing chunk 216 with dimensions [864, 868)
+Processing chunk 217 with dimensions [868, 872)
+Processing chunk 218 with dimensions [872, 876)
+Processing chunk 219 with dimensions [876, 880)
+Processing chunk 220 with dimensions [880, 884)
+Processing chunk 221 with dimensions [884, 888)
+Processing chunk 222 with dimensions [888, 892)
+Processing chunk 223 with dimensions [892, 896)
+Processing chunk 224 with dimensions [896, 900)
+Processing chunk 225 with dimensions [900, 904)
+Processing chunk 226 with dimensions [904, 908)
+Processing chunk 227 with dimensions [908, 912)
+Processing chunk 228 with dimensions [912, 916)
+Processing chunk 229 with dimensions [916, 920)
+Processing chunk 230 with dimensions [920, 924)
+Processing chunk 231 with dimensions [924, 928)
+Processing chunk 232 with dimensions [928, 932)
+Processing chunk 233 with dimensions [932, 936)
+Processing chunk 234 with dimensions [936, 940)
+Processing chunk 235 with dimensions [940, 944)
+Processing chunk 236 with dimensions [944, 948)
+Processing chunk 237 with dimensions [948, 952)
+Processing chunk 238 with dimensions [952, 956)
+Processing chunk 239 with dimensions [956, 960)
+Writing bin: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin
+bin: #pts = 256, #dims = 960, size = 983048B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin
+bin: #pts = 960, #dims = 1, size = 3848B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin
+bin: #pts = 241, #dims = 1, size = 972B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin of size 991964B.
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin... 
+Metadata: #pts = 256, #dims = 960...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin... 
+Metadata: #pts = 960, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin... 
+Metadata: #pts = 241, #dims = 1...
+done.
+Loaded PQ pivot information
+tcmalloc: large alloc 3840000000 bytes == 0x562afca40000 @  0x7f6079579680 0x7f6079599ff4 0x56294ee7ff2e 0x56294ee8632d 0x56294ee899ad 0x56294ef17d7d 0x56294ec27e61 0x56294ea0eaeb 0x56294ea11cd9 0x56294e9d1637 0x7f6071830083 0x56294e9d215e
+tcmalloc: large alloc 3840000000 bytes == 0x562c8daf0000 @  0x7f6079579680 0x7f6079599ff4 0x56294ee7ff2e 0x56294ee86343 0x56294ee899ad 0x56294ef17d7d 0x56294ec27e61 0x56294ea0eaeb 0x56294ea11cd9 0x56294e9d1637 0x7f6071830083 0x56294e9d215e
+tcmalloc: large alloc 3840000000 bytes == 0x562d7290c000 @  0x7f6079579680 0x7f6079599ff4 0x56294ee7ff2e 0x56294ee86352 0x56294ee899ad 0x56294ef17d7d 0x56294ec27e61 0x56294ea0eaeb 0x56294ea11cd9 0x56294e9d1637 0x7f6071830083 0x56294e9d215e
+Processing points  [0, 1000000)...done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 987144 990992 991964
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin... 
+Metadata: #pts = 256, #dims = 960...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin... 
+Metadata: #pts = 960, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/data/gist/gist_base.fbinpq240_pivots.bin... 
+Metadata: #pts = 241, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 960, #chunks: 240
+Using only first 1000000 from file.. 
+Starting index build with 1000000 points... 
+0% of index build completed.10% of index build completed.20% of index build completed.30% of index build completed.40% of index build completed.50% of index build completed.60% of index build completed.70% of index build completed.80% of index build completed.90% of index build completed.Starting final cleanup..done. Link time: 103.057s
+Index built with degree: max:64  avg:64  min:54  count(deg<2):0
+Not saving tags as they are not enabled.
+Time taken for save: 2.93951s.
+Time for building merged vamana index: 388.065643 seconds
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Vamana index file size=259999984
+Opened: save/gist/test2/disk_index_gist_base_R64_L100_A1.2_disk.index, cache_size: 67108864
+medoid: 356422B
+max_node_len: 4100B
+nnodes_per_sector: 0B
+# sectors: 2000000
+Sector #0written
+Sector #100000written
+Sector #200000written
+Sector #300000written
+Sector #400000written
+Sector #500000written
+Sector #600000written
+Sector #700000written
+Sector #800000written
+Sector #900000written
+Sector #1000000written
+Sector #1100000written
+Sector #1200000written
+Sector #1300000written
+Sector #1400000written
+Sector #1500000written
+Sector #1600000written
+Sector #1700000written
+Sector #1800000written
+Sector #1900000written
+Finished writing 8192004096B
+Writing bin: save/gist/test2/disk_index_gist_base_R64_L100_A1.2_disk.index
+bin: #pts = 9, #dims = 1, size = 80B
+Finished writing bin.
+Output disk index file written to save/gist/test2/disk_index_gist_base_R64_L100_A1.2_disk.index
+Finished writing 8192004096B
+Time for generating disk layout: 20.315636 seconds
+Opened: /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin, size: 3840000008, cache_size: 67108864
+Loading base /mnt/data/DiskANN-main/build/data/gist/gist_base.fbin. #points: 1000000. #dim: 960.
+Wrote 99825 points to sample file: save/gist/test2/disk_index_gist_base_R64_L100_A1.2_sample_data.bin
+Indexing time: 490.076
+Search parameters: #threads: 1,  beamwidth: 2.
+Reading (with alignment) bin file /mnt/data/data/query20k.fbin ...Metadata: #pts = 20000, #dims = 512, aligned_dim = 512... allocating aligned memory of 40960000 bytes... done. Copying data to mem_aligned buffer... done.
+Opened: /mnt/data/data/data_query_index_gt100, size: 16000008, cache_size: 16000008
+Reading truthset file /mnt/data/data/data_query_index_gt100 ...
+Metadata: #pts = 20000, #dims = 100... 
+L2: Using AVX2 distance computation DistanceL2Float
+L2: Using AVX2 distance computation DistanceL2Float
+Reading bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_compressed.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_compressed.bin... 
+Metadata: #pts = 10000000, #dims = 144...
+tcmalloc: large alloc 1440006144 bytes == 0x55af919aa000 @  0x7f6008c0a680 0x7f6008c2aff4 0x55af8c04f6b4 0x55af8c06783d 0x55af8c06983a 0x55af8bb932b7 0x55af8bb79663 0x7f6000ee2083 0x55af8bb7a3ee
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 528392 530448 531036
+Reading bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 256, #dims = 512...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 512, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 145, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 512, #chunks: 144
+Loaded PQ centroids and in-memory compressed vectors. #points: 10000000 #dim: 512 #aligned_dim: 512 #chunks: 144
+Disk-Index File Meta-data: # nodes per sector: 1, max node len (bytes): 2308, max node degree: 64
+Opened file : /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_disk.index
+Setting up thread-specific contexts for nthreads: 1
+allocating ctx: 0x7f60006fa000 to thread-id:140050308680832
+Loading centroid data from medoids vector data of 1 medoid(s)
+done..
+Caching 10000 nodes around medoid(s)
+Caching 10000...
+Level: 1.. #nodes: 1, #nodes thus far: 1
+Level: 2.. #nodes: 64, #nodes thus far: 65
+Level: 3.. #nodes: 3926, #nodes thus far: 3991
+Level: 4. #nodes: 6009, #nodes thus far: 10000
+done
+Loading the cache list into memory....done.
+     L   Beamwidth             QPS    Mean Latency    99.9 Latency        Mean IOs         CPU (s)        Recall@1
+======================================================================================================================
+     5           2          543.62         1786.12         4668.00           13.66           94.00           82.95
+    10           2          411.06         2378.56         5357.00           18.55          119.42           87.33
+    20           2          280.14         3513.65         7321.00           28.06          168.97           90.27
+    30           2          207.73         4756.77         9462.00           37.94          219.90           91.70
+    40           2          165.50         5973.30        11339.00           47.57          264.63           92.42
+    50           2          133.66         7410.98        14513.00           59.09          320.39           92.88
+    60           2          114.71         8645.87        15660.00           68.56          368.34           93.25
+    80           2           91.42        10863.74        19254.00           87.28          461.68           93.92
+   100           2           75.71        13130.53        23019.00          106.92          559.10           94.30
+   150           2           51.71        19239.45        30542.00          156.41          787.37           94.81
+   200           2           39.74        25060.46        36403.00          205.93         1024.94           95.12
+   250           2           31.70        31435.47        43102.00          255.66         1266.73           95.34
+Done searching. Now saving results 
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_5_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_5_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_10_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_10_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_20_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_20_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_30_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_30_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_40_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_40_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_50_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_50_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_60_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_60_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_80_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_80_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_100_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_100_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_150_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_150_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_200_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_200_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_250_idx_uint32.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_250_dists_float.bin
+bin: #pts = 20000, #dims = 1, size = 80008B
+Finished writing bin.
+Clearing scratch
+Search parameters: #threads: 1,  beamwidth: 2.
+Reading (with alignment) bin file /mnt/data/data/query20k.fbin ...Metadata: #pts = 20000, #dims = 512, aligned_dim = 512... allocating aligned memory of 40960000 bytes... done. Copying data to mem_aligned buffer... done.
+Opened: /mnt/data/data/data_query_index_gt100, size: 16000008, cache_size: 16000008
+Reading truthset file /mnt/data/data/data_query_index_gt100 ...
+Metadata: #pts = 20000, #dims = 100... 
+L2: Using AVX2 distance computation DistanceL2Float
+L2: Using AVX2 distance computation DistanceL2Float
+Reading bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_compressed.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_compressed.bin... 
+Metadata: #pts = 10000000, #dims = 144...
+tcmalloc: large alloc 1440006144 bytes == 0x562d6258e000 @  0x7f086b7e2680 0x7f086b802ff4 0x562d5c3b46b4 0x562d5c3cc83d 0x562d5c3ce83a 0x562d5bef82b7 0x562d5bede663 0x7f0863aba083 0x562d5bedf3ee
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 528392 530448 531036
+Reading bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 256, #dims = 512...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 512, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 145, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 512, #chunks: 144
+Loaded PQ centroids and in-memory compressed vectors. #points: 10000000 #dim: 512 #aligned_dim: 512 #chunks: 144
+Disk-Index File Meta-data: # nodes per sector: 1, max node len (bytes): 2308, max node degree: 64
+Opened file : /mnt/data/DiskANN-main/build/save/data/test1/disk_index_data_learn_R64_L100_A1.2_disk.index
+Setting up thread-specific contexts for nthreads: 1
+allocating ctx: 0x7f08632d2000 to thread-id:139674008145024
+Loading centroid data from medoids vector data of 1 medoid(s)
+done..
+Caching 10000 nodes around medoid(s)
+Caching 10000...
+Level: 1.. #nodes: 1, #nodes thus far: 1
+Level: 2.. #nodes: 64, #nodes thus far: 65
+Level: 3.. #nodes: 3926, #nodes thus far: 3991
+Level: 4. #nodes: 6009, #nodes thus far: 10000
+done
+Loading the cache list into memory....done.
+     L   Beamwidth             QPS    Mean Latency    99.9 Latency        Mean IOs         CPU (s)       Recall@10
+======================================================================================================================
+    20           2          277.87         3544.89         7428.00           28.06          165.90           88.90
+    30           2          208.73         4735.40         9156.00           37.94          216.35           91.51
+    40           2          164.27         6023.17        11501.00           47.57          261.51           92.65
+    50           2          134.09         7391.15        14927.00           59.09          315.77           94.80
+    60           2          115.93         8557.80        15428.00           68.56          363.60           95.24
+    80           2           90.63        10963.98        18800.00           87.28          455.40           95.89
+   100           2           75.41        13188.96        22414.00          106.92          551.21           96.26
+   150           2           52.15        19078.06        30982.00          156.41          787.73           96.79
+   200           2           39.08        25488.36        37333.00          205.93         1024.40           97.03
+   250           2           31.44        31698.66        43941.00          255.66         1262.92           97.19
+   300           2           26.94        37002.00        49461.00          305.44         1498.50           97.32
+   400           2           20.16        49468.75        62271.00          405.07         1941.68           97.49
+Done searching. Now saving results 
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_20_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_20_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_30_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_30_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_40_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_40_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_50_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_50_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_60_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_60_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_80_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_80_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_100_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_100_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_150_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_150_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_200_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_200_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_250_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_250_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_300_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_300_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_400_idx_uint32.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/data/test1/res_400_dists_float.bin
+bin: #pts = 20000, #dims = 10, size = 800008B
+Finished writing bin.
+Clearing scratch

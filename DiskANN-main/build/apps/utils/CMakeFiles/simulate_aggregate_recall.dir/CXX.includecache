@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/data/DiskANN-main/apps/utils/simulate_aggregate_recall.cpp
+iostream
+-
+cstdlib
+-
+random
+-
+cmath
+-
+

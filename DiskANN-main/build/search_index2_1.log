@@ -1,0 +1,267 @@
+nohup: ignoring input
+Search parameters: #threads: 1,  beamwidth: 2.
+Reading (with alignment) bin file /mnt/data/data/query2.fbin ...Metadata: #pts = 16293, #dims = 512, aligned_dim = 512... allocating aligned memory of 33368064 bytes... done. Copying data to mem_aligned buffer... done.
+Opened: /mnt/data/data/query_gt2.bin, size: 13034408, cache_size: 13034408
+Reading truthset file /mnt/data/data/query_gt2.bin ...
+Metadata: #pts = 16293, #dims = 100... 
+L2: Using AVX2 distance computation DistanceL2Float
+L2: Using AVX2 distance computation DistanceL2Float
+Reading bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_compressed.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_compressed.bin... 
+Metadata: #pts = 11288930, #dims = 128...
+tcmalloc: large alloc 1444986880 bytes == 0x55d076a18000 @  0x7feaca2af680 0x7feaca2cfff4 0x55d071e596b4 0x55d071e7183d 0x55d071e7383a 0x55d07199d2b7 0x55d071983663 0x7feac2587083 0x55d0719843ee
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 528392 530448 530972
+Reading bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 256, #dims = 512...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 512, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 129, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 512, #chunks: 128
+Loaded PQ centroids and in-memory compressed vectors. #points: 11288930 #dim: 512 #aligned_dim: 512 #chunks: 128
+Disk-Index File Meta-data: # nodes per sector: 1, max node len (bytes): 2308, max node degree: 64
+Opened file : /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_disk.index
+Setting up thread-specific contexts for nthreads: 1
+allocating ctx: 0x7feac1d9f000 to thread-id:140646259137664
+Loading centroid data from medoids vector data of 1 medoid(s)
+done..
+Caching 10000 nodes around medoid(s)
+Caching 10000...
+Level: 1.. #nodes: 1, #nodes thus far: 1
+Level: 2.. #nodes: 64, #nodes thus far: 65
+Level: 3.. #nodes: 3835, #nodes thus far: 3900
+Level: 4. #nodes: 6100, #nodes thus far: 10000
+done
+Loading the cache list into memory....done.
+     L   Beamwidth             QPS    Mean Latency    99.9 Latency        Mean IOs         CPU (s)        Recall@1
+======================================================================================================================
+     5           2          542.12         1794.52         4240.00           14.00           87.18           81.13
+    10           2          421.63         2320.52         5533.00           18.73          110.68           86.11
+    20           2          281.39         3500.21         7289.00           28.26          156.04           89.68
+    30           2          213.40         4627.61         9184.00           37.90          201.08           91.24
+    40           2          169.84         5823.40        11222.00           47.68          242.93           92.04
+    50           2          141.93         6979.65        12609.00           57.49          288.54           92.58
+    60           2          123.23         8046.94        15030.00           67.35          333.09           92.95
+    80           2           94.58        10502.12        18925.00           87.09          420.70           93.47
+   100           2           77.92        12746.05        21346.00          106.91          502.95           93.78
+   150           2           53.79        18495.18        30514.00          156.56          717.53           94.36
+   200           2           40.75        24429.43        36497.00          206.22          926.51           94.68
+   250           2           32.96        30202.66        42734.00          255.92         1134.02           94.91
+Done searching. Now saving results 
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_5_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_5_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_10_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_10_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_20_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_20_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_30_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_30_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_40_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_40_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_50_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_50_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_60_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_60_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_80_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_80_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_100_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_100_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_150_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_150_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_200_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_200_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_250_idx_uint32.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_250_dists_float.bin
+bin: #pts = 16293, #dims = 1, size = 65180B
+Finished writing bin.
+Clearing scratch
+Search parameters: #threads: 1,  beamwidth: 2.
+Reading (with alignment) bin file /mnt/data/data/query2.fbin ...Metadata: #pts = 16293, #dims = 512, aligned_dim = 512... allocating aligned memory of 33368064 bytes... done. Copying data to mem_aligned buffer... done.
+Opened: /mnt/data/data/query_gt2.bin, size: 13034408, cache_size: 13034408
+Reading truthset file /mnt/data/data/query_gt2.bin ...
+Metadata: #pts = 16293, #dims = 100... 
+L2: Using AVX2 distance computation DistanceL2Float
+L2: Using AVX2 distance computation DistanceL2Float
+Reading bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_compressed.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_compressed.bin... 
+Metadata: #pts = 11288930, #dims = 128...
+tcmalloc: large alloc 1444986880 bytes == 0x556a53afe000 @  0x7fcbb5e14680 0x7fcbb5e34ff4 0x556a4e1ff6b4 0x556a4e21783d 0x556a4e21983a 0x556a4dd432b7 0x556a4dd29663 0x7fcbae0ec083 0x556a4dd2a3ee
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 528392 530448 530972
+Reading bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 256, #dims = 512...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 512, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 129, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 512, #chunks: 128
+Loaded PQ centroids and in-memory compressed vectors. #points: 11288930 #dim: 512 #aligned_dim: 512 #chunks: 128
+Disk-Index File Meta-data: # nodes per sector: 1, max node len (bytes): 2308, max node degree: 64
+Opened file : /mnt/data/DiskANN-main/build/save/index2/test1/disk_index_data_learn_R64_L100_A1.2_disk.index
+Setting up thread-specific contexts for nthreads: 1
+allocating ctx: 0x7fcbad904000 to thread-id:140512774777984
+Loading centroid data from medoids vector data of 1 medoid(s)
+done..
+Caching 10000 nodes around medoid(s)
+Caching 10000...
+Level: 1.. #nodes: 1, #nodes thus far: 1
+Level: 2.. #nodes: 64, #nodes thus far: 65
+Level: 3.. #nodes: 3835, #nodes thus far: 3900
+Level: 4. #nodes: 6100, #nodes thus far: 10000
+done
+Loading the cache list into memory....done.
+     L   Beamwidth             QPS    Mean Latency    99.9 Latency        Mean IOs         CPU (s)       Recall@10
+======================================================================================================================
+    20           2          281.56         3498.19         7548.00           28.26          156.05           88.25
+    30           2          215.25         4587.50         9161.00           37.90          201.38           91.49
+    40           2          172.35         5737.78        11042.00           47.68          242.88           92.91
+    50           2          143.99         6878.44        12881.00           57.49          287.49           93.76
+    60           2          123.25         8045.25        14529.00           67.35          331.85           94.29
+    80           2           95.64        10384.70        18579.00           87.09          419.83           94.96
+   100           2           77.35        12839.76        22694.00          106.91          502.11           95.34
+   150           2           53.21        18698.47        30677.00          156.56          714.82           95.89
+   200           2           41.04        24251.81        35876.00          206.22          925.27           96.13
+   250           2           33.25        29934.84        41867.00          255.92         1130.96           96.31
+   300           2           27.90        35702.03        48240.00          305.75         1338.60           96.43
+   400           2           20.04        49749.02        69653.00          405.32         1759.13           96.57
+Done searching. Now saving results 
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_20_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_20_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_30_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_30_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_40_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_40_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_50_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_50_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_60_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_60_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_80_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_80_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_100_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_100_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_150_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_150_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_200_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_200_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_250_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_250_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_300_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_300_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_400_idx_uint32.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/index2/test1/res_400_dists_float.bin
+bin: #pts = 16293, #dims = 10, size = 651728B
+Finished writing bin.
+Clearing scratch

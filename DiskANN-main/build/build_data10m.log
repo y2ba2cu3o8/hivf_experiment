@@ -1,0 +1,511 @@
+nohup: ignoring input
+Starting index build: R=64 L=100 Query RAM budget: 1.44955e+09 Indexing ram budget: 64 T: 32
+Compressing 512-dimensional data into 144 bytes per vector.
+Opened: /mnt/data/data/index10m.fbin, size: 20480000008, cache_size: 67108864
+Training data with 256350 samples loaded.
+Processing chunk 0 with dimensions [0, 4)
+Processing chunk 1 with dimensions [4, 8)
+Processing chunk 2 with dimensions [8, 12)
+Processing chunk 3 with dimensions [12, 16)
+Processing chunk 4 with dimensions [16, 20)
+Processing chunk 5 with dimensions [20, 24)
+Processing chunk 6 with dimensions [24, 28)
+Processing chunk 7 with dimensions [28, 32)
+Processing chunk 8 with dimensions [32, 36)
+Processing chunk 9 with dimensions [36, 40)
+Processing chunk 10 with dimensions [40, 44)
+Processing chunk 11 with dimensions [44, 48)
+Processing chunk 12 with dimensions [48, 52)
+Processing chunk 13 with dimensions [52, 56)
+Processing chunk 14 with dimensions [56, 60)
+Processing chunk 15 with dimensions [60, 64)
+Processing chunk 16 with dimensions [64, 68)
+Processing chunk 17 with dimensions [68, 72)
+Processing chunk 18 with dimensions [72, 76)
+Processing chunk 19 with dimensions [76, 80)
+Processing chunk 20 with dimensions [80, 84)
+Processing chunk 21 with dimensions [84, 88)
+Processing chunk 22 with dimensions [88, 92)
+Processing chunk 23 with dimensions [92, 96)
+Processing chunk 24 with dimensions [96, 100)
+Processing chunk 25 with dimensions [100, 104)
+Processing chunk 26 with dimensions [104, 108)
+Processing chunk 27 with dimensions [108, 112)
+Processing chunk 28 with dimensions [112, 116)
+Processing chunk 29 with dimensions [116, 120)
+Processing chunk 30 with dimensions [120, 124)
+Processing chunk 31 with dimensions [124, 128)
+Processing chunk 32 with dimensions [128, 132)
+Processing chunk 33 with dimensions [132, 136)
+Processing chunk 34 with dimensions [136, 140)
+Processing chunk 35 with dimensions [140, 144)
+Processing chunk 36 with dimensions [144, 148)
+Processing chunk 37 with dimensions [148, 152)
+Processing chunk 38 with dimensions [152, 156)
+Processing chunk 39 with dimensions [156, 160)
+Processing chunk 40 with dimensions [160, 164)
+Processing chunk 41 with dimensions [164, 168)
+Processing chunk 42 with dimensions [168, 172)
+Processing chunk 43 with dimensions [172, 176)
+Processing chunk 44 with dimensions [176, 180)
+Processing chunk 45 with dimensions [180, 184)
+Processing chunk 46 with dimensions [184, 188)
+Processing chunk 47 with dimensions [188, 192)
+Processing chunk 48 with dimensions [192, 196)
+Processing chunk 49 with dimensions [196, 200)
+Processing chunk 50 with dimensions [200, 204)
+Processing chunk 51 with dimensions [204, 208)
+Processing chunk 52 with dimensions [208, 212)
+Processing chunk 53 with dimensions [212, 216)
+Processing chunk 54 with dimensions [216, 220)
+Processing chunk 55 with dimensions [220, 224)
+Processing chunk 56 with dimensions [224, 228)
+Processing chunk 57 with dimensions [228, 232)
+Processing chunk 58 with dimensions [232, 236)
+Processing chunk 59 with dimensions [236, 240)
+Processing chunk 60 with dimensions [240, 244)
+Processing chunk 61 with dimensions [244, 248)
+Processing chunk 62 with dimensions [248, 252)
+Processing chunk 63 with dimensions [252, 256)
+Processing chunk 64 with dimensions [256, 260)
+Processing chunk 65 with dimensions [260, 264)
+Processing chunk 66 with dimensions [264, 268)
+Processing chunk 67 with dimensions [268, 272)
+Processing chunk 68 with dimensions [272, 276)
+Processing chunk 69 with dimensions [276, 280)
+Processing chunk 70 with dimensions [280, 284)
+Processing chunk 71 with dimensions [284, 288)
+Processing chunk 72 with dimensions [288, 292)
+Processing chunk 73 with dimensions [292, 296)
+Processing chunk 74 with dimensions [296, 300)
+Processing chunk 75 with dimensions [300, 304)
+Processing chunk 76 with dimensions [304, 308)
+Processing chunk 77 with dimensions [308, 312)
+Processing chunk 78 with dimensions [312, 316)
+Processing chunk 79 with dimensions [316, 320)
+Processing chunk 80 with dimensions [320, 323)
+Processing chunk 81 with dimensions [323, 326)
+Processing chunk 82 with dimensions [326, 329)
+Processing chunk 83 with dimensions [329, 332)
+Processing chunk 84 with dimensions [332, 335)
+Processing chunk 85 with dimensions [335, 338)
+Processing chunk 86 with dimensions [338, 341)
+Processing chunk 87 with dimensions [341, 344)
+Processing chunk 88 with dimensions [344, 347)
+Processing chunk 89 with dimensions [347, 350)
+Processing chunk 90 with dimensions [350, 353)
+Processing chunk 91 with dimensions [353, 356)
+Processing chunk 92 with dimensions [356, 359)
+Processing chunk 93 with dimensions [359, 362)
+Processing chunk 94 with dimensions [362, 365)
+Processing chunk 95 with dimensions [365, 368)
+Processing chunk 96 with dimensions [368, 371)
+Processing chunk 97 with dimensions [371, 374)
+Processing chunk 98 with dimensions [374, 377)
+Processing chunk 99 with dimensions [377, 380)
+Processing chunk 100 with dimensions [380, 383)
+Processing chunk 101 with dimensions [383, 386)
+Processing chunk 102 with dimensions [386, 389)
+Processing chunk 103 with dimensions [389, 392)
+Processing chunk 104 with dimensions [392, 395)
+Processing chunk 105 with dimensions [395, 398)
+Processing chunk 106 with dimensions [398, 401)
+Processing chunk 107 with dimensions [401, 404)
+Processing chunk 108 with dimensions [404, 407)
+Processing chunk 109 with dimensions [407, 410)
+Processing chunk 110 with dimensions [410, 413)
+Processing chunk 111 with dimensions [413, 416)
+Processing chunk 112 with dimensions [416, 419)
+Processing chunk 113 with dimensions [419, 422)
+Processing chunk 114 with dimensions [422, 425)
+Processing chunk 115 with dimensions [425, 428)
+Processing chunk 116 with dimensions [428, 431)
+Processing chunk 117 with dimensions [431, 434)
+Processing chunk 118 with dimensions [434, 437)
+Processing chunk 119 with dimensions [437, 440)
+Processing chunk 120 with dimensions [440, 443)
+Processing chunk 121 with dimensions [443, 446)
+Processing chunk 122 with dimensions [446, 449)
+Processing chunk 123 with dimensions [449, 452)
+Processing chunk 124 with dimensions [452, 455)
+Processing chunk 125 with dimensions [455, 458)
+Processing chunk 126 with dimensions [458, 461)
+Processing chunk 127 with dimensions [461, 464)
+Processing chunk 128 with dimensions [464, 467)
+Processing chunk 129 with dimensions [467, 470)
+Processing chunk 130 with dimensions [470, 473)
+Processing chunk 131 with dimensions [473, 476)
+Processing chunk 132 with dimensions [476, 479)
+Processing chunk 133 with dimensions [479, 482)
+Processing chunk 134 with dimensions [482, 485)
+Processing chunk 135 with dimensions [485, 488)
+Processing chunk 136 with dimensions [488, 491)
+Processing chunk 137 with dimensions [491, 494)
+Processing chunk 138 with dimensions [494, 497)
+Processing chunk 139 with dimensions [497, 500)
+Processing chunk 140 with dimensions [500, 503)
+Processing chunk 141 with dimensions [503, 506)
+Processing chunk 142 with dimensions [506, 509)
+Processing chunk 143 with dimensions [509, 512)
+Writing bin: save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 256, #dims = 512, size = 524296B
+Finished writing bin.
+Writing bin: save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 512, #dims = 1, size = 2056B
+Finished writing bin.
+Writing bin: save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 145, #dims = 1, size = 588B
+Finished writing bin.
+Writing bin: save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin of size 531036B.
+Opened: /mnt/data/data/index10m.fbin, size: 20480000008, cache_size: 67108864
+Reading bin file save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 256, #dims = 512...
+done.
+Reading bin file save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 512, #dims = 1...
+done.
+Reading bin file save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/data/test1/disk_index_data_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 145, #dims = 1...
+done.
+Loaded PQ pivot information
+tcmalloc: large alloc 2880004096 bytes == 0x555d488c4000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4b18f8e 0x555cf4b1f2f6 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 10240000000 bytes == 0x555df4b5a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4b18f2e 0x555cf4b1f32d 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 10240000000 bytes == 0x5560578fa000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4b18f2e 0x555cf4b1f343 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 10240000000 bytes == 0x5562ba69a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4b18f2e 0x555cf4b1f352 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+Processing points  [0, 5000000)..tcmalloc: large alloc 5120000000 bytes == 0x55651d43a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4bc803e 0x555cf4b1fd27 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 5120000000 bytes == 0x55651d43a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4bc803e 0x555cf4b1fd27 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 5120000000 bytes == 0x55651d43a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4bc803e 0x555cf4b1fd27 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 5120000000 bytes == 0x55651d43a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4bc803e 0x555cf4b1fd27 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 5120000000 bytes == 0x55651d43a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4bc803e 0x555cf4b1fd27 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 5120000000 bytes == 0x55651d43a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4bc803e 0x555cf4b1fd27 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 5120000000 bytes == 0x55651d43a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4bc803e 0x555cf4b1fd27 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 5120000000 bytes == 0x55651d43a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4bc803e 0x555cf4b1fd27 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 5120000000 bytes == 0x55651d43a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4bc803e 0x555cf4b1fd27 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 5120000000 bytes == 0x55651d43a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4bc803e 0x555cf4b1fd27 0x555cf4b229ad 0x555cf46aab38 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+.done.
+Processing points  [5000000, 10000000)...done.
+Time for generating quantized data: 447.143921 seconds
+Full index fits in RAM budget, should consume at most 24.882GiBs, so building in one shot
+L2: Using AVX2 distance computation DistanceL2Float
+tcmalloc: large alloc 20480000000 bytes == 0x55664ff0a000 @  0x7fb791445680 0x7fb791466824 0x555cf4bbfe37 0x555cf4b999c1 0x555cf4ac39c3 0x555cf46a7a77 0x555cf46aacd9 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+Passed, empty search_params while creating index config
+L2: Using AVX2 distance computation DistanceL2Float
+Opened: /mnt/data/data/index10m.fbin, size: 20480000008, cache_size: 67108864
+Training data with 255825 samples loaded.
+Processing chunk 0 with dimensions [0, 4)
+Processing chunk 1 with dimensions [4, 8)
+Processing chunk 2 with dimensions [8, 12)
+Processing chunk 3 with dimensions [12, 16)
+Processing chunk 4 with dimensions [16, 20)
+Processing chunk 5 with dimensions [20, 24)
+Processing chunk 6 with dimensions [24, 28)
+Processing chunk 7 with dimensions [28, 32)
+Processing chunk 8 with dimensions [32, 36)
+Processing chunk 9 with dimensions [36, 40)
+Processing chunk 10 with dimensions [40, 44)
+Processing chunk 11 with dimensions [44, 48)
+Processing chunk 12 with dimensions [48, 52)
+Processing chunk 13 with dimensions [52, 56)
+Processing chunk 14 with dimensions [56, 60)
+Processing chunk 15 with dimensions [60, 64)
+Processing chunk 16 with dimensions [64, 68)
+Processing chunk 17 with dimensions [68, 72)
+Processing chunk 18 with dimensions [72, 76)
+Processing chunk 19 with dimensions [76, 80)
+Processing chunk 20 with dimensions [80, 84)
+Processing chunk 21 with dimensions [84, 88)
+Processing chunk 22 with dimensions [88, 92)
+Processing chunk 23 with dimensions [92, 96)
+Processing chunk 24 with dimensions [96, 100)
+Processing chunk 25 with dimensions [100, 104)
+Processing chunk 26 with dimensions [104, 108)
+Processing chunk 27 with dimensions [108, 112)
+Processing chunk 28 with dimensions [112, 116)
+Processing chunk 29 with dimensions [116, 120)
+Processing chunk 30 with dimensions [120, 124)
+Processing chunk 31 with dimensions [124, 128)
+Processing chunk 32 with dimensions [128, 132)
+Processing chunk 33 with dimensions [132, 136)
+Processing chunk 34 with dimensions [136, 140)
+Processing chunk 35 with dimensions [140, 144)
+Processing chunk 36 with dimensions [144, 148)
+Processing chunk 37 with dimensions [148, 152)
+Processing chunk 38 with dimensions [152, 156)
+Processing chunk 39 with dimensions [156, 160)
+Processing chunk 40 with dimensions [160, 164)
+Processing chunk 41 with dimensions [164, 168)
+Processing chunk 42 with dimensions [168, 172)
+Processing chunk 43 with dimensions [172, 176)
+Processing chunk 44 with dimensions [176, 180)
+Processing chunk 45 with dimensions [180, 184)
+Processing chunk 46 with dimensions [184, 188)
+Processing chunk 47 with dimensions [188, 192)
+Processing chunk 48 with dimensions [192, 196)
+Processing chunk 49 with dimensions [196, 200)
+Processing chunk 50 with dimensions [200, 204)
+Processing chunk 51 with dimensions [204, 208)
+Processing chunk 52 with dimensions [208, 212)
+Processing chunk 53 with dimensions [212, 216)
+Processing chunk 54 with dimensions [216, 220)
+Processing chunk 55 with dimensions [220, 224)
+Processing chunk 56 with dimensions [224, 228)
+Processing chunk 57 with dimensions [228, 232)
+Processing chunk 58 with dimensions [232, 236)
+Processing chunk 59 with dimensions [236, 240)
+Processing chunk 60 with dimensions [240, 244)
+Processing chunk 61 with dimensions [244, 248)
+Processing chunk 62 with dimensions [248, 252)
+Processing chunk 63 with dimensions [252, 256)
+Processing chunk 64 with dimensions [256, 260)
+Processing chunk 65 with dimensions [260, 264)
+Processing chunk 66 with dimensions [264, 268)
+Processing chunk 67 with dimensions [268, 272)
+Processing chunk 68 with dimensions [272, 276)
+Processing chunk 69 with dimensions [276, 280)
+Processing chunk 70 with dimensions [280, 284)
+Processing chunk 71 with dimensions [284, 288)
+Processing chunk 72 with dimensions [288, 292)
+Processing chunk 73 with dimensions [292, 296)
+Processing chunk 74 with dimensions [296, 300)
+Processing chunk 75 with dimensions [300, 304)
+Processing chunk 76 with dimensions [304, 308)
+Processing chunk 77 with dimensions [308, 312)
+Processing chunk 78 with dimensions [312, 316)
+Processing chunk 79 with dimensions [316, 320)
+Processing chunk 80 with dimensions [320, 324)
+Processing chunk 81 with dimensions [324, 328)
+Processing chunk 82 with dimensions [328, 332)
+Processing chunk 83 with dimensions [332, 336)
+Processing chunk 84 with dimensions [336, 340)
+Processing chunk 85 with dimensions [340, 344)
+Processing chunk 86 with dimensions [344, 348)
+Processing chunk 87 with dimensions [348, 352)
+Processing chunk 88 with dimensions [352, 356)
+Processing chunk 89 with dimensions [356, 360)
+Processing chunk 90 with dimensions [360, 364)
+Processing chunk 91 with dimensions [364, 368)
+Processing chunk 92 with dimensions [368, 372)
+Processing chunk 93 with dimensions [372, 376)
+Processing chunk 94 with dimensions [376, 380)
+Processing chunk 95 with dimensions [380, 384)
+Processing chunk 96 with dimensions [384, 388)
+Processing chunk 97 with dimensions [388, 392)
+Processing chunk 98 with dimensions [392, 396)
+Processing chunk 99 with dimensions [396, 400)
+Processing chunk 100 with dimensions [400, 404)
+Processing chunk 101 with dimensions [404, 408)
+Processing chunk 102 with dimensions [408, 412)
+Processing chunk 103 with dimensions [412, 416)
+Processing chunk 104 with dimensions [416, 420)
+Processing chunk 105 with dimensions [420, 424)
+Processing chunk 106 with dimensions [424, 428)
+Processing chunk 107 with dimensions [428, 432)
+Processing chunk 108 with dimensions [432, 436)
+Processing chunk 109 with dimensions [436, 440)
+Processing chunk 110 with dimensions [440, 444)
+Processing chunk 111 with dimensions [444, 448)
+Processing chunk 112 with dimensions [448, 452)
+Processing chunk 113 with dimensions [452, 456)
+Processing chunk 114 with dimensions [456, 460)
+Processing chunk 115 with dimensions [460, 464)
+Processing chunk 116 with dimensions [464, 468)
+Processing chunk 117 with dimensions [468, 472)
+Processing chunk 118 with dimensions [472, 476)
+Processing chunk 119 with dimensions [476, 480)
+Processing chunk 120 with dimensions [480, 484)
+Processing chunk 121 with dimensions [484, 488)
+Processing chunk 122 with dimensions [488, 492)
+Processing chunk 123 with dimensions [492, 496)
+Processing chunk 124 with dimensions [496, 500)
+Processing chunk 125 with dimensions [500, 504)
+Processing chunk 126 with dimensions [504, 508)
+Processing chunk 127 with dimensions [508, 512)
+Writing bin: /mnt/data/data/index10m.fbinpq128_pivots.bin
+bin: #pts = 256, #dims = 512, size = 524296B
+Finished writing bin.
+Writing bin: /mnt/data/data/index10m.fbinpq128_pivots.bin
+bin: #pts = 512, #dims = 1, size = 2056B
+Finished writing bin.
+Writing bin: /mnt/data/data/index10m.fbinpq128_pivots.bin
+bin: #pts = 129, #dims = 1, size = 524B
+Finished writing bin.
+Writing bin: /mnt/data/data/index10m.fbinpq128_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/data/index10m.fbinpq128_pivots.bin of size 530972B.
+Opened: /mnt/data/data/index10m.fbin, size: 20480000008, cache_size: 67108864
+Reading bin file /mnt/data/data/index10m.fbinpq128_pivots.bin ...
+Opening bin file /mnt/data/data/index10m.fbinpq128_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/data/index10m.fbinpq128_pivots.bin ...
+Opening bin file /mnt/data/data/index10m.fbinpq128_pivots.bin... 
+Metadata: #pts = 256, #dims = 512...
+done.
+Reading bin file /mnt/data/data/index10m.fbinpq128_pivots.bin ...
+Opening bin file /mnt/data/data/index10m.fbinpq128_pivots.bin... 
+Metadata: #pts = 512, #dims = 1...
+done.
+Reading bin file /mnt/data/data/index10m.fbinpq128_pivots.bin ...
+Opening bin file /mnt/data/data/index10m.fbinpq128_pivots.bin... 
+Metadata: #pts = 129, #dims = 1...
+done.
+Loaded PQ pivot information
+tcmalloc: large alloc 10240000000 bytes == 0x555df4b5a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4b18f2e 0x555cf4b1f32d 0x555cf4b229ad 0x555cf4bb0d7d 0x555cf48c0e61 0x555cf46a7aeb 0x555cf46aacd9 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 10240000000 bytes == 0x5560578fa000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4b18f2e 0x555cf4b1f343 0x555cf4b229ad 0x555cf4bb0d7d 0x555cf48c0e61 0x555cf46a7aeb 0x555cf46aacd9 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+tcmalloc: large alloc 10240000000 bytes == 0x5562ba69a000 @  0x7fb791445680 0x7fb791465ff4 0x555cf4b18f2e 0x555cf4b1f352 0x555cf4b229ad 0x555cf4bb0d7d 0x555cf48c0e61 0x555cf46a7aeb 0x555cf46aacd9 0x555cf466a637 0x7fb7896fc083 0x555cf466b15e
+Processing points  [0, 5000000)...done.
+Processing points  [5000000, 10000000)...done.
+Reading bin file /mnt/data/data/index10m.fbinpq128_pivots.bin ...
+Opening bin file /mnt/data/data/index10m.fbinpq128_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 528392 530448 530972
+Reading bin file /mnt/data/data/index10m.fbinpq128_pivots.bin ...
+Opening bin file /mnt/data/data/index10m.fbinpq128_pivots.bin... 
+Metadata: #pts = 256, #dims = 512...
+done.
+Reading bin file /mnt/data/data/index10m.fbinpq128_pivots.bin ...
+Opening bin file /mnt/data/data/index10m.fbinpq128_pivots.bin... 
+Metadata: #pts = 512, #dims = 1...
+done.
+Reading bin file /mnt/data/data/index10m.fbinpq128_pivots.bin ...
+Opening bin file /mnt/data/data/index10m.fbinpq128_pivots.bin... 
+Metadata: #pts = 129, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 512, #chunks: 128
+Using only first 10000000 from file.. 
+Starting index build with 10000000 points... 
+0% of index build completed.1% of index build completed.2% of index build completed.3% of index build completed.4% of index build completed.5% of index build completed.6% of index build completed.7% of index build completed.8% of index build completed.9% of index build completed.10% of index build completed.11% of index build completed.12% of index build completed.13% of index build completed.14% of index build completed.15% of index build completed.16% of index build completed.17% of index build completed.18% of index build completed.19% of index build completed.20% of index build completed.21% of index build completed.22% of index build completed.23% of index build completed.24% of index build completed.25% of index build completed.26% of index build completed.27% of index build completed.28% of index build completed.29% of index build completed.30% of index build completed.31% of index build completed.32% of index build completed.33% of index build completed.34% of index build completed.35% of index build completed.36% of index build completed.37% of index build completed.38% of index build completed.39% of index build completed.40% of index build completed.41% of index build completed.42% of index build completed.43% of index build completed.44% of index build completed.45% of index build completed.46% of index build completed.47% of index build completed.48% of index build completed.49% of index build completed.50% of index build completed.51% of index build completed.52% of index build completed.53% of index build completed.54% of index build completed.55% of index build completed.56% of index build completed.57% of index build completed.58% of index build completed.59% of index build completed.60% of index build completed.61% of index build completed.62% of index build completed.63% of index build completed.64% of index build completed.65% of index build completed.66% of index build completed.67% of index build completed.68% of index build completed.69% of index build completed.70% of index build completed.71% of index build completed.72% of index build completed.73% of index build completed.74% of index build completed.75% of index build completed.76% of index build completed.77% of index build completed.78% of index build completed.79% of index build completed.80% of index build completed.81% of index build completed.82% of index build completed.83% of index build completed.84% of index build completed.85% of index build completed.86% of index build completed.87% of index build completed.88% of index build completed.89% of index build completed.90% of index build completed.91% of index build completed.92% of index build completed.93% of index build completed.94% of index build completed.95% of index build completed.96% of index build completed.97% of index build completed.98% of index build completed.99% of index build completed.Starting final cleanup..done. Link time: 519.376s
+Index built with degree: max:64  avg:64  min:64  count(deg<2):0
+Not saving tags as they are not enabled.
+Time taken for save: 33.6934s.
+Time for building merged vamana index: 916.175293 seconds
+Opened: /mnt/data/data/index10m.fbin, size: 20480000008, cache_size: 67108864
+Vamana index file size=2600000024
+Opened: save/data/test1/disk_index_data_learn_R64_L100_A1.2_disk.index, cache_size: 67108864
+medoid: 8848713B
+max_node_len: 2308B
+nnodes_per_sector: 1B
+# sectors: 10000000
+Sector #0written
+Sector #100000written
+Sector #200000written
+Sector #300000written
+Sector #400000written
+Sector #500000written
+Sector #600000written
+Sector #700000written
+Sector #800000written
+Sector #900000written
+Sector #1000000written
+Sector #1100000written
+Sector #1200000written
+Sector #1300000written
+Sector #1400000written
+Sector #1500000written
+Sector #1600000written
+Sector #1700000written
+Sector #1800000written
+Sector #1900000written
+Sector #2000000written
+Sector #2100000written
+Sector #2200000written
+Sector #2300000written
+Sector #2400000written
+Sector #2500000written
+Sector #2600000written
+Sector #2700000written
+Sector #2800000written
+Sector #2900000written
+Sector #3000000written
+Sector #3100000written
+Sector #3200000written
+Sector #3300000written
+Sector #3400000written
+Sector #3500000written
+Sector #3600000written
+Sector #3700000written
+Sector #3800000written
+Sector #3900000written
+Sector #4000000written
+Sector #4100000written
+Sector #4200000written
+Sector #4300000written
+Sector #4400000written
+Sector #4500000written
+Sector #4600000written
+Sector #4700000written
+Sector #4800000written
+Sector #4900000written
+Sector #5000000written
+Sector #5100000written
+Sector #5200000written
+Sector #5300000written
+Sector #5400000written
+Sector #5500000written
+Sector #5600000written
+Sector #5700000written
+Sector #5800000written
+Sector #5900000written
+Sector #6000000written
+Sector #6100000written
+Sector #6200000written
+Sector #6300000written
+Sector #6400000written
+Sector #6500000written
+Sector #6600000written
+Sector #6700000written
+Sector #6800000written
+Sector #6900000written
+Sector #7000000written
+Sector #7100000written
+Sector #7200000written
+Sector #7300000written
+Sector #7400000written
+Sector #7500000written
+Sector #7600000written
+Sector #7700000written
+Sector #7800000written
+Sector #7900000written
+Sector #8000000written
+Sector #8100000written
+Sector #8200000written
+Sector #8300000written
+Sector #8400000written
+Sector #8500000written
+Sector #8600000written
+Sector #8700000written
+Sector #8800000written
+Sector #8900000written
+Sector #9000000written
+Sector #9100000written
+Sector #9200000written
+Sector #9300000written
+Sector #9400000written
+Sector #9500000written
+Sector #9600000written
+Sector #9700000written
+Sector #9800000written
+Sector #9900000written
+Finished writing 40960004096B
+Writing bin: save/data/test1/disk_index_data_learn_R64_L100_A1.2_disk.index
+bin: #pts = 9, #dims = 1, size = 80B
+Finished writing bin.
+Output disk index file written to save/data/test1/disk_index_data_learn_R64_L100_A1.2_disk.index
+Finished writing 40960004096B
+Time for generating disk layout: 119.878273 seconds
+Opened: /mnt/data/data/index10m.fbin, size: 20480000008, cache_size: 67108864
+Loading base /mnt/data/data/index10m.fbin. #points: 10000000. #dim: 512.
+Wrote 99660 points to sample file: save/data/test1/disk_index_data_learn_R64_L100_A1.2_sample_data.bin
+Indexing time: 1486.78

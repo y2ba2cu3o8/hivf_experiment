@@ -1,0 +1,8 @@
+src/base/stacktrace_unittest-elf_mem_image.o: src/base/elf_mem_image.cc \
+ /usr/include/stdc-predef.h src/base/elf_mem_image.h src/config.h
+
+/usr/include/stdc-predef.h:
+
+src/base/elf_mem_image.h:
+
+src/config.h:

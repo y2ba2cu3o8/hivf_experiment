@@ -1,0 +1,154 @@
+nohup: ignoring input
+Search parameters: #threads: 1,  beamwidth: 2.
+Reading (with alignment) bin file /mnt/data/SPACEV1B/queries.bbin ...Metadata: #pts = 29316, #dims = 100, aligned_dim = 104... allocating aligned memory of 3048864 bytes... done. Copying data to mem_aligned buffer... done.
+Opened: /mnt/data/SPACEV1B/spacev_query_learn_gt100, size: 23452808, cache_size: 23452808
+Reading truthset file /mnt/data/SPACEV1B/spacev_query_learn_gt100 ...
+Metadata: #pts = 29316, #dims = 100... 
+L2: Using AVX2 distance computation DistanceL2Float
+Reading bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_compressed.bin ...
+Opening bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_compressed.bin... 
+Metadata: #pts = 100000000, #dims = 100...
+tcmalloc: large alloc 10000007168 bytes == 0x55aa2b136000 @  0x7f8f48e37680 0x7f8f48e57ff4 0x55aa2664c6b4 0x55aa2665ffd5 0x55aa26661fda 0x55aa26194617 0x55aa26176809 0x7f8f4110f083 0x55aa261773ee
+done.
+Reading bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 106504 106912 107324
+Reading bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 256, #dims = 100...
+done.
+Reading bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 100, #dims = 1...
+done.
+Reading bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 101, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 100, #chunks: 100
+Loaded PQ centroids and in-memory compressed vectors. #points: 100000000 #dim: 100 #aligned_dim: 104 #chunks: 100
+Disk-Index File Meta-data: # nodes per sector: 11, max node len (bytes): 360, max node degree: 64
+Opened file : save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_disk.index
+Setting up thread-specific contexts for nthreads: 1
+allocating ctx: 0x7f8f40927000 to thread-id:140253248167040
+Loading centroid data from medoids vector data of 1 medoid(s)
+done..
+Caching 10000 nodes around medoid(s)
+Caching 10000...
+Level: 1.. #nodes: 1, #nodes thus far: 1
+Level: 2.. #nodes: 64, #nodes thus far: 65
+Level: 3.. #nodes: 4068, #nodes thus far: 4133
+Level: 4. #nodes: 5867, #nodes thus far: 10000
+done
+Loading the cache list into memory....done.
+     L   Beamwidth             QPS    Mean Latency    99.9 Latency        Mean IOs         CPU (s)       Recall@10
+======================================================================================================================
+    30           2          181.53         5465.00        13162.00           42.36          201.80           72.67
+    40           2          148.55         6671.32        14190.00           52.48          245.62           75.78
+    50           2          126.46         7840.93        16541.00           62.49          290.03           78.00
+    60           2          108.74         9125.86        19035.00           72.40          334.80           79.71
+    80           2           87.06        11407.92        21780.00           92.15          424.16           82.24
+   100           2           72.43        13720.60        24858.00          111.80          515.36           84.00
+   125           2           58.73        16905.30        29295.00          136.39          621.11           85.67
+   150           2           50.15        19804.18        32745.00          160.96          730.01           86.90
+   175           2           43.74        22719.68        35778.00          185.62          844.45           87.92
+   200           2           38.56        25784.19        39083.00          210.21          960.59           88.72
+   225           2           34.56        28772.75        42354.00          234.91         1080.65           89.41
+   250           2           31.06        32028.81        46212.00          259.59         1202.53           90.00
+   300           2           26.08        38155.38        54563.00          309.00         1454.13           90.96
+   350           2           22.37        44504.29        63207.00          358.58         1714.76           91.76
+   400           2           19.65        50618.51        67870.00          408.18         1928.76           92.41
+Done searching. Now saving results 
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_30_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_30_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_40_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_40_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_50_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_50_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_60_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_60_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_80_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_80_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_100_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_100_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_125_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_125_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_150_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_150_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_175_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_175_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_200_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_200_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_225_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_225_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_250_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_250_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_300_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_300_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_350_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_350_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_400_idx_uint32.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/spacev/test1/res_400_dists_float.bin
+bin: #pts = 29316, #dims = 10, size = 1172648B
+Finished writing bin.
+Clearing scratch

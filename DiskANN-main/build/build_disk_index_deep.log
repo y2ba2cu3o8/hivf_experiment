@@ -1,0 +1,4 @@
+nohup: ignoring input
+Starting index build: R=64 L=100 Query RAM budget: 5.36871e+07 Indexing ram budget: 64 T: 32
+Compressing 96-dimensional data into 1 bytes per vector.
+Opened: /mnt/data/deep/learn.350M.fbin, size: 134400000008, cache_size: 67108864

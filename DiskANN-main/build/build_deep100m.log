@@ -1,0 +1,1082 @@
+nohup: ignoring input
+Starting index build: R=64 L=50 Query RAM budget: 3.40913e+10 Indexing ram budget: 40 T: 32
+Compressing 96-dimensional data into 96 bytes per vector.
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Training data with 256575 samples loaded.
+Processing chunk 0 with dimensions [0, 1)
+Processing chunk 1 with dimensions [1, 2)
+Processing chunk 2 with dimensions [2, 3)
+Processing chunk 3 with dimensions [3, 4)
+Processing chunk 4 with dimensions [4, 5)
+Processing chunk 5 with dimensions [5, 6)
+Processing chunk 6 with dimensions [6, 7)
+Processing chunk 7 with dimensions [7, 8)
+Processing chunk 8 with dimensions [8, 9)
+Processing chunk 9 with dimensions [9, 10)
+Processing chunk 10 with dimensions [10, 11)
+Processing chunk 11 with dimensions [11, 12)
+Processing chunk 12 with dimensions [12, 13)
+Processing chunk 13 with dimensions [13, 14)
+Processing chunk 14 with dimensions [14, 15)
+Processing chunk 15 with dimensions [15, 16)
+Processing chunk 16 with dimensions [16, 17)
+Processing chunk 17 with dimensions [17, 18)
+Processing chunk 18 with dimensions [18, 19)
+Processing chunk 19 with dimensions [19, 20)
+Processing chunk 20 with dimensions [20, 21)
+Processing chunk 21 with dimensions [21, 22)
+Processing chunk 22 with dimensions [22, 23)
+Processing chunk 23 with dimensions [23, 24)
+Processing chunk 24 with dimensions [24, 25)
+Processing chunk 25 with dimensions [25, 26)
+Processing chunk 26 with dimensions [26, 27)
+Processing chunk 27 with dimensions [27, 28)
+Processing chunk 28 with dimensions [28, 29)
+Processing chunk 29 with dimensions [29, 30)
+Processing chunk 30 with dimensions [30, 31)
+Processing chunk 31 with dimensions [31, 32)
+Processing chunk 32 with dimensions [32, 33)
+Processing chunk 33 with dimensions [33, 34)
+Processing chunk 34 with dimensions [34, 35)
+Processing chunk 35 with dimensions [35, 36)
+Processing chunk 36 with dimensions [36, 37)
+Processing chunk 37 with dimensions [37, 38)
+Processing chunk 38 with dimensions [38, 39)
+Processing chunk 39 with dimensions [39, 40)
+Processing chunk 40 with dimensions [40, 41)
+Processing chunk 41 with dimensions [41, 42)
+Processing chunk 42 with dimensions [42, 43)
+Processing chunk 43 with dimensions [43, 44)
+Processing chunk 44 with dimensions [44, 45)
+Processing chunk 45 with dimensions [45, 46)
+Processing chunk 46 with dimensions [46, 47)
+Processing chunk 47 with dimensions [47, 48)
+Processing chunk 48 with dimensions [48, 49)
+Processing chunk 49 with dimensions [49, 50)
+Processing chunk 50 with dimensions [50, 51)
+Processing chunk 51 with dimensions [51, 52)
+Processing chunk 52 with dimensions [52, 53)
+Processing chunk 53 with dimensions [53, 54)
+Processing chunk 54 with dimensions [54, 55)
+Processing chunk 55 with dimensions [55, 56)
+Processing chunk 56 with dimensions [56, 57)
+Processing chunk 57 with dimensions [57, 58)
+Processing chunk 58 with dimensions [58, 59)
+Processing chunk 59 with dimensions [59, 60)
+Processing chunk 60 with dimensions [60, 61)
+Processing chunk 61 with dimensions [61, 62)
+Processing chunk 62 with dimensions [62, 63)
+Processing chunk 63 with dimensions [63, 64)
+Processing chunk 64 with dimensions [64, 65)
+Processing chunk 65 with dimensions [65, 66)
+Processing chunk 66 with dimensions [66, 67)
+Processing chunk 67 with dimensions [67, 68)
+Processing chunk 68 with dimensions [68, 69)
+Processing chunk 69 with dimensions [69, 70)
+Processing chunk 70 with dimensions [70, 71)
+Processing chunk 71 with dimensions [71, 72)
+Processing chunk 72 with dimensions [72, 73)
+Processing chunk 73 with dimensions [73, 74)
+Processing chunk 74 with dimensions [74, 75)
+Processing chunk 75 with dimensions [75, 76)
+Processing chunk 76 with dimensions [76, 77)
+Processing chunk 77 with dimensions [77, 78)
+Processing chunk 78 with dimensions [78, 79)
+Processing chunk 79 with dimensions [79, 80)
+Processing chunk 80 with dimensions [80, 81)
+Processing chunk 81 with dimensions [81, 82)
+Processing chunk 82 with dimensions [82, 83)
+Processing chunk 83 with dimensions [83, 84)
+Processing chunk 84 with dimensions [84, 85)
+Processing chunk 85 with dimensions [85, 86)
+Processing chunk 86 with dimensions [86, 87)
+Processing chunk 87 with dimensions [87, 88)
+Processing chunk 88 with dimensions [88, 89)
+Processing chunk 89 with dimensions [89, 90)
+Processing chunk 90 with dimensions [90, 91)
+Processing chunk 91 with dimensions [91, 92)
+Processing chunk 92 with dimensions [92, 93)
+Processing chunk 93 with dimensions [93, 94)
+Processing chunk 94 with dimensions [94, 95)
+Processing chunk 95 with dimensions [95, 96)
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin
+bin: #pts = 256, #dims = 96, size = 98312B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin
+bin: #pts = 96, #dims = 1, size = 392B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin
+bin: #pts = 97, #dims = 1, size = 396B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin of size 103196B.
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_pq_pivots.bin... 
+Metadata: #pts = 97, #dims = 1...
+done.
+Loaded PQ pivot information
+tcmalloc: large alloc 1920000000 bytes == 0x5631d5b58000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b3434f8e 0x5631b343b2f6 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 1920000000 bytes == 0x563248266000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b3434f2e 0x5631b343b32d 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 1920000000 bytes == 0x5632ba974000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b3434f2e 0x5631b343b343 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 1920000000 bytes == 0x56332d882000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b3434f2e 0x5631b343b352 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+Processing points  [0, 5000000)..tcmalloc: large alloc 5120000000 bytes == 0x56339ff90000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b34e403e 0x5631b343bd27 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 5120000000 bytes == 0x56339ff90000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b34e403e 0x5631b343bd27 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 5120000000 bytes == 0x56339ff90000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b34e403e 0x5631b343bd27 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 5120000000 bytes == 0x56339ff90000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b34e403e 0x5631b343bd27 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 5120000000 bytes == 0x56339ff90000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b34e403e 0x5631b343bd27 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 5120000000 bytes == 0x56339ff90000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b34e403e 0x5631b343bd27 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 5120000000 bytes == 0x56339ff90000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b34e403e 0x5631b343bd27 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 5120000000 bytes == 0x56339ff90000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b34e403e 0x5631b343bd27 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 5120000000 bytes == 0x56339ff90000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b34e403e 0x5631b343bd27 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+tcmalloc: large alloc 5120000000 bytes == 0x56339ff90000 @  0x7f8d55b0f680 0x7f8d55b2fff4 0x5631b34e403e 0x5631b343bd27 0x5631b343e9ad 0x5631b2fc6b38 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+.done.
+Processing points  [5000000, 10000000)...done.
+Processing points  [10000000, 15000000)...done.
+Processing points  [15000000, 20000000)...done.
+Processing points  [20000000, 25000000)...done.
+Processing points  [25000000, 30000000)...done.
+Processing points  [30000000, 35000000)...done.
+Processing points  [35000000, 40000000)...done.
+Processing points  [40000000, 45000000)...done.
+Processing points  [45000000, 50000000)...done.
+Processing points  [50000000, 55000000)...done.
+Processing points  [55000000, 60000000)...done.
+Processing points  [60000000, 65000000)...done.
+Processing points  [65000000, 70000000)...done.
+Processing points  [70000000, 75000000)...done.
+Processing points  [75000000, 80000000)...done.
+Processing points  [80000000, 85000000)...done.
+Processing points  [85000000, 90000000)...done.
+Processing points  [90000000, 95000000)...done.
+Processing points  [95000000, 100000000)...done.
+Time for generating quantized data: 610.573975 seconds
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Processing global k-means (kmeans_partitioning Step)
+Estimated cluster sizes: 235615 108856 167321 
+With 3 parts, max estimated RAM usage: 61.3248GB, budget given is 40
+Processing global k-means (kmeans_partitioning Step)
+Estimated cluster sizes: 67090 59940 97861 103561 183340 
+With 5 parts, max estimated RAM usage: 47.7189GB, budget given is 40
+Processing global k-means (kmeans_partitioning Step)
+Estimated cluster sizes: 66739 111473 112266 56004 18471 58711 88128 
+With 7 parts, max estimated RAM usage: 29.2201GB, budget given is 40
+Saving global k-center pivots
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_centroids.bin
+bin: #pts = 7, #dims = 96, size = 2696B
+Finished writing bin.
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Actual shard sizes: 25866632 43623214 43968756 21960200 7150991 22963361 34466846 
+ Partitioned 100000000 with replication factor 2 to get 200000000 points across 7 shards 
+Time for partitioning data : 27.313896 seconds
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0_ids_uint32.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0_ids_uint32.bin... 
+Metadata: #pts = 25866632, #dims = 1...
+done.
+Shard has 25866632 points
+Written file with 25866632 points
+L2: Using AVX2 distance computation DistanceL2Float
+tcmalloc: large alloc 9932791808 bytes == 0x5634d3a60000 @  0x7f8d55b0f680 0x7f8d55b30824 0x5631b34dbe37 0x5631b34b59c1 0x5631b33df9c3 0x5631b2fc471a 0x5631b2fc6cd9 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+Passed, empty search_params while creating index config
+L2: Using AVX2 distance computation DistanceL2Float
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.bin, size: 9932786696, cache_size: 67108864
+Training data with 256082 samples loaded.
+Processing chunk 0 with dimensions [0, 4)
+Processing chunk 1 with dimensions [4, 8)
+Processing chunk 2 with dimensions [8, 12)
+Processing chunk 3 with dimensions [12, 16)
+Processing chunk 4 with dimensions [16, 20)
+Processing chunk 5 with dimensions [20, 24)
+Processing chunk 6 with dimensions [24, 28)
+Processing chunk 7 with dimensions [28, 32)
+Processing chunk 8 with dimensions [32, 36)
+Processing chunk 9 with dimensions [36, 40)
+Processing chunk 10 with dimensions [40, 44)
+Processing chunk 11 with dimensions [44, 48)
+Processing chunk 12 with dimensions [48, 52)
+Processing chunk 13 with dimensions [52, 56)
+Processing chunk 14 with dimensions [56, 60)
+Processing chunk 15 with dimensions [60, 64)
+Processing chunk 16 with dimensions [64, 68)
+Processing chunk 17 with dimensions [68, 72)
+Processing chunk 18 with dimensions [72, 76)
+Processing chunk 19 with dimensions [76, 80)
+Processing chunk 20 with dimensions [80, 84)
+Processing chunk 21 with dimensions [84, 88)
+Processing chunk 22 with dimensions [88, 92)
+Processing chunk 23 with dimensions [92, 96)
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin
+bin: #pts = 256, #dims = 96, size = 98312B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin
+bin: #pts = 96, #dims = 1, size = 392B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin
+bin: #pts = 25, #dims = 1, size = 108B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin of size 102908B.
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.bin, size: 9932786696, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ pivot information
+Processing points  [0, 5000000)...done.
+Processing points  [5000000, 10000000)...done.
+Processing points  [10000000, 15000000)...done.
+Processing points  [15000000, 20000000)...done.
+Processing points  [20000000, 25000000)...done.
+Processing points  [25000000, 25866632)...done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 102408 102800 102908
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 96, #chunks: 24
+Using only first 25866632 from file.. 
+Starting index build with 25866632 points... 
+0% of index build completed.0.386598% of index build completed.0.773197% of index build completed.1.1598% of index build completed.1.54639% of index build completed.1.93299% of index build completed.2.31959% of index build completed.2.70619% of index build completed.3.09279% of index build completed.3.47939% of index build completed.3.86598% of index build completed.4.25258% of index build completed.4.63918% of index build completed.5.02578% of index build completed.5.41238% of index build completed.5.79898% of index build completed.6.18558% of index build completed.6.57217% of index build completed.6.95877% of index build completed.7.34537% of index build completed.7.73197% of index build completed.8.11857% of index build completed.8.50517% of index build completed.8.89176% of index build completed.9.27836% of index build completed.9.66496% of index build completed.10.0516% of index build completed.10.4382% of index build completed.10.8248% of index build completed.11.2114% of index build completed.11.598% of index build completed.11.9846% of index build completed.12.3712% of index build completed.12.7577% of index build completed.13.1443% of index build completed.13.5309% of index build completed.13.9175% of index build completed.14.3041% of index build completed.14.6907% of index build completed.15.0773% of index build completed.15.4639% of index build completed.15.8505% of index build completed.16.2371% of index build completed.16.6237% of index build completed.17.0103% of index build completed.17.3969% of index build completed.17.7835% of index build completed.18.1701% of index build completed.18.5567% of index build completed.18.9433% of index build completed.19.3299% of index build completed.19.7165% of index build completed.20.1031% of index build completed.20.4897% of index build completed.20.8763% of index build completed.21.2629% of index build completed.21.6495% of index build completed.22.0361% of index build completed.22.4227% of index build completed.22.8093% of index build completed.23.1959% of index build completed.23.5825% of index build completed.23.9691% of index build completed.24.3557% of index build completed.24.7423% of index build completed.25.1289% of index build completed.25.5155% of index build completed.25.9021% of index build completed.26.2887% of index build completed.26.6753% of index build completed.27.0619% of index build completed.27.4485% of index build completed.27.8351% of index build completed.28.2217% of index build completed.28.6083% of index build completed.28.9949% of index build completed.29.3815% of index build completed.29.7681% of index build completed.30.1547% of index build completed.30.5413% of index build completed.30.9279% of index build completed.31.3145% of index build completed.31.7011% of index build completed.32.0877% of index build completed.32.4743% of index build completed.32.8609% of index build completed.33.2475% of index build completed.33.6341% of index build completed.34.0207% of index build completed.34.4073% of index build completed.34.7939% of index build completed.35.1805% of index build completed.35.5671% of index build completed.35.9537% of index build completed.36.3403% of index build completed.36.7269% of index build completed.37.1135% of index build completed.37.5001% of index build completed.37.8866% of index build completed.38.2732% of index build completed.38.6598% of index build completed.39.0464% of index build completed.39.433% of index build completed.39.8196% of index build completed.40.2062% of index build completed.40.5928% of index build completed.40.9794% of index build completed.41.366% of index build completed.41.7526% of index build completed.42.1392% of index build completed.42.5258% of index build completed.42.9124% of index build completed.43.299% of index build completed.43.6856% of index build completed.44.0722% of index build completed.44.4588% of index build completed.44.8454% of index build completed.45.232% of index build completed.45.6186% of index build completed.46.0052% of index build completed.46.3918% of index build completed.46.7784% of index build completed.47.165% of index build completed.47.5516% of index build completed.47.9382% of index build completed.48.3248% of index build completed.48.7114% of index build completed.49.098% of index build completed.49.4846% of index build completed.49.8712% of index build completed.50.2578% of index build completed.50.6444% of index build completed.51.031% of index build completed.51.4176% of index build completed.51.8042% of index build completed.52.1908% of index build completed.52.5774% of index build completed.52.964% of index build completed.53.3506% of index build completed.53.7372% of index build completed.54.1238% of index build completed.54.5104% of index build completed.54.897% of index build completed.55.2836% of index build completed.55.6702% of index build completed.56.0568% of index build completed.56.4434% of index build completed.56.83% of index build completed.57.2166% of index build completed.57.6032% of index build completed.57.9898% of index build completed.58.3764% of index build completed.58.763% of index build completed.59.1496% of index build completed.59.5362% of index build completed.59.9228% of index build completed.60.3094% of index build completed.60.696% of index build completed.61.0826% of index build completed.61.4692% of index build completed.61.8558% of index build completed.62.2424% of index build completed.62.6289% of index build completed.63.0155% of index build completed.63.4021% of index build completed.63.7887% of index build completed.64.1753% of index build completed.64.5619% of index build completed.64.9485% of index build completed.65.3351% of index build completed.65.7217% of index build completed.66.1083% of index build completed.66.4949% of index build completed.66.8815% of index build completed.67.2681% of index build completed.67.6547% of index build completed.68.0413% of index build completed.68.4279% of index build completed.68.8145% of index build completed.69.2011% of index build completed.69.5877% of index build completed.69.9743% of index build completed.70.3609% of index build completed.70.7475% of index build completed.71.1341% of index build completed.71.5207% of index build completed.71.9073% of index build completed.72.2939% of index build completed.72.6805% of index build completed.73.0671% of index build completed.73.4537% of index build completed.73.8403% of index build completed.74.2269% of index build completed.74.6135% of index build completed.75.0001% of index build completed.75.3867% of index build completed.75.7733% of index build completed.76.1599% of index build completed.76.5465% of index build completed.76.9331% of index build completed.77.3197% of index build completed.77.7063% of index build completed.78.0929% of index build completed.78.4795% of index build completed.78.8661% of index build completed.79.2527% of index build completed.79.6393% of index build completed.80.0259% of index build completed.80.4125% of index build completed.80.7991% of index build completed.81.1857% of index build completed.81.5723% of index build completed.81.9589% of index build completed.82.3455% of index build completed.82.7321% of index build completed.83.1187% of index build completed.83.5053% of index build completed.83.8919% of index build completed.84.2785% of index build completed.84.6651% of index build completed.85.0517% of index build completed.85.4383% of index build completed.85.8249% of index build completed.86.2115% of index build completed.86.5981% of index build completed.86.9847% of index build completed.87.3713% of index build completed.87.7578% of index build completed.88.1444% of index build completed.88.531% of index build completed.88.9176% of index build completed.89.3042% of index build completed.89.6908% of index build completed.90.0774% of index build completed.90.464% of index build completed.90.8506% of index build completed.91.2372% of index build completed.91.6238% of index build completed.92.0104% of index build completed.92.397% of index build completed.92.7836% of index build completed.93.1702% of index build completed.93.5568% of index build completed.93.9434% of index build completed.94.33% of index build completed.94.7166% of index build completed.95.1032% of index build completed.95.4898% of index build completed.95.8764% of index build completed.96.263% of index build completed.96.6496% of index build completed.97.0362% of index build completed.97.4228% of index build completed.97.8094% of index build completed.98.196% of index build completed.98.5826% of index build completed.98.9692% of index build completed.99.3558% of index build completed.99.7424% of index build completed.Starting final cleanup..done. Link time: 231.072s
+Index built with degree: max:42  avg:30.4951  min:1  count(deg<2):1040
+Not saving tags as they are not enabled.
+Time taken for save: 8.06151s.
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1_ids_uint32.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1_ids_uint32.bin... 
+Metadata: #pts = 43623214, #dims = 1...
+done.
+Shard has 43623214 points
+Written file with 43623214 points
+L2: Using AVX2 distance computation DistanceL2Float
+tcmalloc: large alloc 16751321088 bytes == 0x5638c9ce4000 @  0x7f8d55b0f680 0x7f8d55b30824 0x5631b34dbe37 0x5631b34b59c1 0x5631b33df9c3 0x5631b2fc471a 0x5631b2fc6cd9 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+Passed, empty search_params while creating index config
+L2: Using AVX2 distance computation DistanceL2Float
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.bin, size: 16751314184, cache_size: 67108864
+Training data with 257192 samples loaded.
+Processing chunk 0 with dimensions [0, 4)
+Processing chunk 1 with dimensions [4, 8)
+Processing chunk 2 with dimensions [8, 12)
+Processing chunk 3 with dimensions [12, 16)
+Processing chunk 4 with dimensions [16, 20)
+Processing chunk 5 with dimensions [20, 24)
+Processing chunk 6 with dimensions [24, 28)
+Processing chunk 7 with dimensions [28, 32)
+Processing chunk 8 with dimensions [32, 36)
+Processing chunk 9 with dimensions [36, 40)
+Processing chunk 10 with dimensions [40, 44)
+Processing chunk 11 with dimensions [44, 48)
+Processing chunk 12 with dimensions [48, 52)
+Processing chunk 13 with dimensions [52, 56)
+Processing chunk 14 with dimensions [56, 60)
+Processing chunk 15 with dimensions [60, 64)
+Processing chunk 16 with dimensions [64, 68)
+Processing chunk 17 with dimensions [68, 72)
+Processing chunk 18 with dimensions [72, 76)
+Processing chunk 19 with dimensions [76, 80)
+Processing chunk 20 with dimensions [80, 84)
+Processing chunk 21 with dimensions [84, 88)
+Processing chunk 22 with dimensions [88, 92)
+Processing chunk 23 with dimensions [92, 96)
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin
+bin: #pts = 256, #dims = 96, size = 98312B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin
+bin: #pts = 96, #dims = 1, size = 392B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin
+bin: #pts = 25, #dims = 1, size = 108B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin of size 102908B.
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.bin, size: 16751314184, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ pivot information
+Processing points  [0, 5000000)...done.
+Processing points  [5000000, 10000000)...done.
+Processing points  [10000000, 15000000)...done.
+Processing points  [15000000, 20000000)...done.
+Processing points  [20000000, 25000000)...done.
+Processing points  [25000000, 30000000)...done.
+Processing points  [30000000, 35000000)...done.
+Processing points  [35000000, 40000000)...done.
+Processing points  [40000000, 43623214)...done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 102408 102800 102908
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 96, #chunks: 24
+Using only first 43623214 from file.. 
+Starting index build with 43623214 points... 
+0% of index build completed.0.229236% of index build completed.0.458471% of index build completed.0.687707% of index build completed.0.916943% of index build completed.1.14618% of index build completed.1.37541% of index build completed.1.60465% of index build completed.1.83389% of index build completed.2.06312% of index build completed.2.29236% of index build completed.2.52159% of index build completed.2.75083% of index build completed.2.98006% of index build completed.3.2093% of index build completed.3.43854% of index build completed.3.66777% of index build completed.3.89701% of index build completed.4.12624% of index build completed.4.35548% of index build completed.4.58471% of index build completed.4.81395% of index build completed.5.04319% of index build completed.5.27242% of index build completed.5.50166% of index build completed.5.73089% of index build completed.5.96013% of index build completed.6.18937% of index build completed.6.4186% of index build completed.6.64784% of index build completed.6.87707% of index build completed.7.10631% of index build completed.7.33554% of index build completed.7.56478% of index build completed.7.79402% of index build completed.8.02325% of index build completed.8.25249% of index build completed.8.48172% of index build completed.8.71096% of index build completed.8.94019% of index build completed.9.16943% of index build completed.9.39867% of index build completed.9.6279% of index build completed.9.85714% of index build completed.10.0864% of index build completed.10.3156% of index build completed.10.5448% of index build completed.10.7741% of index build completed.11.0033% of index build completed.11.2326% of index build completed.11.4618% of index build completed.11.691% of index build completed.11.9203% of index build completed.12.1495% of index build completed.12.3787% of index build completed.12.608% of index build completed.12.8372% of index build completed.13.0664% of index build completed.13.2957% of index build completed.13.5249% of index build completed.13.7541% of index build completed.13.9834% of index build completed.14.2126% of index build completed.14.4419% of index build completed.14.6711% of index build completed.14.9003% of index build completed.15.1296% of index build completed.15.3588% of index build completed.15.588% of index build completed.15.8173% of index build completed.16.0465% of index build completed.16.2757% of index build completed.16.505% of index build completed.16.7342% of index build completed.16.9634% of index build completed.17.1927% of index build completed.17.4219% of index build completed.17.6512% of index build completed.17.8804% of index build completed.18.1096% of index build completed.18.3389% of index build completed.18.5681% of index build completed.18.7973% of index build completed.19.0266% of index build completed.19.2558% of index build completed.19.485% of index build completed.19.7143% of index build completed.19.9435% of index build completed.20.1727% of index build completed.20.402% of index build completed.20.6312% of index build completed.20.8605% of index build completed.21.0897% of index build completed.21.3189% of index build completed.21.5482% of index build completed.21.7774% of index build completed.22.0066% of index build completed.22.2359% of index build completed.22.4651% of index build completed.22.6943% of index build completed.22.9236% of index build completed.23.1528% of index build completed.23.382% of index build completed.23.6113% of index build completed.23.8405% of index build completed.24.0698% of index build completed.24.299% of index build completed.24.5282% of index build completed.24.7575% of index build completed.24.9867% of index build completed.25.2159% of index build completed.25.4452% of index build completed.25.6744% of index build completed.25.9036% of index build completed.26.1329% of index build completed.26.3621% of index build completed.26.5913% of index build completed.26.8206% of index build completed.27.0498% of index build completed.27.2791% of index build completed.27.5083% of index build completed.27.7375% of index build completed.27.9668% of index build completed.28.196% of index build completed.28.4252% of index build completed.28.6545% of index build completed.28.8837% of index build completed.29.1129% of index build completed.29.3422% of index build completed.29.5714% of index build completed.29.8006% of index build completed.30.0299% of index build completed.30.2591% of index build completed.30.4884% of index build completed.30.7176% of index build completed.30.9468% of index build completed.31.1761% of index build completed.31.4053% of index build completed.31.6345% of index build completed.31.8638% of index build completed.32.093% of index build completed.32.3222% of index build completed.32.5515% of index build completed.32.7807% of index build completed.33.0099% of index build completed.33.2392% of index build completed.33.4684% of index build completed.33.6977% of index build completed.33.9269% of index build completed.34.1561% of index build completed.34.3854% of index build completed.34.6146% of index build completed.34.8438% of index build completed.35.0731% of index build completed.35.3023% of index build completed.35.5315% of index build completed.35.7608% of index build completed.35.99% of index build completed.36.2192% of index build completed.36.4485% of index build completed.36.6777% of index build completed.36.907% of index build completed.37.1362% of index build completed.37.3654% of index build completed.37.5947% of index build completed.37.8239% of index build completed.38.0531% of index build completed.38.2824% of index build completed.38.5116% of index build completed.38.7408% of index build completed.38.9701% of index build completed.39.1993% of index build completed.39.4285% of index build completed.39.6578% of index build completed.39.887% of index build completed.40.1163% of index build completed.40.3455% of index build completed.40.5747% of index build completed.40.804% of index build completed.41.0332% of index build completed.41.2624% of index build completed.41.4917% of index build completed.41.7209% of index build completed.41.9501% of index build completed.42.1794% of index build completed.42.4086% of index build completed.42.6378% of index build completed.42.8671% of index build completed.43.0963% of index build completed.43.3256% of index build completed.43.5548% of index build completed.43.784% of index build completed.44.0133% of index build completed.44.2425% of index build completed.44.4717% of index build completed.44.701% of index build completed.44.9302% of index build completed.45.1594% of index build completed.45.3887% of index build completed.45.6179% of index build completed.45.8471% of index build completed.46.0764% of index build completed.46.3056% of index build completed.46.5349% of index build completed.46.7641% of index build completed.46.9933% of index build completed.47.2226% of index build completed.47.4518% of index build completed.47.681% of index build completed.47.9103% of index build completed.48.1395% of index build completed.48.3687% of index build completed.48.598% of index build completed.48.8272% of index build completed.49.0564% of index build completed.49.2857% of index build completed.49.5149% of index build completed.49.7442% of index build completed.49.9734% of index build completed.50.2026% of index build completed.50.4319% of index build completed.50.6611% of index build completed.50.8903% of index build completed.51.1196% of index build completed.51.3488% of index build completed.51.578% of index build completed.51.8073% of index build completed.52.0365% of index build completed.52.2658% of index build completed.52.495% of index build completed.52.7242% of index build completed.52.9535% of index build completed.53.1827% of index build completed.53.4119% of index build completed.53.6412% of index build completed.53.8704% of index build completed.54.0996% of index build completed.54.3289% of index build completed.54.5581% of index build completed.54.7873% of index build completed.55.0166% of index build completed.55.2458% of index build completed.55.4751% of index build completed.55.7043% of index build completed.55.9335% of index build completed.56.1628% of index build completed.56.392% of index build completed.56.6212% of index build completed.56.8505% of index build completed.57.0797% of index build completed.57.3089% of index build completed.57.5382% of index build completed.57.7674% of index build completed.57.9966% of index build completed.58.2259% of index build completed.58.4551% of index build completed.58.6844% of index build completed.58.9136% of index build completed.59.1428% of index build completed.59.3721% of index build completed.59.6013% of index build completed.59.8305% of index build completed.60.0598% of index build completed.60.289% of index build completed.60.5182% of index build completed.60.7475% of index build completed.60.9767% of index build completed.61.2059% of index build completed.61.4352% of index build completed.61.6644% of index build completed.61.8937% of index build completed.62.1229% of index build completed.62.3521% of index build completed.62.5814% of index build completed.62.8106% of index build completed.63.0398% of index build completed.63.2691% of index build completed.63.4983% of index build completed.63.7275% of index build completed.63.9568% of index build completed.64.186% of index build completed.64.4152% of index build completed.64.6445% of index build completed.64.8737% of index build completed.65.103% of index build completed.65.3322% of index build completed.65.5614% of index build completed.65.7907% of index build completed.66.0199% of index build completed.66.2491% of index build completed.66.4784% of index build completed.66.7076% of index build completed.66.9368% of index build completed.67.1661% of index build completed.67.3953% of index build completed.67.6245% of index build completed.67.8538% of index build completed.68.083% of index build completed.68.3123% of index build completed.68.5415% of index build completed.68.7707% of index build completed.69% of index build completed.69.2292% of index build completed.69.4584% of index build completed.69.6877% of index build completed.69.9169% of index build completed.70.1461% of index build completed.70.3754% of index build completed.70.6046% of index build completed.70.8338% of index build completed.71.0631% of index build completed.71.2923% of index build completed.71.5216% of index build completed.71.7508% of index build completed.71.98% of index build completed.72.2093% of index build completed.72.4385% of index build completed.72.6677% of index build completed.72.897% of index build completed.73.1262% of index build completed.73.3554% of index build completed.73.5847% of index build completed.73.8139% of index build completed.74.0431% of index build completed.74.2724% of index build completed.74.5016% of index build completed.74.7309% of index build completed.74.9601% of index build completed.75.1893% of index build completed.75.4186% of index build completed.75.6478% of index build completed.75.877% of index build completed.76.1063% of index build completed.76.3355% of index build completed.76.5647% of index build completed.76.794% of index build completed.77.0232% of index build completed.77.2524% of index build completed.77.4817% of index build completed.77.7109% of index build completed.77.9402% of index build completed.78.1694% of index build completed.78.3986% of index build completed.78.6279% of index build completed.78.8571% of index build completed.79.0863% of index build completed.79.3156% of index build completed.79.5448% of index build completed.79.774% of index build completed.80.0033% of index build completed.80.2325% of index build completed.80.4617% of index build completed.80.691% of index build completed.80.9202% of index build completed.81.1495% of index build completed.81.3787% of index build completed.81.6079% of index build completed.81.8372% of index build completed.82.0664% of index build completed.82.2956% of index build completed.82.5249% of index build completed.82.7541% of index build completed.82.9833% of index build completed.83.2126% of index build completed.83.4418% of index build completed.83.671% of index build completed.83.9003% of index build completed.84.1295% of index build completed.84.3588% of index build completed.84.588% of index build completed.84.8172% of index build completed.85.0465% of index build completed.85.2757% of index build completed.85.5049% of index build completed.85.7342% of index build completed.85.9634% of index build completed.86.1926% of index build completed.86.4219% of index build completed.86.6511% of index build completed.86.8803% of index build completed.87.1096% of index build completed.87.3388% of index build completed.87.5681% of index build completed.87.7973% of index build completed.88.0265% of index build completed.88.2558% of index build completed.88.485% of index build completed.88.7142% of index build completed.88.9435% of index build completed.89.1727% of index build completed.89.4019% of index build completed.89.6312% of index build completed.89.8604% of index build completed.90.0896% of index build completed.90.3189% of index build completed.90.5481% of index build completed.90.7774% of index build completed.91.0066% of index build completed.91.2358% of index build completed.91.4651% of index build completed.91.6943% of index build completed.91.9235% of index build completed.92.1528% of index build completed.92.382% of index build completed.92.6112% of index build completed.92.8405% of index build completed.93.0697% of index build completed.93.2989% of index build completed.93.5282% of index build completed.93.7574% of index build completed.93.9867% of index build completed.94.2159% of index build completed.94.4451% of index build completed.94.6744% of index build completed.94.9036% of index build completed.95.1328% of index build completed.95.3621% of index build completed.95.5913% of index build completed.95.8205% of index build completed.96.0498% of index build completed.96.279% of index build completed.96.5082% of index build completed.96.7375% of index build completed.96.9667% of index build completed.97.196% of index build completed.97.4252% of index build completed.97.6544% of index build completed.97.8837% of index build completed.98.1129% of index build completed.98.3421% of index build completed.98.5714% of index build completed.98.8006% of index build completed.99.0298% of index build completed.99.2591% of index build completed.99.4883% of index build completed.99.7175% of index build completed.99.9468% of index build completed.Starting final cleanup..done. Link time: 381.136s
+Index built with degree: max:42  avg:29.571  min:1  count(deg<2):10417
+Not saving tags as they are not enabled.
+Time taken for save: 22.1132s.
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2_ids_uint32.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2_ids_uint32.bin... 
+Metadata: #pts = 43968756, #dims = 1...
+done.
+Shard has 43968756 points
+Written file with 43968756 points
+L2: Using AVX2 distance computation DistanceL2Float
+tcmalloc: large alloc 16884006912 bytes == 0x563cb1432000 @  0x7f8d55b0f680 0x7f8d55b30824 0x5631b34dbe37 0x5631b34b59c1 0x5631b33df9c3 0x5631b2fc471a 0x5631b2fc6cd9 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+Passed, empty search_params while creating index config
+L2: Using AVX2 distance computation DistanceL2Float
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.bin, size: 16884002312, cache_size: 67108864
+Training data with 256643 samples loaded.
+Processing chunk 0 with dimensions [0, 4)
+Processing chunk 1 with dimensions [4, 8)
+Processing chunk 2 with dimensions [8, 12)
+Processing chunk 3 with dimensions [12, 16)
+Processing chunk 4 with dimensions [16, 20)
+Processing chunk 5 with dimensions [20, 24)
+Processing chunk 6 with dimensions [24, 28)
+Processing chunk 7 with dimensions [28, 32)
+Processing chunk 8 with dimensions [32, 36)
+Processing chunk 9 with dimensions [36, 40)
+Processing chunk 10 with dimensions [40, 44)
+Processing chunk 11 with dimensions [44, 48)
+Processing chunk 12 with dimensions [48, 52)
+Processing chunk 13 with dimensions [52, 56)
+Processing chunk 14 with dimensions [56, 60)
+Processing chunk 15 with dimensions [60, 64)
+Processing chunk 16 with dimensions [64, 68)
+Processing chunk 17 with dimensions [68, 72)
+Processing chunk 18 with dimensions [72, 76)
+Processing chunk 19 with dimensions [76, 80)
+Processing chunk 20 with dimensions [80, 84)
+Processing chunk 21 with dimensions [84, 88)
+Processing chunk 22 with dimensions [88, 92)
+Processing chunk 23 with dimensions [92, 96)
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin
+bin: #pts = 256, #dims = 96, size = 98312B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin
+bin: #pts = 96, #dims = 1, size = 392B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin
+bin: #pts = 25, #dims = 1, size = 108B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin of size 102908B.
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.bin, size: 16884002312, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ pivot information
+Processing points  [0, 5000000)...done.
+Processing points  [5000000, 10000000)...done.
+Processing points  [10000000, 15000000)...done.
+Processing points  [15000000, 20000000)...done.
+Processing points  [20000000, 25000000)...done.
+Processing points  [25000000, 30000000)...done.
+Processing points  [30000000, 35000000)...done.
+Processing points  [35000000, 40000000)...done.
+Processing points  [40000000, 43968756)...done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 102408 102800 102908
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 96, #chunks: 24
+Using only first 43968756 from file.. 
+Starting index build with 43968756 points... 
+0% of index build completed.0.227434% of index build completed.0.454868% of index build completed.0.682303% of index build completed.0.909737% of index build completed.1.13717% of index build completed.1.36461% of index build completed.1.59204% of index build completed.1.81947% of index build completed.2.04691% of index build completed.2.27434% of index build completed.2.50178% of index build completed.2.72921% of index build completed.2.95664% of index build completed.3.18408% of index build completed.3.41151% of index build completed.3.63895% of index build completed.3.86638% of index build completed.4.09382% of index build completed.4.32125% of index build completed.4.54868% of index build completed.4.77612% of index build completed.5.00355% of index build completed.5.23099% of index build completed.5.45842% of index build completed.5.68586% of index build completed.5.91329% of index build completed.6.14072% of index build completed.6.36816% of index build completed.6.59559% of index build completed.6.82303% of index build completed.7.05046% of index build completed.7.2779% of index build completed.7.50533% of index build completed.7.73276% of index build completed.7.9602% of index build completed.8.18763% of index build completed.8.41507% of index build completed.8.6425% of index build completed.8.86993% of index build completed.9.09737% of index build completed.9.3248% of index build completed.9.55224% of index build completed.9.77967% of index build completed.10.0071% of index build completed.10.2345% of index build completed.10.462% of index build completed.10.6894% of index build completed.10.9168% of index build completed.11.1443% of index build completed.11.3717% of index build completed.11.5991% of index build completed.11.8266% of index build completed.12.054% of index build completed.12.2814% of index build completed.12.5089% of index build completed.12.7363% of index build completed.12.9638% of index build completed.13.1912% of index build completed.13.4186% of index build completed.13.6461% of index build completed.13.8735% of index build completed.14.1009% of index build completed.14.3284% of index build completed.14.5558% of index build completed.14.7832% of index build completed.15.0107% of index build completed.15.2381% of index build completed.15.4655% of index build completed.15.693% of index build completed.15.9204% of index build completed.16.1478% of index build completed.16.3753% of index build completed.16.6027% of index build completed.16.8301% of index build completed.17.0576% of index build completed.17.285% of index build completed.17.5124% of index build completed.17.7399% of index build completed.17.9673% of index build completed.18.1947% of index build completed.18.4222% of index build completed.18.6496% of index build completed.18.877% of index build completed.19.1045% of index build completed.19.3319% of index build completed.19.5593% of index build completed.19.7868% of index build completed.20.0142% of index build completed.20.2416% of index build completed.20.4691% of index build completed.20.6965% of index build completed.20.9239% of index build completed.21.1514% of index build completed.21.3788% of index build completed.21.6063% of index build completed.21.8337% of index build completed.22.0611% of index build completed.22.2886% of index build completed.22.516% of index build completed.22.7434% of index build completed.22.9709% of index build completed.23.1983% of index build completed.23.4257% of index build completed.23.6532% of index build completed.23.8806% of index build completed.24.108% of index build completed.24.3355% of index build completed.24.5629% of index build completed.24.7903% of index build completed.25.0178% of index build completed.25.2452% of index build completed.25.4726% of index build completed.25.7001% of index build completed.25.9275% of index build completed.26.1549% of index build completed.26.3824% of index build completed.26.6098% of index build completed.26.8372% of index build completed.27.0647% of index build completed.27.2921% of index build completed.27.5195% of index build completed.27.747% of index build completed.27.9744% of index build completed.28.2018% of index build completed.28.4293% of index build completed.28.6567% of index build completed.28.8841% of index build completed.29.1116% of index build completed.29.339% of index build completed.29.5664% of index build completed.29.7939% of index build completed.30.0213% of index build completed.30.2488% of index build completed.30.4762% of index build completed.30.7036% of index build completed.30.9311% of index build completed.31.1585% of index build completed.31.3859% of index build completed.31.6134% of index build completed.31.8408% of index build completed.32.0682% of index build completed.32.2957% of index build completed.32.5231% of index build completed.32.7505% of index build completed.32.978% of index build completed.33.2054% of index build completed.33.4328% of index build completed.33.6603% of index build completed.33.8877% of index build completed.34.1151% of index build completed.34.3426% of index build completed.34.57% of index build completed.34.7974% of index build completed.35.0249% of index build completed.35.2523% of index build completed.35.4797% of index build completed.35.7072% of index build completed.35.9346% of index build completed.36.162% of index build completed.36.3895% of index build completed.36.6169% of index build completed.36.8443% of index build completed.37.0718% of index build completed.37.2992% of index build completed.37.5266% of index build completed.37.7541% of index build completed.37.9815% of index build completed.38.209% of index build completed.38.4364% of index build completed.38.6638% of index build completed.38.8913% of index build completed.39.1187% of index build completed.39.3461% of index build completed.39.5736% of index build completed.39.801% of index build completed.40.0284% of index build completed.40.2559% of index build completed.40.4833% of index build completed.40.7107% of index build completed.40.9382% of index build completed.41.1656% of index build completed.41.393% of index build completed.41.6205% of index build completed.41.8479% of index build completed.42.0753% of index build completed.42.3028% of index build completed.42.5302% of index build completed.42.7576% of index build completed.42.9851% of index build completed.43.2125% of index build completed.43.4399% of index build completed.43.6674% of index build completed.43.8948% of index build completed.44.1222% of index build completed.44.3497% of index build completed.44.5771% of index build completed.44.8045% of index build completed.45.032% of index build completed.45.2594% of index build completed.45.4868% of index build completed.45.7143% of index build completed.45.9417% of index build completed.46.1691% of index build completed.46.3966% of index build completed.46.624% of index build completed.46.8515% of index build completed.47.0789% of index build completed.47.3063% of index build completed.47.5338% of index build completed.47.7612% of index build completed.47.9886% of index build completed.48.2161% of index build completed.48.4435% of index build completed.48.6709% of index build completed.48.8984% of index build completed.49.1258% of index build completed.49.3532% of index build completed.49.5807% of index build completed.49.8081% of index build completed.50.0355% of index build completed.50.263% of index build completed.50.4904% of index build completed.50.7178% of index build completed.50.9453% of index build completed.51.1727% of index build completed.51.4001% of index build completed.51.6276% of index build completed.51.855% of index build completed.52.0824% of index build completed.52.3099% of index build completed.52.5373% of index build completed.52.7647% of index build completed.52.9922% of index build completed.53.2196% of index build completed.53.447% of index build completed.53.6745% of index build completed.53.9019% of index build completed.54.1293% of index build completed.54.3568% of index build completed.54.5842% of index build completed.54.8116% of index build completed.55.0391% of index build completed.55.2665% of index build completed.55.494% of index build completed.55.7214% of index build completed.55.9488% of index build completed.56.1763% of index build completed.56.4037% of index build completed.56.6311% of index build completed.56.8586% of index build completed.57.086% of index build completed.57.3134% of index build completed.57.5409% of index build completed.57.7683% of index build completed.57.9957% of index build completed.58.2232% of index build completed.58.4506% of index build completed.58.678% of index build completed.58.9055% of index build completed.59.1329% of index build completed.59.3603% of index build completed.59.5878% of index build completed.59.8152% of index build completed.60.0426% of index build completed.60.2701% of index build completed.60.4975% of index build completed.60.7249% of index build completed.60.9524% of index build completed.61.1798% of index build completed.61.4072% of index build completed.61.6347% of index build completed.61.8621% of index build completed.62.0895% of index build completed.62.317% of index build completed.62.5444% of index build completed.62.7718% of index build completed.62.9993% of index build completed.63.2267% of index build completed.63.4541% of index build completed.63.6816% of index build completed.63.909% of index build completed.64.1365% of index build completed.64.3639% of index build completed.64.5913% of index build completed.64.8188% of index build completed.65.0462% of index build completed.65.2736% of index build completed.65.5011% of index build completed.65.7285% of index build completed.65.9559% of index build completed.66.1834% of index build completed.66.4108% of index build completed.66.6382% of index build completed.66.8657% of index build completed.67.0931% of index build completed.67.3205% of index build completed.67.548% of index build completed.67.7754% of index build completed.68.0028% of index build completed.68.2303% of index build completed.68.4577% of index build completed.68.6851% of index build completed.68.9126% of index build completed.69.14% of index build completed.69.3674% of index build completed.69.5949% of index build completed.69.8223% of index build completed.70.0497% of index build completed.70.2772% of index build completed.70.5046% of index build completed.70.732% of index build completed.70.9595% of index build completed.71.1869% of index build completed.71.4143% of index build completed.71.6418% of index build completed.71.8692% of index build completed.72.0966% of index build completed.72.3241% of index build completed.72.5515% of index build completed.72.779% of index build completed.73.0064% of index build completed.73.2338% of index build completed.73.4613% of index build completed.73.6887% of index build completed.73.9161% of index build completed.74.1436% of index build completed.74.371% of index build completed.74.5984% of index build completed.74.8259% of index build completed.75.0533% of index build completed.75.2807% of index build completed.75.5082% of index build completed.75.7356% of index build completed.75.963% of index build completed.76.1905% of index build completed.76.4179% of index build completed.76.6453% of index build completed.76.8728% of index build completed.77.1002% of index build completed.77.3276% of index build completed.77.5551% of index build completed.77.7825% of index build completed.78.0099% of index build completed.78.2374% of index build completed.78.4648% of index build completed.78.6922% of index build completed.78.9197% of index build completed.79.1471% of index build completed.79.3745% of index build completed.79.602% of index build completed.79.8294% of index build completed.80.0568% of index build completed.80.2843% of index build completed.80.5117% of index build completed.80.7392% of index build completed.80.9666% of index build completed.81.194% of index build completed.81.4215% of index build completed.81.6489% of index build completed.81.8763% of index build completed.82.1038% of index build completed.82.3312% of index build completed.82.5586% of index build completed.82.7861% of index build completed.83.0135% of index build completed.83.2409% of index build completed.83.4684% of index build completed.83.6958% of index build completed.83.9232% of index build completed.84.1507% of index build completed.84.3781% of index build completed.84.6055% of index build completed.84.833% of index build completed.85.0604% of index build completed.85.2878% of index build completed.85.5153% of index build completed.85.7427% of index build completed.85.9701% of index build completed.86.1976% of index build completed.86.425% of index build completed.86.6524% of index build completed.86.8799% of index build completed.87.1073% of index build completed.87.3347% of index build completed.87.5622% of index build completed.87.7896% of index build completed.88.017% of index build completed.88.2445% of index build completed.88.4719% of index build completed.88.6993% of index build completed.88.9268% of index build completed.89.1542% of index build completed.89.3817% of index build completed.89.6091% of index build completed.89.8365% of index build completed.90.064% of index build completed.90.2914% of index build completed.90.5188% of index build completed.90.7463% of index build completed.90.9737% of index build completed.91.2011% of index build completed.91.4286% of index build completed.91.656% of index build completed.91.8834% of index build completed.92.1109% of index build completed.92.3383% of index build completed.92.5657% of index build completed.92.7932% of index build completed.93.0206% of index build completed.93.248% of index build completed.93.4755% of index build completed.93.7029% of index build completed.93.9303% of index build completed.94.1578% of index build completed.94.3852% of index build completed.94.6126% of index build completed.94.8401% of index build completed.95.0675% of index build completed.95.2949% of index build completed.95.5224% of index build completed.95.7498% of index build completed.95.9772% of index build completed.96.2047% of index build completed.96.4321% of index build completed.96.6595% of index build completed.96.887% of index build completed.97.1144% of index build completed.97.3418% of index build completed.97.5693% of index build completed.97.7967% of index build completed.98.0242% of index build completed.98.2516% of index build completed.98.479% of index build completed.98.7065% of index build completed.98.9339% of index build completed.99.1613% of index build completed.99.3888% of index build completed.99.6162% of index build completed.99.8436% of index build completed.Starting final cleanup..done. Link time: 416.609s
+Index built with degree: max:42  avg:31.1794  min:1  count(deg<2):2837
+Not saving tags as they are not enabled.
+Time taken for save: 31.8453s.
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3_ids_uint32.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3_ids_uint32.bin... 
+Metadata: #pts = 21960200, #dims = 1...
+done.
+Shard has 21960200 points
+Written file with 21960200 points
+L2: Using AVX2 distance computation DistanceL2Float
+tcmalloc: large alloc 8432721920 bytes == 0x5634d3a60000 @  0x7f8d55b0f680 0x7f8d55b30824 0x5631b34dbe37 0x5631b34b59c1 0x5631b33df9c3 0x5631b2fc471a 0x5631b2fc6cd9 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+Passed, empty search_params while creating index config
+L2: Using AVX2 distance computation DistanceL2Float
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.bin, size: 8432716808, cache_size: 67108864
+Training data with 254975 samples loaded.
+Processing chunk 0 with dimensions [0, 4)
+Processing chunk 1 with dimensions [4, 8)
+Processing chunk 2 with dimensions [8, 12)
+Processing chunk 3 with dimensions [12, 16)
+Processing chunk 4 with dimensions [16, 20)
+Processing chunk 5 with dimensions [20, 24)
+Processing chunk 6 with dimensions [24, 28)
+Processing chunk 7 with dimensions [28, 32)
+Processing chunk 8 with dimensions [32, 36)
+Processing chunk 9 with dimensions [36, 40)
+Processing chunk 10 with dimensions [40, 44)
+Processing chunk 11 with dimensions [44, 48)
+Processing chunk 12 with dimensions [48, 52)
+Processing chunk 13 with dimensions [52, 56)
+Processing chunk 14 with dimensions [56, 60)
+Processing chunk 15 with dimensions [60, 64)
+Processing chunk 16 with dimensions [64, 68)
+Processing chunk 17 with dimensions [68, 72)
+Processing chunk 18 with dimensions [72, 76)
+Processing chunk 19 with dimensions [76, 80)
+Processing chunk 20 with dimensions [80, 84)
+Processing chunk 21 with dimensions [84, 88)
+Processing chunk 22 with dimensions [88, 92)
+Processing chunk 23 with dimensions [92, 96)
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin
+bin: #pts = 256, #dims = 96, size = 98312B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin
+bin: #pts = 96, #dims = 1, size = 392B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin
+bin: #pts = 25, #dims = 1, size = 108B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin of size 102908B.
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.bin, size: 8432716808, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ pivot information
+Processing points  [0, 5000000)...done.
+Processing points  [5000000, 10000000)...done.
+Processing points  [10000000, 15000000)...done.
+Processing points  [15000000, 20000000)...done.
+Processing points  [20000000, 21960200)...done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 102408 102800 102908
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 96, #chunks: 24
+Using only first 21960200 from file.. 
+Starting index build with 21960200 points... 
+0% of index build completed.0.455369% of index build completed.0.910739% of index build completed.1.36611% of index build completed.1.82148% of index build completed.2.27685% of index build completed.2.73222% of index build completed.3.18758% of index build completed.3.64295% of index build completed.4.09832% of index build completed.4.55369% of index build completed.5.00906% of index build completed.5.46443% of index build completed.5.9198% of index build completed.6.37517% of index build completed.6.83054% of index build completed.7.28591% of index build completed.7.74128% of index build completed.8.19665% of index build completed.8.65202% of index build completed.9.10739% of index build completed.9.56275% of index build completed.10.0181% of index build completed.10.4735% of index build completed.10.9289% of index build completed.11.3842% of index build completed.11.8396% of index build completed.12.295% of index build completed.12.7503% of index build completed.13.2057% of index build completed.13.6611% of index build completed.14.1164% of index build completed.14.5718% of index build completed.15.0272% of index build completed.15.4826% of index build completed.15.9379% of index build completed.16.3933% of index build completed.16.8487% of index build completed.17.304% of index build completed.17.7594% of index build completed.18.2148% of index build completed.18.6701% of index build completed.19.1255% of index build completed.19.5809% of index build completed.20.0362% of index build completed.20.4916% of index build completed.20.947% of index build completed.21.4024% of index build completed.21.8577% of index build completed.22.3131% of index build completed.22.7685% of index build completed.23.2238% of index build completed.23.6792% of index build completed.24.1346% of index build completed.24.5899% of index build completed.25.0453% of index build completed.25.5007% of index build completed.25.956% of index build completed.26.4114% of index build completed.26.8668% of index build completed.27.3222% of index build completed.27.7775% of index build completed.28.2329% of index build completed.28.6883% of index build completed.29.1436% of index build completed.29.599% of index build completed.30.0544% of index build completed.30.5097% of index build completed.30.9651% of index build completed.31.4205% of index build completed.31.8758% of index build completed.32.3312% of index build completed.32.7866% of index build completed.33.242% of index build completed.33.6973% of index build completed.34.1527% of index build completed.34.6081% of index build completed.35.0634% of index build completed.35.5188% of index build completed.35.9742% of index build completed.36.4295% of index build completed.36.8849% of index build completed.37.3403% of index build completed.37.7956% of index build completed.38.251% of index build completed.38.7064% of index build completed.39.1618% of index build completed.39.6171% of index build completed.40.0725% of index build completed.40.5279% of index build completed.40.9832% of index build completed.41.4386% of index build completed.41.894% of index build completed.42.3493% of index build completed.42.8047% of index build completed.43.2601% of index build completed.43.7154% of index build completed.44.1708% of index build completed.44.6262% of index build completed.45.0816% of index build completed.45.5369% of index build completed.45.9923% of index build completed.46.4477% of index build completed.46.903% of index build completed.47.3584% of index build completed.47.8138% of index build completed.48.2691% of index build completed.48.7245% of index build completed.49.1799% of index build completed.49.6352% of index build completed.50.0906% of index build completed.50.546% of index build completed.51.0014% of index build completed.51.4567% of index build completed.51.9121% of index build completed.52.3675% of index build completed.52.8228% of index build completed.53.2782% of index build completed.53.7336% of index build completed.54.1889% of index build completed.54.6443% of index build completed.55.0997% of index build completed.55.555% of index build completed.56.0104% of index build completed.56.4658% of index build completed.56.9212% of index build completed.57.3765% of index build completed.57.8319% of index build completed.58.2873% of index build completed.58.7426% of index build completed.59.198% of index build completed.59.6534% of index build completed.60.1087% of index build completed.60.5641% of index build completed.61.0195% of index build completed.61.4748% of index build completed.61.9302% of index build completed.62.3856% of index build completed.62.841% of index build completed.63.2963% of index build completed.63.7517% of index build completed.64.2071% of index build completed.64.6624% of index build completed.65.1178% of index build completed.65.5732% of index build completed.66.0285% of index build completed.66.4839% of index build completed.66.9393% of index build completed.67.3947% of index build completed.67.85% of index build completed.68.3054% of index build completed.68.7608% of index build completed.69.2161% of index build completed.69.6715% of index build completed.70.1269% of index build completed.70.5822% of index build completed.71.0376% of index build completed.71.493% of index build completed.71.9483% of index build completed.72.4037% of index build completed.72.8591% of index build completed.73.3145% of index build completed.73.7698% of index build completed.74.2252% of index build completed.74.6806% of index build completed.75.1359% of index build completed.75.5913% of index build completed.76.0467% of index build completed.76.502% of index build completed.76.9574% of index build completed.77.4128% of index build completed.77.8681% of index build completed.78.3235% of index build completed.78.7789% of index build completed.79.2343% of index build completed.79.6896% of index build completed.80.145% of index build completed.80.6004% of index build completed.81.0557% of index build completed.81.5111% of index build completed.81.9665% of index build completed.82.4218% of index build completed.82.8772% of index build completed.83.3326% of index build completed.83.7879% of index build completed.84.2433% of index build completed.84.6987% of index build completed.85.1541% of index build completed.85.6094% of index build completed.86.0648% of index build completed.86.5202% of index build completed.86.9755% of index build completed.87.4309% of index build completed.87.8863% of index build completed.88.3416% of index build completed.88.797% of index build completed.89.2524% of index build completed.89.7077% of index build completed.90.1631% of index build completed.90.6185% of index build completed.91.0739% of index build completed.91.5292% of index build completed.91.9846% of index build completed.92.44% of index build completed.92.8953% of index build completed.93.3507% of index build completed.93.8061% of index build completed.94.2614% of index build completed.94.7168% of index build completed.95.1722% of index build completed.95.6275% of index build completed.96.0829% of index build completed.96.5383% of index build completed.96.9937% of index build completed.97.449% of index build completed.97.9044% of index build completed.98.3598% of index build completed.98.8151% of index build completed.99.2705% of index build completed.99.7259% of index build completed.Starting final cleanup..done. Link time: 161.285s
+Index built with degree: max:42  avg:27.2879  min:1  count(deg<2):18017
+Not saving tags as they are not enabled.
+Time taken for save: 6.9846s.
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4_ids_uint32.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4_ids_uint32.bin... 
+Metadata: #pts = 7150991, #dims = 1...
+done.
+Shard has 7150991 points
+Written file with 7150991 points
+L2: Using AVX2 distance computation DistanceL2Float
+Passed, empty search_params while creating index config
+L2: Using AVX2 distance computation DistanceL2Float
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.bin, size: 2745980552, cache_size: 67108864
+Training data with 256064 samples loaded.
+Processing chunk 0 with dimensions [0, 4)
+Processing chunk 1 with dimensions [4, 8)
+Processing chunk 2 with dimensions [8, 12)
+Processing chunk 3 with dimensions [12, 16)
+Processing chunk 4 with dimensions [16, 20)
+Processing chunk 5 with dimensions [20, 24)
+Processing chunk 6 with dimensions [24, 28)
+Processing chunk 7 with dimensions [28, 32)
+Processing chunk 8 with dimensions [32, 36)
+Processing chunk 9 with dimensions [36, 40)
+Processing chunk 10 with dimensions [40, 44)
+Processing chunk 11 with dimensions [44, 48)
+Processing chunk 12 with dimensions [48, 52)
+Processing chunk 13 with dimensions [52, 56)
+Processing chunk 14 with dimensions [56, 60)
+Processing chunk 15 with dimensions [60, 64)
+Processing chunk 16 with dimensions [64, 68)
+Processing chunk 17 with dimensions [68, 72)
+Processing chunk 18 with dimensions [72, 76)
+Processing chunk 19 with dimensions [76, 80)
+Processing chunk 20 with dimensions [80, 84)
+Processing chunk 21 with dimensions [84, 88)
+Processing chunk 22 with dimensions [88, 92)
+Processing chunk 23 with dimensions [92, 96)
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin
+bin: #pts = 256, #dims = 96, size = 98312B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin
+bin: #pts = 96, #dims = 1, size = 392B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin
+bin: #pts = 25, #dims = 1, size = 108B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin of size 102908B.
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.bin, size: 2745980552, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ pivot information
+Processing points  [0, 5000000)...done.
+Processing points  [5000000, 7150991)...done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 102408 102800 102908
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 96, #chunks: 24
+Using only first 7150991 from file.. 
+Starting index build with 7150991 points... 
+0% of index build completed.1.39841% of index build completed.2.79682% of index build completed.4.19522% of index build completed.5.59363% of index build completed.6.99204% of index build completed.8.39045% of index build completed.9.78885% of index build completed.11.1873% of index build completed.12.5857% of index build completed.13.9841% of index build completed.15.3825% of index build completed.16.7809% of index build completed.18.1793% of index build completed.19.5777% of index build completed.20.9761% of index build completed.22.3745% of index build completed.23.7729% of index build completed.25.1713% of index build completed.26.5697% of index build completed.27.9682% of index build completed.29.3666% of index build completed.30.765% of index build completed.32.1634% of index build completed.33.5618% of index build completed.34.9602% of index build completed.36.3586% of index build completed.37.757% of index build completed.39.1554% of index build completed.40.5538% of index build completed.41.9522% of index build completed.43.3506% of index build completed.44.749% of index build completed.46.1475% of index build completed.47.5459% of index build completed.48.9443% of index build completed.50.3427% of index build completed.51.7411% of index build completed.53.1395% of index build completed.54.5379% of index build completed.55.9363% of index build completed.57.3347% of index build completed.58.7331% of index build completed.60.1315% of index build completed.61.5299% of index build completed.62.9283% of index build completed.64.3267% of index build completed.65.7252% of index build completed.67.1236% of index build completed.68.522% of index build completed.69.9204% of index build completed.71.3188% of index build completed.72.7172% of index build completed.74.1156% of index build completed.75.514% of index build completed.76.9124% of index build completed.78.3108% of index build completed.79.7092% of index build completed.81.1076% of index build completed.82.506% of index build completed.83.9045% of index build completed.85.3029% of index build completed.86.7013% of index build completed.88.0997% of index build completed.89.4981% of index build completed.90.8965% of index build completed.92.2949% of index build completed.93.6933% of index build completed.95.0917% of index build completed.96.4901% of index build completed.97.8885% of index build completed.99.2869% of index build completed.Starting final cleanup..done. Link time: 66.3591s
+Index built with degree: max:42  avg:28.6333  min:1  count(deg<2):3517
+Not saving tags as they are not enabled.
+Time taken for save: 2.32128s.
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5_ids_uint32.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5_ids_uint32.bin... 
+Metadata: #pts = 22963361, #dims = 1...
+done.
+Shard has 22963361 points
+Written file with 22963361 points
+L2: Using AVX2 distance computation DistanceL2Float
+tcmalloc: large alloc 8817934336 bytes == 0x5634d3a60000 @  0x7f8d55b0f680 0x7f8d55b30824 0x5631b34dbe37 0x5631b34b59c1 0x5631b33df9c3 0x5631b2fc471a 0x5631b2fc6cd9 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+Passed, empty search_params while creating index config
+L2: Using AVX2 distance computation DistanceL2Float
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.bin, size: 8817930632, cache_size: 67108864
+Training data with 254927 samples loaded.
+Processing chunk 0 with dimensions [0, 4)
+Processing chunk 1 with dimensions [4, 8)
+Processing chunk 2 with dimensions [8, 12)
+Processing chunk 3 with dimensions [12, 16)
+Processing chunk 4 with dimensions [16, 20)
+Processing chunk 5 with dimensions [20, 24)
+Processing chunk 6 with dimensions [24, 28)
+Processing chunk 7 with dimensions [28, 32)
+Processing chunk 8 with dimensions [32, 36)
+Processing chunk 9 with dimensions [36, 40)
+Processing chunk 10 with dimensions [40, 44)
+Processing chunk 11 with dimensions [44, 48)
+Processing chunk 12 with dimensions [48, 52)
+Processing chunk 13 with dimensions [52, 56)
+Processing chunk 14 with dimensions [56, 60)
+Processing chunk 15 with dimensions [60, 64)
+Processing chunk 16 with dimensions [64, 68)
+Processing chunk 17 with dimensions [68, 72)
+Processing chunk 18 with dimensions [72, 76)
+Processing chunk 19 with dimensions [76, 80)
+Processing chunk 20 with dimensions [80, 84)
+Processing chunk 21 with dimensions [84, 88)
+Processing chunk 22 with dimensions [88, 92)
+Processing chunk 23 with dimensions [92, 96)
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin
+bin: #pts = 256, #dims = 96, size = 98312B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin
+bin: #pts = 96, #dims = 1, size = 392B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin
+bin: #pts = 25, #dims = 1, size = 108B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin of size 102908B.
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.bin, size: 8817930632, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ pivot information
+Processing points  [0, 5000000)...done.
+Processing points  [5000000, 10000000)...done.
+Processing points  [10000000, 15000000)...done.
+Processing points  [15000000, 20000000)...done.
+Processing points  [20000000, 22963361)...done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 102408 102800 102908
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 96, #chunks: 24
+Using only first 22963361 from file.. 
+Starting index build with 22963361 points... 
+0% of index build completed.0.435476% of index build completed.0.870953% of index build completed.1.30643% of index build completed.1.74191% of index build completed.2.17738% of index build completed.2.61286% of index build completed.3.04833% of index build completed.3.48381% of index build completed.3.91929% of index build completed.4.35476% of index build completed.4.79024% of index build completed.5.22572% of index build completed.5.66119% of index build completed.6.09667% of index build completed.6.53214% of index build completed.6.96762% of index build completed.7.4031% of index build completed.7.83857% of index build completed.8.27405% of index build completed.8.70953% of index build completed.9.145% of index build completed.9.58048% of index build completed.10.016% of index build completed.10.4514% of index build completed.10.8869% of index build completed.11.3224% of index build completed.11.7579% of index build completed.12.1933% of index build completed.12.6288% of index build completed.13.0643% of index build completed.13.4998% of index build completed.13.9352% of index build completed.14.3707% of index build completed.14.8062% of index build completed.15.2417% of index build completed.15.6771% of index build completed.16.1126% of index build completed.16.5481% of index build completed.16.9836% of index build completed.17.4191% of index build completed.17.8545% of index build completed.18.29% of index build completed.18.7255% of index build completed.19.161% of index build completed.19.5964% of index build completed.20.0319% of index build completed.20.4674% of index build completed.20.9029% of index build completed.21.3383% of index build completed.21.7738% of index build completed.22.2093% of index build completed.22.6448% of index build completed.23.0802% of index build completed.23.5157% of index build completed.23.9512% of index build completed.24.3867% of index build completed.24.8222% of index build completed.25.2576% of index build completed.25.6931% of index build completed.26.1286% of index build completed.26.5641% of index build completed.26.9995% of index build completed.27.435% of index build completed.27.8705% of index build completed.28.306% of index build completed.28.7414% of index build completed.29.1769% of index build completed.29.6124% of index build completed.30.0479% of index build completed.30.4833% of index build completed.30.9188% of index build completed.31.3543% of index build completed.31.7898% of index build completed.32.2252% of index build completed.32.6607% of index build completed.33.0962% of index build completed.33.5317% of index build completed.33.9672% of index build completed.34.4026% of index build completed.34.8381% of index build completed.35.2736% of index build completed.35.7091% of index build completed.36.1445% of index build completed.36.58% of index build completed.37.0155% of index build completed.37.451% of index build completed.37.8864% of index build completed.38.3219% of index build completed.38.7574% of index build completed.39.1929% of index build completed.39.6283% of index build completed.40.0638% of index build completed.40.4993% of index build completed.40.9348% of index build completed.41.3703% of index build completed.41.8057% of index build completed.42.2412% of index build completed.42.6767% of index build completed.43.1122% of index build completed.43.5476% of index build completed.43.9831% of index build completed.44.4186% of index build completed.44.8541% of index build completed.45.2895% of index build completed.45.725% of index build completed.46.1605% of index build completed.46.596% of index build completed.47.0314% of index build completed.47.4669% of index build completed.47.9024% of index build completed.48.3379% of index build completed.48.7733% of index build completed.49.2088% of index build completed.49.6443% of index build completed.50.0798% of index build completed.50.5153% of index build completed.50.9507% of index build completed.51.3862% of index build completed.51.8217% of index build completed.52.2572% of index build completed.52.6926% of index build completed.53.1281% of index build completed.53.5636% of index build completed.53.9991% of index build completed.54.4345% of index build completed.54.87% of index build completed.55.3055% of index build completed.55.741% of index build completed.56.1764% of index build completed.56.6119% of index build completed.57.0474% of index build completed.57.4829% of index build completed.57.9184% of index build completed.58.3538% of index build completed.58.7893% of index build completed.59.2248% of index build completed.59.6603% of index build completed.60.0957% of index build completed.60.5312% of index build completed.60.9667% of index build completed.61.4022% of index build completed.61.8376% of index build completed.62.2731% of index build completed.62.7086% of index build completed.63.1441% of index build completed.63.5795% of index build completed.64.015% of index build completed.64.4505% of index build completed.64.886% of index build completed.65.3214% of index build completed.65.7569% of index build completed.66.1924% of index build completed.66.6279% of index build completed.67.0634% of index build completed.67.4988% of index build completed.67.9343% of index build completed.68.3698% of index build completed.68.8053% of index build completed.69.2407% of index build completed.69.6762% of index build completed.70.1117% of index build completed.70.5472% of index build completed.70.9826% of index build completed.71.4181% of index build completed.71.8536% of index build completed.72.2891% of index build completed.72.7245% of index build completed.73.16% of index build completed.73.5955% of index build completed.74.031% of index build completed.74.4665% of index build completed.74.9019% of index build completed.75.3374% of index build completed.75.7729% of index build completed.76.2084% of index build completed.76.6438% of index build completed.77.0793% of index build completed.77.5148% of index build completed.77.9503% of index build completed.78.3857% of index build completed.78.8212% of index build completed.79.2567% of index build completed.79.6922% of index build completed.80.1276% of index build completed.80.5631% of index build completed.80.9986% of index build completed.81.4341% of index build completed.81.8695% of index build completed.82.305% of index build completed.82.7405% of index build completed.83.176% of index build completed.83.6115% of index build completed.84.0469% of index build completed.84.4824% of index build completed.84.9179% of index build completed.85.3534% of index build completed.85.7888% of index build completed.86.2243% of index build completed.86.6598% of index build completed.87.0953% of index build completed.87.5307% of index build completed.87.9662% of index build completed.88.4017% of index build completed.88.8372% of index build completed.89.2726% of index build completed.89.7081% of index build completed.90.1436% of index build completed.90.5791% of index build completed.91.0146% of index build completed.91.45% of index build completed.91.8855% of index build completed.92.321% of index build completed.92.7565% of index build completed.93.1919% of index build completed.93.6274% of index build completed.94.0629% of index build completed.94.4984% of index build completed.94.9338% of index build completed.95.3693% of index build completed.95.8048% of index build completed.96.2403% of index build completed.96.6757% of index build completed.97.1112% of index build completed.97.5467% of index build completed.97.9822% of index build completed.98.4176% of index build completed.98.8531% of index build completed.99.2886% of index build completed.99.7241% of index build completed.Starting final cleanup..done. Link time: 203.1s
+Index built with degree: max:42  avg:29.9249  min:1  count(deg<2):976
+Not saving tags as they are not enabled.
+Time taken for save: 7.37793s.
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6_ids_uint32.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6_ids_uint32.bin... 
+Metadata: #pts = 34466846, #dims = 1...
+done.
+Shard has 34466846 points
+Written file with 34466846 points
+L2: Using AVX2 distance computation DistanceL2Float
+tcmalloc: large alloc 13235273728 bytes == 0x5638c9ce4000 @  0x7f8d55b0f680 0x7f8d55b30824 0x5631b34dbe37 0x5631b34b59c1 0x5631b33df9c3 0x5631b2fc471a 0x5631b2fc6cd9 0x5631b2f86637 0x7f8d4ddc6083 0x5631b2f8715e
+Passed, empty search_params while creating index config
+L2: Using AVX2 distance computation DistanceL2Float
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.bin, size: 13235268872, cache_size: 67108864
+Training data with 256500 samples loaded.
+Processing chunk 0 with dimensions [0, 4)
+Processing chunk 1 with dimensions [4, 8)
+Processing chunk 2 with dimensions [8, 12)
+Processing chunk 3 with dimensions [12, 16)
+Processing chunk 4 with dimensions [16, 20)
+Processing chunk 5 with dimensions [20, 24)
+Processing chunk 6 with dimensions [24, 28)
+Processing chunk 7 with dimensions [28, 32)
+Processing chunk 8 with dimensions [32, 36)
+Processing chunk 9 with dimensions [36, 40)
+Processing chunk 10 with dimensions [40, 44)
+Processing chunk 11 with dimensions [44, 48)
+Processing chunk 12 with dimensions [48, 52)
+Processing chunk 13 with dimensions [52, 56)
+Processing chunk 14 with dimensions [56, 60)
+Processing chunk 15 with dimensions [60, 64)
+Processing chunk 16 with dimensions [64, 68)
+Processing chunk 17 with dimensions [68, 72)
+Processing chunk 18 with dimensions [72, 76)
+Processing chunk 19 with dimensions [76, 80)
+Processing chunk 20 with dimensions [80, 84)
+Processing chunk 21 with dimensions [84, 88)
+Processing chunk 22 with dimensions [88, 92)
+Processing chunk 23 with dimensions [92, 96)
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin
+bin: #pts = 256, #dims = 96, size = 98312B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin
+bin: #pts = 96, #dims = 1, size = 392B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin
+bin: #pts = 25, #dims = 1, size = 108B
+Finished writing bin.
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin of size 102908B.
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.bin, size: 13235268872, cache_size: 67108864
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ pivot information
+Processing points  [0, 5000000)...done.
+Processing points  [5000000, 10000000)...done.
+Processing points  [10000000, 15000000)...done.
+Processing points  [15000000, 20000000)...done.
+Processing points  [20000000, 25000000)...done.
+Processing points  [25000000, 30000000)...done.
+Processing points  [30000000, 34466846)...done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 102408 102800 102908
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin... 
+Metadata: #pts = 256, #dims = 96...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin... 
+Metadata: #pts = 96, #dims = 1...
+done.
+Reading bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin ...
+Opening bin file /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6.binpq24_pivots.bin... 
+Metadata: #pts = 25, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 96, #chunks: 24
+Using only first 34466846 from file.. 
+Starting index build with 34466846 points... 
+0% of index build completed.0.290134% of index build completed.0.580268% of index build completed.0.870402% of index build completed.1.16054% of index build completed.1.45067% of index build completed.1.7408% of index build completed.2.03094% of index build completed.2.32107% of index build completed.2.6112% of index build completed.2.90134% of index build completed.3.19147% of index build completed.3.48161% of index build completed.3.77174% of index build completed.4.06187% of index build completed.4.35201% of index build completed.4.64214% of index build completed.4.93228% of index build completed.5.22241% of index build completed.5.51254% of index build completed.5.80268% of index build completed.6.09281% of index build completed.6.38295% of index build completed.6.67308% of index build completed.6.96321% of index build completed.7.25335% of index build completed.7.54348% of index build completed.7.83361% of index build completed.8.12375% of index build completed.8.41388% of index build completed.8.70402% of index build completed.8.99415% of index build completed.9.28428% of index build completed.9.57442% of index build completed.9.86455% of index build completed.10.1547% of index build completed.10.4448% of index build completed.10.735% of index build completed.11.0251% of index build completed.11.3152% of index build completed.11.6054% of index build completed.11.8955% of index build completed.12.1856% of index build completed.12.4758% of index build completed.12.7659% of index build completed.13.056% of index build completed.13.3462% of index build completed.13.6363% of index build completed.13.9264% of index build completed.14.2166% of index build completed.14.5067% of index build completed.14.7968% of index build completed.15.087% of index build completed.15.3771% of index build completed.15.6672% of index build completed.15.9574% of index build completed.16.2475% of index build completed.16.5376% of index build completed.16.8278% of index build completed.17.1179% of index build completed.17.408% of index build completed.17.6982% of index build completed.17.9883% of index build completed.18.2784% of index build completed.18.5686% of index build completed.18.8587% of index build completed.19.1488% of index build completed.19.439% of index build completed.19.7291% of index build completed.20.0192% of index build completed.20.3094% of index build completed.20.5995% of index build completed.20.8896% of index build completed.21.1798% of index build completed.21.4699% of index build completed.21.76% of index build completed.22.0502% of index build completed.22.3403% of index build completed.22.6304% of index build completed.22.9206% of index build completed.23.2107% of index build completed.23.5008% of index build completed.23.791% of index build completed.24.0811% of index build completed.24.3712% of index build completed.24.6614% of index build completed.24.9515% of index build completed.25.2416% of index build completed.25.5318% of index build completed.25.8219% of index build completed.26.112% of index build completed.26.4022% of index build completed.26.6923% of index build completed.26.9825% of index build completed.27.2726% of index build completed.27.5627% of index build completed.27.8529% of index build completed.28.143% of index build completed.28.4331% of index build completed.28.7233% of index build completed.29.0134% of index build completed.29.3035% of index build completed.29.5937% of index build completed.29.8838% of index build completed.30.1739% of index build completed.30.4641% of index build completed.30.7542% of index build completed.31.0443% of index build completed.31.3345% of index build completed.31.6246% of index build completed.31.9147% of index build completed.32.2049% of index build completed.32.495% of index build completed.32.7851% of index build completed.33.0753% of index build completed.33.3654% of index build completed.33.6555% of index build completed.33.9457% of index build completed.34.2358% of index build completed.34.5259% of index build completed.34.8161% of index build completed.35.1062% of index build completed.35.3963% of index build completed.35.6865% of index build completed.35.9766% of index build completed.36.2667% of index build completed.36.5569% of index build completed.36.847% of index build completed.37.1371% of index build completed.37.4273% of index build completed.37.7174% of index build completed.38.0075% of index build completed.38.2977% of index build completed.38.5878% of index build completed.38.8779% of index build completed.39.1681% of index build completed.39.4582% of index build completed.39.7483% of index build completed.40.0385% of index build completed.40.3286% of index build completed.40.6187% of index build completed.40.9089% of index build completed.41.199% of index build completed.41.4891% of index build completed.41.7793% of index build completed.42.0694% of index build completed.42.3595% of index build completed.42.6497% of index build completed.42.9398% of index build completed.43.2299% of index build completed.43.5201% of index build completed.43.8102% of index build completed.44.1004% of index build completed.44.3905% of index build completed.44.6806% of index build completed.44.9708% of index build completed.45.2609% of index build completed.45.551% of index build completed.45.8412% of index build completed.46.1313% of index build completed.46.4214% of index build completed.46.7116% of index build completed.47.0017% of index build completed.47.2918% of index build completed.47.582% of index build completed.47.8721% of index build completed.48.1622% of index build completed.48.4524% of index build completed.48.7425% of index build completed.49.0326% of index build completed.49.3228% of index build completed.49.6129% of index build completed.49.903% of index build completed.50.1932% of index build completed.50.4833% of index build completed.50.7734% of index build completed.51.0636% of index build completed.51.3537% of index build completed.51.6438% of index build completed.51.934% of index build completed.52.2241% of index build completed.52.5142% of index build completed.52.8044% of index build completed.53.0945% of index build completed.53.3846% of index build completed.53.6748% of index build completed.53.9649% of index build completed.54.255% of index build completed.54.5452% of index build completed.54.8353% of index build completed.55.1254% of index build completed.55.4156% of index build completed.55.7057% of index build completed.55.9958% of index build completed.56.286% of index build completed.56.5761% of index build completed.56.8662% of index build completed.57.1564% of index build completed.57.4465% of index build completed.57.7366% of index build completed.58.0268% of index build completed.58.3169% of index build completed.58.607% of index build completed.58.8972% of index build completed.59.1873% of index build completed.59.4774% of index build completed.59.7676% of index build completed.60.0577% of index build completed.60.3478% of index build completed.60.638% of index build completed.60.9281% of index build completed.61.2183% of index build completed.61.5084% of index build completed.61.7985% of index build completed.62.0887% of index build completed.62.3788% of index build completed.62.6689% of index build completed.62.9591% of index build completed.63.2492% of index build completed.63.5393% of index build completed.63.8295% of index build completed.64.1196% of index build completed.64.4097% of index build completed.64.6999% of index build completed.64.99% of index build completed.65.2801% of index build completed.65.5703% of index build completed.65.8604% of index build completed.66.1505% of index build completed.66.4407% of index build completed.66.7308% of index build completed.67.0209% of index build completed.67.3111% of index build completed.67.6012% of index build completed.67.8913% of index build completed.68.1815% of index build completed.68.4716% of index build completed.68.7617% of index build completed.69.0519% of index build completed.69.342% of index build completed.69.6321% of index build completed.69.9223% of index build completed.70.2124% of index build completed.70.5025% of index build completed.70.7927% of index build completed.71.0828% of index build completed.71.3729% of index build completed.71.6631% of index build completed.71.9532% of index build completed.72.2433% of index build completed.72.5335% of index build completed.72.8236% of index build completed.73.1137% of index build completed.73.4039% of index build completed.73.694% of index build completed.73.9841% of index build completed.74.2743% of index build completed.74.5644% of index build completed.74.8545% of index build completed.75.1447% of index build completed.75.4348% of index build completed.75.7249% of index build completed.76.0151% of index build completed.76.3052% of index build completed.76.5953% of index build completed.76.8855% of index build completed.77.1756% of index build completed.77.4657% of index build completed.77.7559% of index build completed.78.046% of index build completed.78.3361% of index build completed.78.6263% of index build completed.78.9164% of index build completed.79.2066% of index build completed.79.4967% of index build completed.79.7868% of index build completed.80.077% of index build completed.80.3671% of index build completed.80.6572% of index build completed.80.9474% of index build completed.81.2375% of index build completed.81.5276% of index build completed.81.8178% of index build completed.82.1079% of index build completed.82.398% of index build completed.82.6882% of index build completed.82.9783% of index build completed.83.2684% of index build completed.83.5586% of index build completed.83.8487% of index build completed.84.1388% of index build completed.84.429% of index build completed.84.7191% of index build completed.85.0092% of index build completed.85.2994% of index build completed.85.5895% of index build completed.85.8796% of index build completed.86.1698% of index build completed.86.4599% of index build completed.86.75% of index build completed.87.0402% of index build completed.87.3303% of index build completed.87.6204% of index build completed.87.9106% of index build completed.88.2007% of index build completed.88.4908% of index build completed.88.781% of index build completed.89.0711% of index build completed.89.3612% of index build completed.89.6514% of index build completed.89.9415% of index build completed.90.2316% of index build completed.90.5218% of index build completed.90.8119% of index build completed.91.102% of index build completed.91.3922% of index build completed.91.6823% of index build completed.91.9724% of index build completed.92.2626% of index build completed.92.5527% of index build completed.92.8428% of index build completed.93.133% of index build completed.93.4231% of index build completed.93.7132% of index build completed.94.0034% of index build completed.94.2935% of index build completed.94.5836% of index build completed.94.8738% of index build completed.95.1639% of index build completed.95.454% of index build completed.95.7442% of index build completed.96.0343% of index build completed.96.3245% of index build completed.96.6146% of index build completed.96.9047% of index build completed.97.1949% of index build completed.97.485% of index build completed.97.7751% of index build completed.98.0653% of index build completed.98.3554% of index build completed.98.6455% of index build completed.98.9357% of index build completed.99.2258% of index build completed.99.5159% of index build completed.99.8061% of index build completed.Starting final cleanup..done. Link time: 323.359s
+Index built with degree: max:42  avg:30.4175  min:1  count(deg<2):485
+Not saving tags as they are not enabled.
+Time taken for save: 20.1256s.
+Time for building indices on shards: 2849.275146 seconds
+# nodes: 100000000, max. degree: 64
+Creating inverse map -- shard #0
+Creating inverse map -- shard #1
+Creating inverse map -- shard #2
+Creating inverse map -- shard #3
+Creating inverse map -- shard #4
+Creating inverse map -- shard #5
+Creating inverse map -- shard #6
+Finished computing node -> shards map
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-0_mem.index, size: 3258689984, cache_size: 1073741824
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-1_mem.index, size: 5334417844, cache_size: 1073741824
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-2_mem.index, size: 5659544300, cache_size: 1073741824
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-3_mem.index, size: 2484827888, cache_size: 1073741824
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-4_mem.index, size: 847629752, cache_size: 847629752
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-5_mem.index, size: 2840561688, cache_size: 1073741824
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index_tempFiles_subshard-6_mem.index, size: 4331453168, cache_size: 1073741824
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_mem.index, cache_size: 1073741824
+Max input width: 42, output width: 64
+Starting merge
+.........................................................................................................................................................................................................Expected size: 19507310304
+Finished merge
+Finished writing 19507310312B
+Time for merging indices: 339.531372 seconds
+Time for building merged vamana index: 3217.760254 seconds
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Vamana index file size=19507310304
+Opened: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_disk.index, cache_size: 67108864
+medoid: 97044884B
+max_node_len: 644B
+nnodes_per_sector: 6B
+# sectors: 16666667
+Sector #0written
+Sector #100000written
+Sector #200000written
+Sector #300000written
+Sector #400000written
+Sector #500000written
+Sector #600000written
+Sector #700000written
+Sector #800000written
+Sector #900000written
+Sector #1000000written
+Sector #1100000written
+Sector #1200000written
+Sector #1300000written
+Sector #1400000written
+Sector #1500000written
+Sector #1600000written
+Sector #1700000written
+Sector #1800000written
+Sector #1900000written
+Sector #2000000written
+Sector #2100000written
+Sector #2200000written
+Sector #2300000written
+Sector #2400000written
+Sector #2500000written
+Sector #2600000written
+Sector #2700000written
+Sector #2800000written
+Sector #2900000written
+Sector #3000000written
+Sector #3100000written
+Sector #3200000written
+Sector #3300000written
+Sector #3400000written
+Sector #3500000written
+Sector #3600000written
+Sector #3700000written
+Sector #3800000written
+Sector #3900000written
+Sector #4000000written
+Sector #4100000written
+Sector #4200000written
+Sector #4300000written
+Sector #4400000written
+Sector #4500000written
+Sector #4600000written
+Sector #4700000written
+Sector #4800000written
+Sector #4900000written
+Sector #5000000written
+Sector #5100000written
+Sector #5200000written
+Sector #5300000written
+Sector #5400000written
+Sector #5500000written
+Sector #5600000written
+Sector #5700000written
+Sector #5800000written
+Sector #5900000written
+Sector #6000000written
+Sector #6100000written
+Sector #6200000written
+Sector #6300000written
+Sector #6400000written
+Sector #6500000written
+Sector #6600000written
+Sector #6700000written
+Sector #6800000written
+Sector #6900000written
+Sector #7000000written
+Sector #7100000written
+Sector #7200000written
+Sector #7300000written
+Sector #7400000written
+Sector #7500000written
+Sector #7600000written
+Sector #7700000written
+Sector #7800000written
+Sector #7900000written
+Sector #8000000written
+Sector #8100000written
+Sector #8200000written
+Sector #8300000written
+Sector #8400000written
+Sector #8500000written
+Sector #8600000written
+Sector #8700000written
+Sector #8800000written
+Sector #8900000written
+Sector #9000000written
+Sector #9100000written
+Sector #9200000written
+Sector #9300000written
+Sector #9400000written
+Sector #9500000written
+Sector #9600000written
+Sector #9700000written
+Sector #9800000written
+Sector #9900000written
+Sector #10000000written
+Sector #10100000written
+Sector #10200000written
+Sector #10300000written
+Sector #10400000written
+Sector #10500000written
+Sector #10600000written
+Sector #10700000written
+Sector #10800000written
+Sector #10900000written
+Sector #11000000written
+Sector #11100000written
+Sector #11200000written
+Sector #11300000written
+Sector #11400000written
+Sector #11500000written
+Sector #11600000written
+Sector #11700000written
+Sector #11800000written
+Sector #11900000written
+Sector #12000000written
+Sector #12100000written
+Sector #12200000written
+Sector #12300000written
+Sector #12400000written
+Sector #12500000written
+Sector #12600000written
+Sector #12700000written
+Sector #12800000written
+Sector #12900000written
+Sector #13000000written
+Sector #13100000written
+Sector #13200000written
+Sector #13300000written
+Sector #13400000written
+Sector #13500000written
+Sector #13600000written
+Sector #13700000written
+Sector #13800000written
+Sector #13900000written
+Sector #14000000written
+Sector #14100000written
+Sector #14200000written
+Sector #14300000written
+Sector #14400000written
+Sector #14500000written
+Sector #14600000written
+Sector #14700000written
+Sector #14800000written
+Sector #14900000written
+Sector #15000000written
+Sector #15100000written
+Sector #15200000written
+Sector #15300000written
+Sector #15400000written
+Sector #15500000written
+Sector #15600000written
+Sector #15700000written
+Sector #15800000written
+Sector #15900000written
+Sector #16000000written
+Sector #16100000written
+Sector #16200000written
+Sector #16300000written
+Sector #16400000written
+Sector #16500000written
+Sector #16600000written
+Finished writing 68266672128B
+Writing bin: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_disk.index
+bin: #pts = 9, #dims = 1, size = 80B
+Finished writing bin.
+Output disk index file written to /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_disk.index
+Finished writing 68266672128B
+Time for generating disk layout: 280.157043 seconds
+Opened: /mnt/data/deep/learn.100M.fbin, size: 38400000008, cache_size: 67108864
+Loading base /mnt/data/deep/learn.100M.fbin. #points: 100000000. #dim: 96.
+Wrote 100499 points to sample file: /mnt/data/DiskANN-main/build/save/deep/test2/disk_index_deep_learn_R64_L50_A1.2_sample_data.bin
+Indexing time: 4129.91

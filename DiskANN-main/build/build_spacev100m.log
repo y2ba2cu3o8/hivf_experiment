@@ -1,0 +1,486 @@
+nohup: ignoring input
+Starting index build: R=64 L=100 Query RAM budget: 3.40913e+10 Indexing ram budget: 64 T: 32
+Compressing 100-dimensional data into 100 bytes per vector.
+Opened: /mnt/data/SPACEV1B/spacev100m.bbin, size: 10000000008, cache_size: 67108864
+Training data with 255954 samples loaded.
+Processing chunk 0 with dimensions [0, 1)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 1 with dimensions [1, 2)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 2 with dimensions [2, 3)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 3 with dimensions [3, 4)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 4 with dimensions [4, 5)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 5 with dimensions [5, 6)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 6 with dimensions [6, 7)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 7 with dimensions [7, 8)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 8 with dimensions [8, 9)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 9 with dimensions [9, 10)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 10 with dimensions [10, 11)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 11 with dimensions [11, 12)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 12 with dimensions [12, 13)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 13 with dimensions [13, 14)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 14 with dimensions [14, 15)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 15 with dimensions [15, 16)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 16 with dimensions [16, 17)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 17 with dimensions [17, 18)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 18 with dimensions [18, 19)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 19 with dimensions [19, 20)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 20 with dimensions [20, 21)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 21 with dimensions [21, 22)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 22 with dimensions [22, 23)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 23 with dimensions [23, 24)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 24 with dimensions [24, 25)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 25 with dimensions [25, 26)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 26 with dimensions [26, 27)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 27 with dimensions [27, 28)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 28 with dimensions [28, 29)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 29 with dimensions [29, 30)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 30 with dimensions [30, 31)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 31 with dimensions [31, 32)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 32 with dimensions [32, 33)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 33 with dimensions [33, 34)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 34 with dimensions [34, 35)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 35 with dimensions [35, 36)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 36 with dimensions [36, 37)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 37 with dimensions [37, 38)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 38 with dimensions [38, 39)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 39 with dimensions [39, 40)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 40 with dimensions [40, 41)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 41 with dimensions [41, 42)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 42 with dimensions [42, 43)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 43 with dimensions [43, 44)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 44 with dimensions [44, 45)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 45 with dimensions [45, 46)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 46 with dimensions [46, 47)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 47 with dimensions [47, 48)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 48 with dimensions [48, 49)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 49 with dimensions [49, 50)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 50 with dimensions [50, 51)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 51 with dimensions [51, 52)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 52 with dimensions [52, 53)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 53 with dimensions [53, 54)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 54 with dimensions [54, 55)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 55 with dimensions [55, 56)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 56 with dimensions [56, 57)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 57 with dimensions [57, 58)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 58 with dimensions [58, 59)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 59 with dimensions [59, 60)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 60 with dimensions [60, 61)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 61 with dimensions [61, 62)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 62 with dimensions [62, 63)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 63 with dimensions [63, 64)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 64 with dimensions [64, 65)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 65 with dimensions [65, 66)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 66 with dimensions [66, 67)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 67 with dimensions [67, 68)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 68 with dimensions [68, 69)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 69 with dimensions [69, 70)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 70 with dimensions [70, 71)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 71 with dimensions [71, 72)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 72 with dimensions [72, 73)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 73 with dimensions [73, 74)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 74 with dimensions [74, 75)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 75 with dimensions [75, 76)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 76 with dimensions [76, 77)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 77 with dimensions [77, 78)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 78 with dimensions [78, 79)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 79 with dimensions [79, 80)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 80 with dimensions [80, 81)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 81 with dimensions [81, 82)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 82 with dimensions [82, 83)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 83 with dimensions [83, 84)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 84 with dimensions [84, 85)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 85 with dimensions [85, 86)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 86 with dimensions [86, 87)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 87 with dimensions [87, 88)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 88 with dimensions [88, 89)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 89 with dimensions [89, 90)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 90 with dimensions [90, 91)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 91 with dimensions [91, 92)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 92 with dimensions [92, 93)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 93 with dimensions [93, 94)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 94 with dimensions [94, 95)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 95 with dimensions [95, 96)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 96 with dimensions [96, 97)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 97 with dimensions [97, 98)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 98 with dimensions [98, 99)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Processing chunk 99 with dimensions [99, 100)
+Residuals unchanged: 3.40282e+38 becomes 0. Early termination.
+Writing bin: save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 256, #dims = 100, size = 102408B
+Finished writing bin.
+Writing bin: save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 100, #dims = 1, size = 408B
+Finished writing bin.
+Writing bin: save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 101, #dims = 1, size = 412B
+Finished writing bin.
+Writing bin: save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin of size 107324B.
+Opened: /mnt/data/SPACEV1B/spacev100m.bbin, size: 10000000008, cache_size: 67108864
+Reading bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 256, #dims = 100...
+done.
+Reading bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 100, #dims = 1...
+done.
+Reading bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin ...
+Opening bin file save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_pq_pivots.bin... 
+Metadata: #pts = 101, #dims = 1...
+done.
+Loaded PQ pivot information
+tcmalloc: large alloc 2000003072 bytes == 0x563911032000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee71ef8e 0x5638ee7207f7 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 2000003072 bytes == 0x5639a6064000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee71ef2e 0x5638ee720856 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 2000003072 bytes == 0x563a1dbbe000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee71ef2e 0x5638ee720865 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+Processing points  [0, 5000000)..tcmalloc: large alloc 5120000000 bytes == 0x563a94f18000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee7ce03e 0x5638ee721260 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 5120000000 bytes == 0x563a94f18000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee7ce03e 0x5638ee721260 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 5120000000 bytes == 0x563a94f18000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee7ce03e 0x5638ee721260 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 5120000000 bytes == 0x563a94f18000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee7ce03e 0x5638ee721260 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 5120000000 bytes == 0x563a94f18000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee7ce03e 0x5638ee721260 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 5120000000 bytes == 0x563a94f18000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee7ce03e 0x5638ee721260 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 5120000000 bytes == 0x563a94f18000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee7ce03e 0x5638ee721260 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 5120000000 bytes == 0x563a94f18000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee7ce03e 0x5638ee721260 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 5120000000 bytes == 0x563a94f18000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee7ce03e 0x5638ee721260 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 5120000000 bytes == 0x563a94f18000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee7ce03e 0x5638ee721260 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+tcmalloc: large alloc 5120000000 bytes == 0x563a94f18000 @  0x7f844bbcd680 0x7f844bbedff4 0x5638ee7ce03e 0x5638ee721260 0x5638ee7282d9 0x5638ee2b5a9b 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+.done.
+Processing points  [5000000, 10000000)...done.
+Processing points  [10000000, 15000000)...done.
+Processing points  [15000000, 20000000)...done.
+Processing points  [20000000, 25000000)...done.
+Processing points  [25000000, 30000000)...done.
+Processing points  [30000000, 35000000)...done.
+Processing points  [35000000, 40000000)...done.
+Processing points  [40000000, 45000000)...done.
+Processing points  [45000000, 50000000)...done.
+Processing points  [50000000, 55000000)...done.
+Processing points  [55000000, 60000000)...done.
+Processing points  [60000000, 65000000)...done.
+Processing points  [65000000, 70000000)...done.
+Processing points  [70000000, 75000000)...done.
+Processing points  [75000000, 80000000)...done.
+Processing points  [80000000, 85000000)...done.
+Processing points  [85000000, 90000000)...done.
+Processing points  [90000000, 95000000)...done.
+Processing points  [95000000, 100000000)...done.
+Time for generating quantized data: 562.860840 seconds
+Full index fits in RAM budget, should consume at most 49.6656GiBs, so building in one shot
+tcmalloc: large alloc 10400006144 bytes == 0x5641db6b4000 @  0x7f844bbcd680 0x7f844bbee824 0x5638ee7c6063 0x5638ee7a353f 0x5638ee6cd063 0x5638ee2b287e 0x5638ee2b5c3e 0x5638ee27075c 0x7f8443e84083 0x5638ee27115e
+Passed, empty search_params while creating index config
+Opened: /mnt/data/SPACEV1B/spacev100m.bbin, size: 10000000008, cache_size: 67108864
+Training data with 256579 samples loaded.
+Processing chunk 0 with dimensions [0, 4)
+Processing chunk 1 with dimensions [4, 8)
+Processing chunk 2 with dimensions [8, 12)
+Processing chunk 3 with dimensions [12, 16)
+Processing chunk 4 with dimensions [16, 20)
+Processing chunk 5 with dimensions [20, 24)
+Processing chunk 6 with dimensions [24, 28)
+Processing chunk 7 with dimensions [28, 32)
+Processing chunk 8 with dimensions [32, 36)
+Processing chunk 9 with dimensions [36, 40)
+Processing chunk 10 with dimensions [40, 44)
+Processing chunk 11 with dimensions [44, 48)
+Processing chunk 12 with dimensions [48, 52)
+Processing chunk 13 with dimensions [52, 56)
+Processing chunk 14 with dimensions [56, 60)
+Processing chunk 15 with dimensions [60, 64)
+Processing chunk 16 with dimensions [64, 68)
+Processing chunk 17 with dimensions [68, 72)
+Processing chunk 18 with dimensions [72, 76)
+Processing chunk 19 with dimensions [76, 80)
+Processing chunk 20 with dimensions [80, 84)
+Processing chunk 21 with dimensions [84, 88)
+Processing chunk 22 with dimensions [88, 92)
+Processing chunk 23 with dimensions [92, 96)
+Processing chunk 24 with dimensions [96, 100)
+Writing bin: /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin
+bin: #pts = 256, #dims = 100, size = 102408B
+Finished writing bin.
+Writing bin: /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin
+bin: #pts = 100, #dims = 1, size = 408B
+Finished writing bin.
+Writing bin: /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin
+bin: #pts = 26, #dims = 1, size = 112B
+Finished writing bin.
+Writing bin: /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin
+bin: #pts = 4, #dims = 1, size = 40B
+Finished writing bin.
+Saved pq pivot data to /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin of size 107024B.
+Opened: /mnt/data/SPACEV1B/spacev100m.bbin, size: 10000000008, cache_size: 67108864
+Reading bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin ...
+Opening bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Reading bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin ...
+Opening bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin... 
+Metadata: #pts = 256, #dims = 100...
+done.
+Reading bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin ...
+Opening bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin... 
+Metadata: #pts = 100, #dims = 1...
+done.
+Reading bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin ...
+Opening bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin... 
+Metadata: #pts = 26, #dims = 1...
+done.
+Loaded PQ pivot information
+Processing points  [0, 5000000)...done.
+Processing points  [5000000, 10000000)...done.
+Processing points  [10000000, 15000000)...done.
+Processing points  [15000000, 20000000)...done.
+Processing points  [20000000, 25000000)...done.
+Processing points  [25000000, 30000000)...done.
+Processing points  [30000000, 35000000)...done.
+Processing points  [35000000, 40000000)...done.
+Processing points  [40000000, 45000000)...done.
+Processing points  [45000000, 50000000)...done.
+Processing points  [50000000, 55000000)...done.
+Processing points  [55000000, 60000000)...done.
+Processing points  [60000000, 65000000)...done.
+Processing points  [65000000, 70000000)...done.
+Processing points  [70000000, 75000000)...done.
+Processing points  [75000000, 80000000)...done.
+Processing points  [80000000, 85000000)...done.
+Processing points  [85000000, 90000000)...done.
+Processing points  [90000000, 95000000)...done.
+Processing points  [95000000, 100000000)...done.
+Reading bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin ...
+Opening bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin... 
+Metadata: #pts = 4, #dims = 1...
+done.
+Offsets: 4096 106504 106912 107024
+Reading bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin ...
+Opening bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin... 
+Metadata: #pts = 256, #dims = 100...
+done.
+Reading bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin ...
+Opening bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin... 
+Metadata: #pts = 100, #dims = 1...
+done.
+Reading bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin ...
+Opening bin file /mnt/data/SPACEV1B/spacev100m.bbinpq25_pivots.bin... 
+Metadata: #pts = 26, #dims = 1...
+done.
+Loaded PQ Pivots: #ctrs: 256, #dims: 100, #chunks: 25
+Using only first 100000000 from file.. 
+Starting index build with 100000000 points... 
+0% of index build completed.0.1% of index build completed.0.2% of index build completed.0.3% of index build completed.0.4% of index build completed.0.5% of index build completed.0.6% of index build completed.0.7% of index build completed.0.8% of index build completed.0.9% of index build completed.1% of index build completed.1.1% of index build completed.1.2% of index build completed.1.3% of index build completed.1.4% of index build completed.1.5% of index build completed.1.6% of index build completed.1.7% of index build completed.1.8% of index build completed.1.9% of index build completed.2% of index build completed.2.1% of index build completed.2.2% of index build completed.2.3% of index build completed.2.4% of index build completed.2.5% of index build completed.2.6% of index build completed.2.7% of index build completed.2.8% of index build completed.2.9% of index build completed.3% of index build completed.3.1% of index build completed.3.2% of index build completed.3.3% of index build completed.3.4% of index build completed.3.5% of index build completed.3.6% of index build completed.3.7% of index build completed.3.8% of index build completed.3.9% of index build completed.4% of index build completed.4.1% of index build completed.4.2% of index build completed.4.3% of index build completed.4.4% of index build completed.4.5% of index build completed.4.6% of index build completed.4.7% of index build completed.4.8% of index build completed.4.9% of index build completed.5% of index build completed.5.1% of index build completed.5.2% of index build completed.5.3% of index build completed.5.4% of index build completed.5.5% of index build completed.5.6% of index build completed.5.7% of index build completed.5.8% of index build completed.5.9% of index build completed.6% of index build completed.6.1% of index build completed.6.2% of index build completed.6.3% of index build completed.6.4% of index build completed.6.5% of index build completed.6.6% of index build completed.6.7% of index build completed.6.8% of index build completed.6.9% of index build completed.7% of index build completed.7.1% of index build completed.7.2% of index build completed.7.3% of index build completed.7.4% of index build completed.7.5% of index build completed.7.6% of index build completed.7.7% of index build completed.7.8% of index build completed.7.9% of index build completed.8% of index build completed.8.1% of index build completed.8.2% of index build completed.8.3% of index build completed.8.4% of index build completed.8.5% of index build completed.8.6% of index build completed.8.7% of index build completed.8.8% of index build completed.8.9% of index build completed.9% of index build completed.9.1% of index build completed.9.2% of index build completed.9.3% of index build completed.9.4% of index build completed.9.5% of index build completed.9.6% of index build completed.9.7% of index build completed.9.8% of index build completed.9.9% of index build completed.10% of index build completed.10.1% of index build completed.10.2% of index build completed.10.3% of index build completed.10.4% of index build completed.10.5% of index build completed.10.6% of index build completed.10.7% of index build completed.10.8% of index build completed.10.9% of index build completed.11% of index build completed.11.1% of index build completed.11.2% of index build completed.11.3% of index build completed.11.4% of index build completed.11.5% of index build completed.11.6% of index build completed.11.7% of index build completed.11.8% of index build completed.11.9% of index build completed.12% of index build completed.12.1% of index build completed.12.2% of index build completed.12.3% of index build completed.12.4% of index build completed.12.5% of index build completed.12.6% of index build completed.12.7% of index build completed.12.8% of index build completed.12.9% of index build completed.13% of index build completed.13.1% of index build completed.13.2% of index build completed.13.3% of index build completed.13.4% of index build completed.13.5% of index build completed.13.6% of index build completed.13.7% of index build completed.13.8% of index build completed.13.9% of index build completed.14% of index build completed.14.1% of index build completed.14.2% of index build completed.14.3% of index build completed.14.4% of index build completed.14.5% of index build completed.14.6% of index build completed.14.7% of index build completed.14.8% of index build completed.14.9% of index build completed.15% of index build completed.15.1% of index build completed.15.2% of index build completed.15.3% of index build completed.15.4% of index build completed.15.5% of index build completed.15.6% of index build completed.15.7% of index build completed.15.8% of index build completed.15.9% of index build completed.16% of index build completed.16.1% of index build completed.16.2% of index build completed.16.3% of index build completed.16.4% of index build completed.16.5% of index build completed.16.6% of index build completed.16.7% of index build completed.16.8% of index build completed.16.9% of index build completed.17% of index build completed.17.1% of index build completed.17.2% of index build completed.17.3% of index build completed.17.4% of index build completed.17.5% of index build completed.17.6% of index build completed.17.7% of index build completed.17.8% of index build completed.17.9% of index build completed.18% of index build completed.18.1% of index build completed.18.2% of index build completed.18.3% of index build completed.18.4% of index build completed.18.5% of index build completed.18.6% of index build completed.18.7% of index build completed.18.8% of index build completed.18.9% of index build completed.19% of index build completed.19.1% of index build completed.19.2% of index build completed.19.3% of index build completed.19.4% of index build completed.19.5% of index build completed.19.6% of index build completed.19.7% of index build completed.19.8% of index build completed.19.9% of index build completed.20% of index build completed.20.1% of index build completed.20.2% of index build completed.20.3% of index build completed.20.4% of index build completed.20.5% of index build completed.20.6% of index build completed.20.7% of index build completed.20.8% of index build completed.20.9% of index build completed.21% of index build completed.21.1% of index build completed.21.2% of index build completed.21.3% of index build completed.21.4% of index build completed.21.5% of index build completed.21.6% of index build completed.21.7% of index build completed.21.8% of index build completed.21.9% of index build completed.22% of index build completed.22.1% of index build completed.22.2% of index build completed.22.3% of index build completed.22.4% of index build completed.22.5% of index build completed.22.6% of index build completed.22.7% of index build completed.22.8% of index build completed.22.9% of index build completed.23% of index build completed.23.1% of index build completed.23.2% of index build completed.23.3% of index build completed.23.4% of index build completed.23.5% of index build completed.23.6% of index build completed.23.7% of index build completed.23.8% of index build completed.23.9% of index build completed.24% of index build completed.24.1% of index build completed.24.2% of index build completed.24.3% of index build completed.24.4% of index build completed.24.5% of index build completed.24.6% of index build completed.24.7% of index build completed.24.8% of index build completed.24.9% of index build completed.25% of index build completed.25.1% of index build completed.25.2% of index build completed.25.3% of index build completed.25.4% of index build completed.25.5% of index build completed.25.6% of index build completed.25.7% of index build completed.25.8% of index build completed.25.9% of index build completed.26% of index build completed.26.1% of index build completed.26.2% of index build completed.26.3% of index build completed.26.4% of index build completed.26.5% of index build completed.26.6% of index build completed.26.7% of index build completed.26.8% of index build completed.26.9% of index build completed.27% of index build completed.27.1% of index build completed.27.2% of index build completed.27.3% of index build completed.27.4% of index build completed.27.5% of index build completed.27.6% of index build completed.27.7% of index build completed.27.8% of index build completed.27.9% of index build completed.28% of index build completed.28.1% of index build completed.28.2% of index build completed.28.3% of index build completed.28.4% of index build completed.28.5% of index build completed.28.6% of index build completed.28.7% of index build completed.28.8% of index build completed.28.9% of index build completed.29% of index build completed.29.1% of index build completed.29.2% of index build completed.29.3% of index build completed.29.4% of index build completed.29.5% of index build completed.29.6% of index build completed.29.7% of index build completed.29.8% of index build completed.29.9% of index build completed.30% of index build completed.30.1% of index build completed.30.2% of index build completed.30.3% of index build completed.30.4% of index build completed.30.5% of index build completed.30.6% of index build completed.30.7% of index build completed.30.8% of index build completed.30.9% of index build completed.31% of index build completed.31.1% of index build completed.31.2% of index build completed.31.3% of index build completed.31.4% of index build completed.31.5% of index build completed.31.6% of index build completed.31.7% of index build completed.31.8% of index build completed.31.9% of index build completed.32% of index build completed.32.1% of index build completed.32.2% of index build completed.32.3% of index build completed.32.4% of index build completed.32.5% of index build completed.32.6% of index build completed.32.7% of index build completed.32.8% of index build completed.32.9% of index build completed.33% of index build completed.33.1% of index build completed.33.2% of index build completed.33.3% of index build completed.33.4% of index build completed.33.5% of index build completed.33.6% of index build completed.33.7% of index build completed.33.8% of index build completed.33.9% of index build completed.34% of index build completed.34.1% of index build completed.34.2% of index build completed.34.3% of index build completed.34.4% of index build completed.34.5% of index build completed.34.6% of index build completed.34.7% of index build completed.34.8% of index build completed.34.9% of index build completed.35% of index build completed.35.1% of index build completed.35.2% of index build completed.35.3% of index build completed.35.4% of index build completed.35.5% of index build completed.35.6% of index build completed.35.7% of index build completed.35.8% of index build completed.35.9% of index build completed.36% of index build completed.36.1% of index build completed.36.2% of index build completed.36.3% of index build completed.36.4% of index build completed.36.5% of index build completed.36.6% of index build completed.36.7% of index build completed.36.8% of index build completed.36.9% of index build completed.37% of index build completed.37.1% of index build completed.37.2% of index build completed.37.3% of index build completed.37.4% of index build completed.37.5% of index build completed.37.6% of index build completed.37.7% of index build completed.37.8% of index build completed.37.9% of index build completed.38% of index build completed.38.1% of index build completed.38.2% of index build completed.38.3% of index build completed.38.4% of index build completed.38.5% of index build completed.38.6% of index build completed.38.7% of index build completed.38.8% of index build completed.38.9% of index build completed.39% of index build completed.39.1% of index build completed.39.2% of index build completed.39.3% of index build completed.39.4% of index build completed.39.5% of index build completed.39.6% of index build completed.39.7% of index build completed.39.8% of index build completed.39.9% of index build completed.40% of index build completed.40.1% of index build completed.40.2% of index build completed.40.3% of index build completed.40.4% of index build completed.40.5% of index build completed.40.6% of index build completed.40.7% of index build completed.40.8% of index build completed.40.9% of index build completed.41% of index build completed.41.1% of index build completed.41.2% of index build completed.41.3% of index build completed.41.4% of index build completed.41.5% of index build completed.41.6% of index build completed.41.7% of index build completed.41.8% of index build completed.41.9% of index build completed.42% of index build completed.42.1% of index build completed.42.2% of index build completed.42.3% of index build completed.42.4% of index build completed.42.5% of index build completed.42.6% of index build completed.42.7% of index build completed.42.8% of index build completed.42.9% of index build completed.43% of index build completed.43.1% of index build completed.43.2% of index build completed.43.3% of index build completed.43.4% of index build completed.43.5% of index build completed.43.6% of index build completed.43.7% of index build completed.43.8% of index build completed.43.9% of index build completed.44% of index build completed.44.1% of index build completed.44.2% of index build completed.44.3% of index build completed.44.4% of index build completed.44.5% of index build completed.44.6% of index build completed.44.7% of index build completed.44.8% of index build completed.44.9% of index build completed.45% of index build completed.45.1% of index build completed.45.2% of index build completed.45.3% of index build completed.45.4% of index build completed.45.5% of index build completed.45.6% of index build completed.45.7% of index build completed.45.8% of index build completed.45.9% of index build completed.46% of index build completed.46.1% of index build completed.46.2% of index build completed.46.3% of index build completed.46.4% of index build completed.46.5% of index build completed.46.6% of index build completed.46.7% of index build completed.46.8% of index build completed.46.9% of index build completed.47% of index build completed.47.1% of index build completed.47.2% of index build completed.47.3% of index build completed.47.4% of index build completed.47.5% of index build completed.47.6% of index build completed.47.7% of index build completed.47.8% of index build completed.47.9% of index build completed.48% of index build completed.48.1% of index build completed.48.2% of index build completed.48.3% of index build completed.48.4% of index build completed.48.5% of index build completed.48.6% of index build completed.48.7% of index build completed.48.8% of index build completed.48.9% of index build completed.49% of index build completed.49.1% of index build completed.49.2% of index build completed.49.3% of index build completed.49.4% of index build completed.49.5% of index build completed.49.6% of index build completed.49.7% of index build completed.49.8% of index build completed.49.9% of index build completed.50% of index build completed.50.1% of index build completed.50.2% of index build completed.50.3% of index build completed.50.4% of index build completed.50.5% of index build completed.50.6% of index build completed.50.7% of index build completed.50.8% of index build completed.50.9% of index build completed.51% of index build completed.51.1% of index build completed.51.2% of index build completed.51.3% of index build completed.51.4% of index build completed.51.5% of index build completed.51.6% of index build completed.51.7% of index build completed.51.8% of index build completed.51.9% of index build completed.52% of index build completed.52.1% of index build completed.52.2% of index build completed.52.3% of index build completed.52.4% of index build completed.52.5% of index build completed.52.6% of index build completed.52.7% of index build completed.52.8% of index build completed.52.9% of index build completed.53% of index build completed.53.1% of index build completed.53.2% of index build completed.53.3% of index build completed.53.4% of index build completed.53.5% of index build completed.53.6% of index build completed.53.7% of index build completed.53.8% of index build completed.53.9% of index build completed.54% of index build completed.54.1% of index build completed.54.2% of index build completed.54.3% of index build completed.54.4% of index build completed.54.5% of index build completed.54.6% of index build completed.54.7% of index build completed.54.8% of index build completed.54.9% of index build completed.55% of index build completed.55.1% of index build completed.55.2% of index build completed.55.3% of index build completed.55.4% of index build completed.55.5% of index build completed.55.6% of index build completed.55.7% of index build completed.55.8% of index build completed.55.9% of index build completed.56% of index build completed.56.1% of index build completed.56.2% of index build completed.56.3% of index build completed.56.4% of index build completed.56.5% of index build completed.56.6% of index build completed.56.7% of index build completed.56.8% of index build completed.56.9% of index build completed.57% of index build completed.57.1% of index build completed.57.2% of index build completed.57.3% of index build completed.57.4% of index build completed.57.5% of index build completed.57.6% of index build completed.57.7% of index build completed.57.8% of index build completed.57.9% of index build completed.58% of index build completed.58.1% of index build completed.58.2% of index build completed.58.3% of index build completed.58.4% of index build completed.58.5% of index build completed.58.6% of index build completed.58.7% of index build completed.58.8% of index build completed.58.9% of index build completed.59% of index build completed.59.1% of index build completed.59.2% of index build completed.59.3% of index build completed.59.4% of index build completed.59.5% of index build completed.59.6% of index build completed.59.7% of index build completed.59.8% of index build completed.59.9% of index build completed.60% of index build completed.60.1% of index build completed.60.2% of index build completed.60.3% of index build completed.60.4% of index build completed.60.5% of index build completed.60.6% of index build completed.60.7% of index build completed.60.8% of index build completed.60.9% of index build completed.61% of index build completed.61.1% of index build completed.61.2% of index build completed.61.3% of index build completed.61.4% of index build completed.61.5% of index build completed.61.6% of index build completed.61.7% of index build completed.61.8% of index build completed.61.9% of index build completed.62% of index build completed.62.1% of index build completed.62.2% of index build completed.62.3% of index build completed.62.4% of index build completed.62.5% of index build completed.62.6% of index build completed.62.7% of index build completed.62.8% of index build completed.62.9% of index build completed.63% of index build completed.63.1% of index build completed.63.2% of index build completed.63.3% of index build completed.63.4% of index build completed.63.5% of index build completed.63.6% of index build completed.63.7% of index build completed.63.8% of index build completed.63.9% of index build completed.64% of index build completed.64.1% of index build completed.64.2% of index build completed.64.3% of index build completed.64.4% of index build completed.64.5% of index build completed.64.6% of index build completed.64.7% of index build completed.64.8% of index build completed.64.9% of index build completed.65% of index build completed.65.1% of index build completed.65.2% of index build completed.65.3% of index build completed.65.4% of index build completed.65.5% of index build completed.65.6% of index build completed.65.7% of index build completed.65.8% of index build completed.65.9% of index build completed.66% of index build completed.66.1% of index build completed.66.2% of index build completed.66.3% of index build completed.66.4% of index build completed.66.5% of index build completed.66.6% of index build completed.66.7% of index build completed.66.8% of index build completed.66.9% of index build completed.67% of index build completed.67.1% of index build completed.67.2% of index build completed.67.3% of index build completed.67.4% of index build completed.67.5% of index build completed.67.6% of index build completed.67.7% of index build completed.67.8% of index build completed.67.9% of index build completed.68% of index build completed.68.1% of index build completed.68.2% of index build completed.68.3% of index build completed.68.4% of index build completed.68.5% of index build completed.68.6% of index build completed.68.7% of index build completed.68.8% of index build completed.68.9% of index build completed.69% of index build completed.69.1% of index build completed.69.2% of index build completed.69.3% of index build completed.69.4% of index build completed.69.5% of index build completed.69.6% of index build completed.69.7% of index build completed.69.8% of index build completed.69.9% of index build completed.70% of index build completed.70.1% of index build completed.70.2% of index build completed.70.3% of index build completed.70.4% of index build completed.70.5% of index build completed.70.6% of index build completed.70.7% of index build completed.70.8% of index build completed.70.9% of index build completed.71% of index build completed.71.1% of index build completed.71.2% of index build completed.71.3% of index build completed.71.4% of index build completed.71.5% of index build completed.71.6% of index build completed.71.7% of index build completed.71.8% of index build completed.71.9% of index build completed.72% of index build completed.72.1% of index build completed.72.2% of index build completed.72.3% of index build completed.72.4% of index build completed.72.5% of index build completed.72.6% of index build completed.72.7% of index build completed.72.8% of index build completed.72.9% of index build completed.73% of index build completed.73.1% of index build completed.73.2% of index build completed.73.3% of index build completed.73.4% of index build completed.73.5% of index build completed.73.6% of index build completed.73.7% of index build completed.73.8% of index build completed.73.9% of index build completed.74% of index build completed.74.1% of index build completed.74.2% of index build completed.74.3% of index build completed.74.4% of index build completed.74.5% of index build completed.74.6% of index build completed.74.7% of index build completed.74.8% of index build completed.74.9% of index build completed.75% of index build completed.75.1% of index build completed.75.2% of index build completed.75.3% of index build completed.75.4% of index build completed.75.5% of index build completed.75.6% of index build completed.75.7% of index build completed.75.8% of index build completed.75.9% of index build completed.76% of index build completed.76.1% of index build completed.76.2% of index build completed.76.3% of index build completed.76.4% of index build completed.76.5% of index build completed.76.6% of index build completed.76.7% of index build completed.76.8% of index build completed.76.9% of index build completed.77% of index build completed.77.1% of index build completed.77.2% of index build completed.77.3% of index build completed.77.4% of index build completed.77.5% of index build completed.77.6% of index build completed.77.7% of index build completed.77.8% of index build completed.77.9% of index build completed.78% of index build completed.78.1% of index build completed.78.2% of index build completed.78.3% of index build completed.78.4% of index build completed.78.5% of index build completed.78.6% of index build completed.78.7% of index build completed.78.8% of index build completed.78.9% of index build completed.79% of index build completed.79.1% of index build completed.79.2% of index build completed.79.3% of index build completed.79.4% of index build completed.79.5% of index build completed.79.6% of index build completed.79.7% of index build completed.79.8% of index build completed.79.9% of index build completed.80% of index build completed.80.1% of index build completed.80.2% of index build completed.80.3% of index build completed.80.4% of index build completed.80.5% of index build completed.80.6% of index build completed.80.7% of index build completed.80.8% of index build completed.80.9% of index build completed.81% of index build completed.81.1% of index build completed.81.2% of index build completed.81.3% of index build completed.81.4% of index build completed.81.5% of index build completed.81.6% of index build completed.81.7% of index build completed.81.8% of index build completed.81.9% of index build completed.82% of index build completed.82.1% of index build completed.82.2% of index build completed.82.3% of index build completed.82.4% of index build completed.82.5% of index build completed.82.6% of index build completed.82.7% of index build completed.82.8% of index build completed.82.9% of index build completed.83% of index build completed.83.1% of index build completed.83.2% of index build completed.83.3% of index build completed.83.4% of index build completed.83.5% of index build completed.83.6% of index build completed.83.7% of index build completed.83.8% of index build completed.83.9% of index build completed.84% of index build completed.84.1% of index build completed.84.2% of index build completed.84.3% of index build completed.84.4% of index build completed.84.5% of index build completed.84.6% of index build completed.84.7% of index build completed.84.8% of index build completed.84.9% of index build completed.85% of index build completed.85.1% of index build completed.85.2% of index build completed.85.3% of index build completed.85.4% of index build completed.85.5% of index build completed.85.6% of index build completed.85.7% of index build completed.85.8% of index build completed.85.9% of index build completed.86% of index build completed.86.1% of index build completed.86.2% of index build completed.86.3% of index build completed.86.4% of index build completed.86.5% of index build completed.86.6% of index build completed.86.7% of index build completed.86.8% of index build completed.86.9% of index build completed.87% of index build completed.87.1% of index build completed.87.2% of index build completed.87.3% of index build completed.87.4% of index build completed.87.5% of index build completed.87.6% of index build completed.87.7% of index build completed.87.8% of index build completed.87.9% of index build completed.88% of index build completed.88.1% of index build completed.88.2% of index build completed.88.3% of index build completed.88.4% of index build completed.88.5% of index build completed.88.6% of index build completed.88.7% of index build completed.88.8% of index build completed.88.9% of index build completed.89% of index build completed.89.1% of index build completed.89.2% of index build completed.89.3% of index build completed.89.4% of index build completed.89.5% of index build completed.89.6% of index build completed.89.7% of index build completed.89.8% of index build completed.89.9% of index build completed.90% of index build completed.90.1% of index build completed.90.2% of index build completed.90.3% of index build completed.90.4% of index build completed.90.5% of index build completed.90.6% of index build completed.90.7% of index build completed.90.8% of index build completed.90.9% of index build completed.91% of index build completed.91.1% of index build completed.91.2% of index build completed.91.3% of index build completed.91.4% of index build completed.91.5% of index build completed.91.6% of index build completed.91.7% of index build completed.91.8% of index build completed.91.9% of index build completed.92% of index build completed.92.1% of index build completed.92.2% of index build completed.92.3% of index build completed.92.4% of index build completed.92.5% of index build completed.92.6% of index build completed.92.7% of index build completed.92.8% of index build completed.92.9% of index build completed.93% of index build completed.93.1% of index build completed.93.2% of index build completed.93.3% of index build completed.93.4% of index build completed.93.5% of index build completed.93.6% of index build completed.93.7% of index build completed.93.8% of index build completed.93.9% of index build completed.94% of index build completed.94.1% of index build completed.94.2% of index build completed.94.3% of index build completed.94.4% of index build completed.94.5% of index build completed.94.6% of index build completed.94.7% of index build completed.94.8% of index build completed.94.9% of index build completed.95% of index build completed.95.1% of index build completed.95.2% of index build completed.95.3% of index build completed.95.4% of index build completed.95.5% of index build completed.95.6% of index build completed.95.7% of index build completed.95.8% of index build completed.95.9% of index build completed.96% of index build completed.96.1% of index build completed.96.2% of index build completed.96.3% of index build completed.96.4% of index build completed.96.5% of index build completed.96.6% of index build completed.96.7% of index build completed.96.8% of index build completed.96.9% of index build completed.97% of index build completed.97.1% of index build completed.97.2% of index build completed.97.3% of index build completed.97.4% of index build completed.97.5% of index build completed.97.6% of index build completed.97.7% of index build completed.97.8% of index build completed.97.9% of index build completed.98% of index build completed.98.1% of index build completed.98.2% of index build completed.98.3% of index build completed.98.4% of index build completed.98.5% of index build completed.98.6% of index build completed.98.7% of index build completed.98.8% of index build completed.98.9% of index build completed.99% of index build completed.99.1% of index build completed.99.2% of index build completed.99.3% of index build completed.99.4% of index build completed.99.5% of index build completed.99.6% of index build completed.99.7% of index build completed.99.8% of index build completed.99.9% of index build completed.Starting final cleanup..done. Link time: 4054.04s
+Index built with degree: max:64  avg:64  min:64  count(deg<2):0
+Not saving tags as they are not enabled.
+Time taken for save: 69.5966s.
+Time for building merged vamana index: 4341.218262 seconds
+Opened: /mnt/data/SPACEV1B/spacev100m.bbin, size: 10000000008, cache_size: 67108864
+Vamana index file size=26000000024
+Opened: save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_disk.index, cache_size: 67108864
+medoid: 15248034B
+max_node_len: 360B
+nnodes_per_sector: 11B
+# sectors: 9090910
+Sector #0written
+Sector #100000written
+Sector #200000written
+Sector #300000written
+Sector #400000written
+Sector #500000written
+Sector #600000written
+Sector #700000written
+Sector #800000written
+Sector #900000written
+Sector #1000000written
+Sector #1100000written
+Sector #1200000written
+Sector #1300000written
+Sector #1400000written
+Sector #1500000written
+Sector #1600000written
+Sector #1700000written
+Sector #1800000written
+Sector #1900000written
+Sector #2000000written
+Sector #2100000written
+Sector #2200000written
+Sector #2300000written
+Sector #2400000written
+Sector #2500000written
+Sector #2600000written
+Sector #2700000written
+Sector #2800000written
+Sector #2900000written
+Sector #3000000written
+Sector #3100000written
+Sector #3200000written
+Sector #3300000written
+Sector #3400000written
+Sector #3500000written
+Sector #3600000written
+Sector #3700000written
+Sector #3800000written
+Sector #3900000written
+Sector #4000000written
+Sector #4100000written
+Sector #4200000written
+Sector #4300000written
+Sector #4400000written
+Sector #4500000written
+Sector #4600000written
+Sector #4700000written
+Sector #4800000written
+Sector #4900000written
+Sector #5000000written
+Sector #5100000written
+Sector #5200000written
+Sector #5300000written
+Sector #5400000written
+Sector #5500000written
+Sector #5600000written
+Sector #5700000written
+Sector #5800000written
+Sector #5900000written
+Sector #6000000written
+Sector #6100000written
+Sector #6200000written
+Sector #6300000written
+Sector #6400000written
+Sector #6500000written
+Sector #6600000written
+Sector #6700000written
+Sector #6800000written
+Sector #6900000written
+Sector #7000000written
+Sector #7100000written
+Sector #7200000written
+Sector #7300000written
+Sector #7400000written
+Sector #7500000written
+Sector #7600000written
+Sector #7700000written
+Sector #7800000written
+Sector #7900000written
+Sector #8000000written
+Sector #8100000written
+Sector #8200000written
+Sector #8300000written
+Sector #8400000written
+Sector #8500000written
+Sector #8600000written
+Sector #8700000written
+Sector #8800000written
+Sector #8900000written
+Sector #9000000written
+Finished writing 37236371456B
+Writing bin: save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_disk.index
+bin: #pts = 9, #dims = 1, size = 80B
+Finished writing bin.
+Output disk index file written to save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_disk.index
+Finished writing 37236371456B
+Time for generating disk layout: 196.699661 seconds
+Opened: /mnt/data/SPACEV1B/spacev100m.bbin, size: 10000000008, cache_size: 67108864
+Loading base /mnt/data/SPACEV1B/spacev100m.bbin. #points: 100000000. #dim: 100.
+Wrote 100395 points to sample file: save/spacev/test1/disk_index_spacev_learn_R64_L100_A1.2_sample_data.bin
+Indexing time: 5103.36

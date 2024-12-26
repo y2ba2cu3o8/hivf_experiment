@@ -1,0 +1,8 @@
+src/base/elf_mem_image.lo: src/base/elf_mem_image.cc \
+ /usr/include/stdc-predef.h src/base/elf_mem_image.h src/config.h
+
+/usr/include/stdc-predef.h:
+
+src/base/elf_mem_image.h:
+
+src/config.h:
